@@ -1,49 +1,58 @@
-import sqlite3
+import os, base64, json
+from aiohttp import web
+from urllib.parse import urlparse, unquote, parse_qs
 
-DB_NAME = "vpn_storage.db"
+FINAL_SUB_PATH = "clash_sub.yaml"
 
-def get_connection():
-    conn = sqlite3.connect(DB_NAME, timeout=30)
-    # WAL позволяет читать базу, пока в неё пишет пылесос
-    conn.execute("PRAGMA journal_mode=WAL;") 
-    return conn
+def safe_decode(s):
+    try: return base64.b64decode(s + '=' * (-len(s) % 4)).decode('utf-8', errors='ignore')
+    except: return ""
 
-def init_proxy_db():
-    conn = get_connection(); c = conn.cursor()
-    c.execute('''CREATE TABLE IF NOT EXISTS vpn_proxies (
-            url TEXT PRIMARY KEY, type TEXT, country TEXT, 
-            is_ai INTEGER DEFAULT 0, latency INTEGER DEFAULT 9999,
-            fails INTEGER DEFAULT 0, last_check TIMESTAMP DEFAULT CURRENT_TIMESTAMP)''')
-    conn.commit(); conn.close()
+def get_flag(code):
+    """Превращает 'DE' в флаг Германии"""
+    if not code or code == "UN" or len(code) != 2: return "🇺🇳"
+    return "".join(chr(ord(c) + 127397) for c in code.upper())
 
-def save_proxy_batch(proxies_list):
-    conn = get_connection(); c = conn.cursor()
-    for url in proxies_list:
-        try:
-            proto = url.split("://")[0]
-            c.execute("INSERT OR IGNORE INTO vpn_proxies (url, type, latency) VALUES (?, ?, 9999)", (url, proto))
-        except: pass
-    conn.commit(); conn.close()
+def link_to_clash_dict(url, latency, is_ai, country):
+    try:
+        flag = get_flag(country)
+        ai_tag = " ✨ AI" if is_ai else ""
+        try: srv = url.split('@')[-1].split(':')[0].split('.')[-1]
+        except: srv = "srv"
+        name = f"{flag}{ai_tag} {latency}ms | {srv}"
 
-def get_proxies_to_check(limit=100):
-    conn = get_connection(); c = conn.cursor()
-    c.execute("SELECT url FROM vpn_proxies WHERE fails < 10 ORDER BY last_check ASC LIMIT ?", (limit,))
-    rows = [r[0] for r in c.fetchall()]
-    conn.close(); return rows
+        if url.startswith("vmess://"):
+            d = json.loads(safe_decode(url[8:]))
+            return {'name': name, 'type': 'vmess', 'server': d.get('add'), 'port': int(d.get('port')), 'uuid': d.get('id'), 'alterId': 0, 'cipher': 'auto', 'udp': True, 'tls': d.get('tls') == 'tls', 'skip-cert-verify': True, 'network': d.get('net', 'tcp'), 'ws-opts': {'path': d.get('path', '/')} if d.get('net') == 'ws' else None}
+        if url.startswith(("vless://", "trojan://")):
+            p = urlparse(url); q = parse_qs(p.query); tp = 'vless' if url.startswith('vless') else 'trojan'
+            obj = {'name': name, 'type': tp, 'server': p.hostname, 'port': p.port, 'uuid': p.username or p.password, 'password': p.username or p.password, 'udp': True, 'skip-cert-verify': True, 'tls': q.get('security', [''])[0] in ['tls', 'reality'], 'network': q.get('type', ['tcp'])[0]}
+            if tp == 'trojan' and 'uuid' in obj: del obj['uuid']
+            if q.get('security', [''])[0] == 'reality':
+                obj['servername'] = q.get('sni', [''])[0]; obj['reality-opts'] = {'public-key': q.get('pbk', [''])[0], 'short-id': q.get('sid', [''])[0]}; obj['client-fingerprint'] = 'chrome'
+            return obj
+        if url.startswith("ss://"):
+            main = url.split("#")[0].replace("ss://", "")
+            if "@" in main:
+                u, s = main.split("@", 1); d = safe_decode(u)
+                m, pw = d.split(":", 1) if ":" in d else (u.split(":", 1) if ":" in u else ("aes-256-gcm", u))
+                return {'name': name, 'type': 'ss', 'server': s.split(":")[0], 'port': int(s.split(":")[1].split("/")[0]), 'cipher': m, 'password': pw, 'udp': True}
+    except: pass
+    return None
 
-def update_proxy_status(url, latency, is_ai, country):
-    conn = get_connection(); c = conn.cursor()
-    if latency is not None:
-        c.execute("UPDATE vpn_proxies SET latency=?, is_ai=?, country=?, fails=0, last_check=CURRENT_TIMESTAMP WHERE url=?", (latency, is_ai, country, url))
-    else:
-        c.execute("UPDATE vpn_proxies SET fails = fails + 1, last_check=CURRENT_TIMESTAMP WHERE url=?", (url,))
-    conn.commit(); conn.close()
+async def handle_sub(request):
+    if os.path.exists(FINAL_SUB_PATH):
+        # Читаем файл целиком, чтобы закрыть его быстро
+        with open(FINAL_SUB_PATH, 'rb') as f:
+            data = f.read()
+        return web.Response(body=data, headers={'Content-Type': 'text/yaml; charset=utf-8', 'Content-Disposition': 'inline; filename="proxies.yaml"'})
+    return web.Response(text="proxies: []", content_type='text/yaml')
 
-def get_best_proxies_for_sub():
-    conn = get_connection(); c = conn.cursor()
-    # Отдаем ТОП-1000 самых быстрых
-    c.execute("""SELECT url, latency, is_ai, country FROM vpn_proxies 
-                 WHERE fails < 3 AND latency < 3000 
-                 ORDER BY latency ASC LIMIT 1000""")
-    rows = c.fetchall()
-    conn.close(); return rows
+async def start_server():
+    app = web.Application()
+    app.router.add_get('/', lambda r: web.Response(text="Monk Hub Alive"))
+    app.router.add_get('/sub', handle_sub)
+    runner = web.AppRunner(app)
+    await runner.setup()
+    site = web.TCPSite(runner, '0.0.0.0', 8080)
+    await site.start()

@@ -49,6 +49,6 @@ def update_proxy_status(url, latency, is_ai, country):
 
 def get_best_proxies_for_sub():
     conn = get_connection(); c = conn.cursor()
-    c.execute("SELECT url, latency, is_ai, country FROM vpn_proxies WHERE fails < 2 AND latency < 2500 ORDER BY is_ai DESC, latency ASC LIMIT 300")
+    c.execute("SELECT url, latency, is_ai, country FROM vpn_proxies WHERE fails < 3 AND latency < 2500 ORDER BY is_ai DESC, latency ASC LIMIT 300")
     rows = c.fetchall()
     conn.close(); return rows

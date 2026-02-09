@@ -147,9 +147,10 @@ async def checker_task():
         # ... в конце функции checker_task, после await asyncio.gather ...
         await asyncio.gather(*(verify(u) for u in candidates))
         
-        # ОБНОВЛЯЕМ КЭШ ДЛЯ ПОДПИСКИ
+   
+            # ВЫЗЫВАЕМ ОБНОВЛЕНИЕ КЭША
+        import keep_alive
         keep_alive.update_internal_cache()
-        
         await asyncio.sleep(2)
 
 # --- ЗАПУСК ---

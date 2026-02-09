@@ -5,10 +5,10 @@ import base64
 import json
 import time
 import logging
+import yaml
 from bs4 import BeautifulSoup
-from urllib.parse import urlparse
+from urllib.parse import urlparse, unquote, parse_qs, quote
 import database_vpn as db
-import keep_alive
 # --- СПИСКИ ---
 TG_CHANNELS = [
     "shadowsockskeys", "oneclickvpnkeys", "v2ray_outlineir",
@@ -27,138 +27,110 @@ EXTERNAL_SUBS = [
     "https://raw.githubusercontent.com/officialputuid/V2Ray-Config/main/Splitted-v2ray-config/all"
 ]
 
+STATIC_SUB_PATH = "clash_sub.yaml"
+
 def safe_decode(s):
     try:
         s = re.sub(r'[^a-zA-Z0-9+/=]', '', s)
-        padding = len(s) % 4
-        if padding: s += '=' * (4 - padding)
-        return base64.b64decode(s).decode('utf-8', errors='ignore')
+        return base64.b64decode(s + '=' * (-len(s) % 4)).decode('utf-8', errors='ignore')
     except: return ""
 
-def extract_ip_port(link):
+def link_to_clash_dict(url, latency, is_ai, country):
+    """Конвертер ссылки в формат Clash"""
     try:
-        if link.startswith("vmess://"):
-            data = json.loads(safe_decode(link[8:]))
-            return data.get('add'), int(data.get('port'))
-        p = urlparse(link)
-        if link.startswith("ss://") and "@" in link:
-            part = link.split("@")[-1].split("#")[0].split("/")[0]
-            if ":" in part: 
-                return part.split(":")[0].replace("[","").replace("]",""), int(part.split(":")[1])
-        if p.hostname and p.port: return p.hostname, p.port
-    except: pass
-    return None, None
+        flag = "".join(chr(ord(c) + 127397) for c in country.upper()) if len(country)==2 else "🏳️"
+        ai_tag = " ✨ AI" if is_ai else ""
+        try: srv = url.split('@')[-1].split(':')[0].split('.')[-1]
+        except: srv = "srv"
+        name = f"{flag}{ai_tag} {latency}ms | {srv}"
 
-async def check_tcp(ip, port):
-    try:
-        st = time.time()
-        conn = asyncio.open_connection(ip, port)
-        _, w = await asyncio.wait_for(conn, timeout=1.2) # Жесткий таймаут 1.2 сек
-        lat = int((time.time() - st) * 1000)
-        w.close()
-        await w.wait_closed()
-        return lat
-    except: return None
-
-# --- ЗАДАЧА 1: ПЫЛЕСОС (Сосет и сразу сохраняет) ---
-async def scraper_task():
-    regex = re.compile(r'(?:vless|vmess|ss|ssr|trojan|hy2|hysteria|hysteria2|tuic|socks5)://[^\s<"\'\)]+')
-    headers = {'User-Agent': 'Mozilla/5.0'}
-    
-    while True:
-        logging.info("📥 [Scraper] Старт цикла сбора...")
+        if url.startswith("vmess://"):
+            d = json.loads(safe_decode(url[8:]))
+            return {'name': name, 'type': 'vmess', 'server': d.get('add'), 'port': int(d.get('port')), 'uuid': d.get('id'), 'alterId': 0, 'cipher': 'auto', 'udp': True, 'tls': d.get('tls') == 'tls', 'skip-cert-verify': True, 'network': d.get('net', 'tcp')}
         
-        # 1. ГИТХАБ (Быстро)
+        if url.startswith(("vless://", "trojan://")):
+            p = urlparse(url); q = parse_qs(p.query); tp = 'vless' if url.startswith('vless') else 'trojan'
+            obj = {'name': name, 'type': tp, 'server': p.hostname, 'port': p.port, 'uuid': p.username or p.password, 'password': p.username or p.password, 'udp': True, 'skip-cert-verify': True, 'tls': q.get('security', [''])[0] in ['tls', 'reality'], 'network': q.get('type', ['tcp'])[0]}
+            if tp == 'trojan' and 'uuid' in obj: del obj['uuid']
+            if q.get('security', [''])[0] == 'reality':
+                obj['servername'] = q.get('sni', [''])[0]
+                obj['reality-opts'] = {'public-key': q.get('pbk', [''])[0], 'short-id': q.get('sid', [''])[0]}
+                obj['client-fingerprint'] = 'chrome'
+            return obj
+
+        if url.startswith("ss://"):
+            main = url.split("#")[0].replace("ss://", "")
+            if "@" in main:
+                u, s = main.split("@", 1); d = safe_decode(u)
+                m, pw = d.split(":", 1) if ":" in d else (u.split(":", 1) if ":" in u else ("aes-256-gcm", u))
+                return {'name': name, 'type': 'ss', 'server': s.split(":")[0], 'port': int(s.split(":")[1].split("/")[0]), 'cipher': m, 'password': pw, 'udp': True}
+    except: pass
+    return None
+
+def update_static_sub():
+    """Собирает живых и пишет в файл"""
+    try:
+        rows = db.get_best_proxies_for_sub()
+        clash_proxies = []
+        for r in rows:
+            obj = link_to_clash_dict(r[0], r[1], r[2], r[3])
+            if obj:
+                while any(p['name'] == obj['name'] for p in clash_proxies): obj['name'] += " "
+                clash_proxies.append(obj)
+        if clash_proxies:
+            with open(STATIC_SUB_PATH, 'w', encoding='utf-8') as f:
+                yaml.dump({'proxies': clash_proxies}, f, allow_unicode=True, sort_keys=False)
+            logging.info(f"💾 Подписка обновлена: {len(clash_proxies)} серверов.")
+    except Exception as e: logging.error(f"Save error: {e}")
+
+async def scraper_task():
+    regex = re.compile(r'(?:vless|vmess|ss|ssr|trojan|hy2|hysteria)://[^\s<"\'\)]+')
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    while True:
+        logging.info("📥 [Scraper] Сбор...")
+        links = set()
         for url in EXTERNAL_SUBS:
             try:
-                r = requests.get(url, headers=headers, timeout=15)
-                text = r.text
-                if len(text) > 20 and not "://" in text[:50]:
-                    d = safe_decode(text)
-                    if d: text = d
-                
-                batch = []
-                for l in regex.findall(text): batch.append(l.strip())
-                
-                if batch:
-                    count = db.save_proxy_batch(batch)
-                    if count > 0: logging.info(f"📥 [Scraper] +{count} с Гитхаба")
+                r = requests.get(url, headers=headers, timeout=10); t = r.text
+                d = safe_decode(t); t = d if "://" in d else t
+                for l in regex.findall(t): links.add(l.strip())
             except: pass
-            await asyncio.sleep(1) # Небольшая пауза между запросами
-
-        # 2. ТЕЛЕГРАМ (Медленно, но много)
         for ch in TG_CHANNELS:
-            url = f"https://t.me/s/{ch}"
-            for _ in range(5): # Листаем только 5 страниц за раз, чтобы не виснуть
-                try:
-                    r = requests.get(url, headers=headers, timeout=5)
-                    soup_text = r.text
-                    
-                    batch = []
-                    for l in regex.findall(soup_text):
-                        batch.append(l.strip().split('<')[0])
-                    
-                    if batch:
-                        count = db.save_proxy_batch(batch)
-                        # logging.info(f"📥 [Scraper] +{count} с {ch}") # Можно раскомментить для дебага
-                    
-                    if 'tme_messages_more' in soup_text:
-                        match = re.search(r'href="(/s/.*?)"', soup_text)
-                        if match: url = "https://t.me" + match.group(1)
-                        else: break
-                    else: break
-                    await asyncio.sleep(0.5)
-                except: break
-        
-        logging.info("💤 [Scraper] Цикл завершен. Сплю 30 минут.")
+            try:
+                r = requests.get(f"https://t.me/s/{ch}", headers=headers, timeout=5)
+                for l in regex.findall(r.text): links.add(l.strip().split('<')[0])
+            except: pass
+        if links: db.save_proxy_batch(list(links))
         await asyncio.sleep(1800)
 
-# --- ЗАДАЧА 2: ЧЕКЕР (Берет из базы и проверяет) ---
 async def checker_task():
     while True:
-        # Берем 100 непроверенных или старых
-        candidates = db.get_proxies_to_check(limit=100)
-        
+        candidates = db.get_proxies_to_check(100)
         if not candidates:
-            # Если проверять нечего, спим чуть-чуть и ждем пылесос
-            await asyncio.sleep(10)
-            continue
-            
-        # logging.info(f"🧪 [Checker] Проверяю пачку из {len(candidates)}...")
+            await asyncio.sleep(10); continue
         
-        sem = asyncio.Semaphore(50) # 50 потоков
-        
+        sem = asyncio.Semaphore(50)
         async def verify(url):
             async with sem:
-                ip, port = extract_ip_port(url)
-                if not ip or not port:
-                    db.update_proxy_status(url, None, 0, "")
-                    return
-
-                lat = await check_tcp(ip, port)
-                if lat:
-                    # AI (простая эвристика)
-                    is_ai = 1 if "reality" in url.lower() or "pbk=" in url.lower() else 0
-                    db.update_proxy_status(url, lat, is_ai, "🏳️")
-                else:
-                    db.update_proxy_status(url, None, 0, "")
+                try:
+                    if "vmess://" in url:
+                        d = json.loads(safe_decode(url[8:])); host, port = d['add'], int(d['port'])
+                    else:
+                        p = urlparse(url); host, port = p.hostname, p.port
+                    if not host or not port: return
+                    st = time.time()
+                    _, w = await asyncio.wait_for(asyncio.open_connection(host, port), timeout=1.5)
+                    lat = int((time.time() - st) * 1000)
+                    w.close(); await w.wait_closed()
+                    is_ai = 1 if lat < 200 or "reality" in url.lower() else 0
+                    db.update_proxy_status(url, lat, is_ai, "UN") # Страну определим в будущем
+                except: db.update_proxy_status(url, None, 0, "")
 
         await asyncio.gather(*(verify(u) for u in candidates))
-        # ... в конце функции checker_task, после await asyncio.gather ...
-        await asyncio.gather(*(verify(u) for u in candidates))
-        
-   
-            # ВЫЗЫВАЕМ ОБНОВЛЕНИЕ КЭША
-        import keep_alive
-        keep_alive.update_internal_cache()
-        await asyncio.sleep(2)
+        update_static_sub() # Обновляем файл после каждой пачки
+        await asyncio.sleep(5)
 
-# --- ЗАПУСК ---
 async def vacuum_job():
-    # Запускаем два независимых цикла
     asyncio.create_task(scraper_task())
     asyncio.create_task(checker_task())
-    
-    # Сам vacuum_job висит вечно, чтобы таск не закрылся
-    while True:
-        await asyncio.sleep(3600)
+    while True: await asyncio.sleep(3600)

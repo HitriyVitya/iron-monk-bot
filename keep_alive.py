@@ -1,6 +1,5 @@
-import os
+import base64, json, os
 from aiohttp import web
-import base64, json
 from urllib.parse import urlparse, unquote, parse_qs
 
 FINAL_SUB_PATH = "clash_sub.yaml"
@@ -9,17 +8,19 @@ def safe_decode(s):
     try: return base64.b64decode(s + '=' * (-len(s) % 4)).decode('utf-8', errors='ignore')
     except: return ""
 
+def get_flag(code):
+    """Превращает 'VN' в 🇻🇳"""
+    if not code or code == "UN" or len(code) != 2:
+        return "🇺🇳"
+    return "".join(chr(ord(c) + 127397) for c in code.upper())
+
 def link_to_clash_dict(url, latency, is_ai, country):
     try:
-        # ПРЕВРАЩАЕМ КОД СТРАНЫ В ФЛАГ
-        if country and len(country) == 2 and country != "UN":
-            flag = "".join(chr(ord(c) + 127397) for c in country.upper())
-        else:
-            flag = "🇺🇳"
-            
+        flag = get_flag(country)
         ai_tag = " ✨ AI" if is_ai else ""
         try: srv = url.split('@')[-1].split(':')[0].split('.')[-1]
         except: srv = "srv"
+        # Имя сервера для Клэша
         name = f"{flag}{ai_tag} {latency}ms | {srv}"
 
         if url.startswith("vmess://"):
@@ -42,21 +43,18 @@ def link_to_clash_dict(url, latency, is_ai, country):
     return None
 
 async def handle_sub(request):
-    """Отдает файл с ПРАВИЛЬНЫМИ заголовками для Клэша"""
     if os.path.exists(FINAL_SUB_PATH):
-        # Добавляем заголовки, чтобы клиент не вис
         headers = {
             'Content-Type': 'text/yaml; charset=utf-8',
             'Cache-Control': 'no-cache',
-            'Content-Disposition': 'attachment; filename="proxies.yaml"',
-            'Subscription-Userinfo': 'upload=0;download=0;total=10737418240;expire=0' # Фейковая инфа о трафике для красоты
+            'Content-Disposition': 'attachment; filename="proxies.yaml"'
         }
         return web.FileResponse(FINAL_SUB_PATH, headers=headers)
     return web.Response(text="proxies: []", content_type='text/yaml')
 
 async def start_server():
     app = web.Application()
-    app.router.add_get('/', lambda r: web.Response(text="Monk Hub is Live"))
+    app.router.add_get('/', lambda r: web.Response(text="Iron Monk Center is Running!"))
     app.router.add_get('/sub', handle_sub)
     runner = web.AppRunner(app)
     await runner.setup()

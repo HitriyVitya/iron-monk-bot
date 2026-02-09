@@ -128,7 +128,7 @@ def update_static_file():
         if clash_proxies:
             full_config = {
                 "proxies": clash_proxies,
-                "proxy-groups": [{"name": "🚀 Auto Select", "type": "url-test", "url": "http://www.gstatic.com/generate_204", "interval": 300, "proxies": [p['name'] for p in clash_proxies]}],
+                "proxy-groups": [{"name": "🚀 Auto Select", "type": "url-test", "url": "http://www.gstatic.com/generate_204", "interval": 1000, "proxies": [p['name'] for p in clash_proxies]}],
                 "rules": ["MATCH,🚀 Auto Select"]
             }
             tmp = FINAL_SUB_PATH + ".tmp"

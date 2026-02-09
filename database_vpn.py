@@ -24,10 +24,10 @@ def save_proxy_batch(proxies_list):
         except: pass
     conn.commit(); conn.close()
 
-def get_proxies_to_check(limit=150):
+def get_proxies_to_check(limit=200):
     conn = get_connection(); c = conn.cursor()
-    # Берем пачку тех, кто давно не проверялся
-    c.execute("SELECT url FROM vpn_proxies WHERE fails < 10 ORDER BY last_check ASC LIMIT ?", (limit,))
+    # Не трогаем тех, кто упал больше 15 раз
+    c.execute("SELECT url FROM vpn_proxies WHERE fails < 15 ORDER BY last_check ASC LIMIT ?", (limit,))
     rows = [r[0] for r in c.fetchall()]
     conn.close(); return rows
 
@@ -41,9 +41,9 @@ def update_proxy_status(url, latency, is_ai, country):
 
 def get_best_proxies_for_sub():
     conn = get_connection(); c = conn.cursor()
-    # ТЕПЕРЬ БЕРЕМ 1000 СЕРВЕРОВ. Сортировка: сначала те, кто живой и быстрый.
+    # Берем 1000 серверов. Сначала быстрые.
     c.execute("""SELECT url, latency, is_ai, country FROM vpn_proxies 
-                 WHERE fails < 3 AND latency < 3000 
+                 WHERE fails < 5 AND latency < 3500 
                  ORDER BY latency ASC LIMIT 1000""")
     rows = c.fetchall()
     conn.close(); return rows

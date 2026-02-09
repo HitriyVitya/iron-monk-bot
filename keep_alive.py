@@ -1,16 +1,25 @@
 from aiohttp import web
 import database_vpn as db
-import base64
+
+# Глобальная переменная для хранения подписки в памяти
+PROXY_CACHE = "Base is checking... Please wait 1-2 min."
 
 async def handle_home(request):
-    return web.Response(text="Monk Bot is Alive. /sub for proxies.")
+    return web.Response(text="Iron Monk Hub is Running!")
 
 async def handle_sub(request):
-    proxies = db.get_best_proxies_for_sub()
-    text = "\n".join(proxies)
-    # Кодируем в Base64 для клиентов
-    b64 = base64.b64encode(text.encode()).decode()
-    return web.Response(text=b64)
+    """Мгновенный ответ из памяти"""
+    return web.Response(text=PROXY_CACHE, content_type='text/plain')
+
+def update_internal_cache():
+    """Функция для обновления кэша (будет вызываться из пылесоса)"""
+    global PROXY_CACHE
+    try:
+        proxies = db.get_best_proxies_for_sub()
+        if proxies:
+            PROXY_CACHE = "\n".join(proxies)
+    except:
+        pass
 
 async def start_server():
     app = web.Application()

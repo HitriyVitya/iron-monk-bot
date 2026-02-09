@@ -8,7 +8,7 @@ import logging
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 import database_vpn as db
-
+import keep_alive
 # --- СПИСКИ ---
 TG_CHANNELS = [
     "shadowsockskeys", "oneclickvpnkeys", "v2ray_outlineir",
@@ -144,7 +144,13 @@ async def checker_task():
                     db.update_proxy_status(url, None, 0, "")
 
         await asyncio.gather(*(verify(u) for u in candidates))
-        await asyncio.sleep(2) # Микро-пауза между пачками
+        # ... в конце функции checker_task, после await asyncio.gather ...
+        await asyncio.gather(*(verify(u) for u in candidates))
+        
+        # ОБНОВЛЯЕМ КЭШ ДЛЯ ПОДПИСКИ
+        keep_alive.update_internal_cache()
+        
+        await asyncio.sleep(2)
 
 # --- ЗАПУСК ---
 async def vacuum_job():

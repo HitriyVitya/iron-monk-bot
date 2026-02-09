@@ -21,27 +21,39 @@ EXTERNAL_SUBS = [
     "https://raw.githubusercontent.com/officialputuid/V2Ray-Config/main/Splitted-v2ray-config/all"
 ]
 
-
 FINAL_SUB_PATH = "clash_sub.yaml"
 
 def safe_decode(s):
     try: return base64.b64decode(s + '=' * (-len(s) % 4)).decode('utf-8', errors='ignore')
     except: return ""
 
+async def get_countries_batch(ips):
+    if not ips: return {}
+    res_map = {}
+    try:
+        unique_ips = list(set(ips))
+        r = await asyncio.to_thread(requests.post, "http://ip-api.com/batch?fields=query,countryCode", json=[{"query": i} for i in unique_ips], timeout=10)
+        for item in r.json(): res_map[item['query']] = item.get('countryCode', 'UN')
+    except: pass
+    return res_map
+
 async def scraper_task():
     regex = re.compile(r'(?:vless|vmess|ss|ssr|trojan|hy2|hysteria)://[^\s<"\'\)]+')
     headers = {'User-Agent': 'Mozilla/5.0'}
     while True:
-        links = set()
+        logging.info("📥 [Scraper] Сбор...")
+        # Гитхаб
         for url in EXTERNAL_SUBS:
             try:
                 r = await asyncio.to_thread(requests.get, url, headers=headers, timeout=10)
                 t = r.text if "://" in r.text[:50] else safe_decode(r.text)
-                for l in regex.findall(t): links.add(l.strip())
+                found = regex.findall(t)
+                if found: db.save_proxy_batch([l.strip() for l in found])
             except: pass
+        # ТГ - Глубокий поиск (30 страниц)
         for ch in TG_CHANNELS:
             url = f"https://t.me/s/{ch}"
-            for _ in range(40): # Листаем глубоко
+            for _ in range(30):
                 try:
                     r = await asyncio.to_thread(requests.get, url, headers=headers, timeout=5)
                     found = regex.findall(r.text)
@@ -54,10 +66,11 @@ async def scraper_task():
         await asyncio.sleep(1200)
 
 async def checker_task():
-    sem = asyncio.Semaphore(100) # Жарим на все деньги
+    sem = asyncio.Semaphore(50)
     while True:
-        candidates = db.get_proxies_to_check(200)
+        candidates = db.get_proxies_to_check(100)
         if candidates:
+            results = []
             async def verify(url):
                 async with sem:
                     try:
@@ -65,16 +78,24 @@ async def checker_task():
                         else: p = urlparse(url); host, port = p.hostname, p.port
                         if not host or not port: return
                         st = time.time()
-                        _, w = await asyncio.wait_for(asyncio.open_connection(host, port), timeout=2.0)
+                        _, w = await asyncio.wait_for(asyncio.open_connection(host, port), timeout=1.5)
                         lat = int((time.time() - st) * 1000)
                         w.close(); await w.wait_closed()
-                        # ЛОГИКА: если пинг < 400мс - лепим AI (как ты хотел)
-                        is_ai = 1 if lat < 400 else 0
-                        db.update_proxy_status(url, lat, is_ai, "UN")
+                        results.append({'url': url, 'lat': lat, 'ip': host})
                     except: db.update_proxy_status(url, None, 0, "UN")
+            
             await asyncio.gather(*(verify(u) for u in candidates))
-            update_static_file()
-        await asyncio.sleep(2)
+            
+            if results:
+                geo_map = await get_countries_batch([r['ip'] for r in results])
+                for r in results:
+                    cc = geo_map.get(r['ip'], "UN")
+                    # Условие AI: быстрый и не РФ/Китай/Иран
+                    is_ai = 1 if r['lat'] < 350 and cc not in ['RU','CN','IR'] else 0
+                    db.update_proxy_status(r['url'], r['lat'], is_ai, cc)
+                
+                update_static_file()
+        await asyncio.sleep(5)
 
 def update_static_file():
     import yaml
@@ -93,6 +114,7 @@ def update_static_file():
                 "proxy-groups": [{"name": "🚀 Auto Select", "type": "url-test", "url": "http://www.gstatic.com/generate_204", "interval": 300, "proxies": [p['name'] for p in clash_proxies]}],
                 "rules": ["MATCH,🚀 Auto Select"]
             }
+            # АТОМАРНАЯ ЗАПИСЬ (убирает Connection Closed)
             tmp = FINAL_SUB_PATH + ".tmp"
             with open(tmp, 'w', encoding='utf-8') as f:
                 yaml.dump(full_config, f, allow_unicode=True, sort_keys=False)

@@ -1,278 +1,378 @@
 proxies:
-- name: 🥇 🌐 20ms | SS (UN-12) (0)
+- name: 🥇 🇺🇸 6ms | VMESS (US-75) (0)
+  type: vmess
+  server: 141.101.115.120
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥇 🌐 8ms | VMESS (UN-91) (1)
+  type: vmess
+  server: 141.101.115.160
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥇 🌐 19ms | TROJAN (UN-82) (2)
+  type: trojan
+  server: 148.113.141.99
+  port: 443
+  password: HdsUZmsHQW
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  network: tcp
+- name: 🥇 🌐 20ms | SS (UN-43) (3)
   type: ss
   server: 23.95.76.59
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 21ms | SS (UN-71) (1)
+- name: 🥇 🌐 21ms | SS (UN-54) (4)
   type: ss
   server: 45.154.204.7
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 28ms | SS (UN-16) (2)
+- name: 🥇 🌐 28ms | SS (UN-75) (5)
   type: ss
   server: 173.234.29.2
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 30ms | SS (UN-62) (3)
+- name: 🥇 🌐 30ms | SS (UN-08) (6)
   type: ss
   server: 79.127.200.169
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 53ms | SS (UN-59) (4)
+- name: 🥇 🌐 30ms | VMESS (UN-66) (7)
+  type: vmess
+  server: 141.101.114.120
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥇 🌐 30ms | VMESS (UN-04) (8)
+  type: vmess
+  server: 141.101.114.150
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥇 🌐 30ms | VMESS (UN-88) (9)
+  type: vmess
+  server: 141.101.114.102
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥇 🌐 30ms | VMESS (UN-76) (10)
+  type: vmess
+  server: 141.101.115.140
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥇 🇨🇦 32ms | VMESS (CA-41) (11)
+  type: vmess
+  server: 172.67.143.74
+  port: 443
+  uuid: A9A56660-4554-4278-863A-D3CE30294B59
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥇 🌐 53ms | SS (UN-10) (12)
   type: ss
   server: 147.78.1.230
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 84ms | SS (UN-69) (5)
+- name: 🥇 🌐 84ms | SS (UN-59) (13)
   type: ss
   server: 57.129.140.88
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: k1v5g9FefdoO
   udp: true
-- name: 🥇 🌐 89ms | SS (UN-17) (6)
+- name: 🥇 🌐 89ms | SS (UN-00) (14)
   type: ss
   server: 38.60.250.107
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 93ms | SS (UN-22) (7)
+- name: 🥇 🌐 93ms | SS (UN-71) (15)
   type: ss
   server: 82.38.31.199
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥇 🌐 93ms | SS (UN-53) (8)
+- name: 🥇 🌐 93ms | SS (UN-98) (16)
   type: ss
   server: 82.38.31.184
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥇 🌐 96ms | SS (UN-19) (9)
+- name: 🥇 🌐 96ms | SS (UN-66) (17)
   type: ss
   server: 138.186.143.32
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 109ms | SS (UN-36) (10)
+- name: 🥇 🌐 109ms | SS (UN-62) (18)
   type: ss
   server: 82.38.31.214
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥇 🌐 109ms | SS (UN-46) (11)
+- name: 🥇 🌐 109ms | SS (UN-73) (19)
   type: ss
   server: 193.29.139.206
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 4a2rfixophdjffa8KVA4Aa
   udp: true
-- name: 🥇 🌐 109ms | SS (UN-55) (12)
+- name: 🥇 🌐 109ms | SS (UN-90) (20)
   type: ss
   server: 193.29.139.141
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥇 🌐 109ms | SS (UN-33) (13)
+- name: 🥇 🌐 109ms | SS (UN-09) (21)
   type: ss
   server: 82.38.31.205
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥇 🌐 109ms | SS (UN-12) (14)
+- name: 🥇 🌐 109ms | SS (UN-09) (22)
   type: ss
   server: 82.38.31.179
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥇 🌐 109ms | SS (UN-31) (15)
+- name: 🥇 🌐 109ms | SS (UN-71) (23)
   type: ss
   server: 193.29.139.251
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥇 🌐 109ms | SS (UN-84) (16)
+- name: 🥇 🌐 109ms | SS (UN-19) (24)
   type: ss
   server: 78.129.140.11
   port: 443
   cipher: chacha20-ietf-poly1305
   password: y3SowqUkrt1cbm487g74Ac
   udp: true
-- name: 🥇 🌐 109ms | SS (UN-34) (17)
+- name: 🥇 🌐 109ms | SS (UN-67) (25)
   type: ss
   server: 82.38.31.191
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥇 🌐 109ms | SS (UN-59) (18)
+- name: 🥇 🌐 109ms | SS (UN-51) (26)
   type: ss
   server: 193.29.139.227
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: QCXDxuDlTTMD7jtgHUjIoj
   udp: true
-- name: 🥇 🌐 109ms | SS (UN-70) (19)
+- name: 🥇 🌐 109ms | SS (UN-39) (27)
   type: ss
   server: 82.38.31.202
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥇 🌐 109ms | SS (UN-09) (20)
+- name: 🥇 🌐 109ms | SS (UN-83) (28)
   type: ss
   server: 82.38.31.187
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥇 🌐 109ms | SS (UN-64) (21)
+- name: 🥇 🌐 109ms | SS (UN-68) (29)
   type: ss
   server: 138.186.142.80
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 109ms | SS (UN-60) (22)
+- name: 🥇 🌐 109ms | SS (UN-27) (30)
   type: ss
   server: 138.186.142.81
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 109ms | SS (UN-29) (23)
+- name: 🥇 🌐 109ms | SS (UN-00) (31)
   type: ss
   server: 82.38.31.218
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥇 🌐 109ms | SS (UN-64) (24)
+- name: 🥇 🌐 109ms | SS (UN-90) (32)
   type: ss
   server: 82.38.31.176
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥇 🌐 110ms | SS (UN-05) (25)
+- name: 🥇 🌐 110ms | SS (UN-30) (33)
   type: ss
   server: 193.29.139.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: QCXDxuDlTTMD7jtgHUjIoj
   udp: true
-- name: 🥇 🌐 110ms | SS (UN-88) (26)
+- name: 🥇 🌐 110ms | SS (UN-05) (34)
   type: ss
   server: 82.38.31.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥇 🌐 110ms | SS (UN-59) (27)
+- name: 🥇 🌐 110ms | SS (UN-77) (35)
   type: ss
   server: 82.38.31.208
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥇 🌐 110ms | SS (UN-73) (28)
+- name: 🥇 🌐 110ms | SS (UN-84) (36)
   type: ss
   server: 193.29.139.202
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥇 🌐 110ms | SS (UN-24) (29)
+- name: 🥇 🌐 110ms | SS (UN-51) (37)
   type: ss
   server: 82.38.31.124
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥇 🌐 110ms | SS (UN-31) (30)
+- name: 🥇 🌐 110ms | SS (UN-16) (38)
   type: ss
   server: 82.38.31.210
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥇 🌐 110ms | SS (UN-42) (31)
+- name: 🥇 🌐 110ms | SS (UN-63) (39)
   type: ss
   server: 193.29.139.157
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: 4a2rfixophdjffa8KVA4Aa
   udp: true
-- name: 🥇 🌐 110ms | SS (UN-08) (32)
+- name: 🥇 🌐 110ms | SS (UN-54) (40)
   type: ss
   server: 82.38.31.194
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥇 🌐 110ms | SS (UN-04) (33)
+- name: 🥇 🌐 110ms | SS (UN-21) (41)
   type: ss
   server: 193.29.139.189
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: cvII85TrW6n0OGyfpHVS1u
   udp: true
-- name: 🥇 🌐 110ms | SS (UN-37) (34)
+- name: 🥇 🌐 110ms | SS (UN-18) (42)
   type: ss
   server: 82.38.31.82
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥇 🌐 110ms | SS (UN-44) (35)
+- name: 🥇 🌐 110ms | SS (UN-91) (43)
   type: ss
   server: 193.29.139.179
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: cvII85TrW6n0OGyfpHVS1u
   udp: true
-- name: 🥇 🌐 112ms | SS (UN-64) (36)
+- name: 🥇 🌐 112ms | SS (UN-58) (44)
   type: ss
   server: 188.214.157.58
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 112ms | SS (UN-82) (37)
+- name: 🥇 🌐 112ms | SS (UN-95) (45)
   type: ss
   server: 188.214.157.30
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 117ms | SS (UN-41) (38)
+- name: 🥇 🌐 117ms | SS (UN-73) (46)
   type: ss
   server: 38.165.231.25
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 119ms | TROJAN (UN-46) (39)
+- name: 🥇 🌐 119ms | TROJAN (UN-79) (47)
   type: trojan
   server: 37.235.49.209
   port: 28099
@@ -281,98 +381,98 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 124ms | SS (UN-57) (40)
+- name: 🥇 🌐 124ms | SS (UN-36) (48)
   type: ss
   server: 38.60.247.151
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 127ms | SS (UN-45) (41)
+- name: 🥇 🌐 127ms | SS (UN-11) (49)
   type: ss
   server: 37.143.130.203
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 132ms | SS (UN-55) (42)
+- name: 🥇 🌐 132ms | SS (UN-69) (50)
   type: ss
   server: 213.109.147.242
   port: 62685
   cipher: chacha20-ietf-poly1305
   password: VpKABcOpNNA0l5G2AVOmw8
   udp: true
-- name: 🥇 🌐 133ms | SS (UN-95) (43)
+- name: 🥇 🌐 133ms | SS (UN-38) (51)
   type: ss
   server: 185.93.173.60
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 138ms | SS (UN-34) (44)
+- name: 🥇 🌐 138ms | SS (UN-23) (52)
   type: ss
   server: 46.183.217.204
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 138ms | SS (UN-91) (45)
+- name: 🥇 🌐 138ms | SS (UN-21) (53)
   type: ss
   server: 193.135.174.135
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 140ms | SS (UN-19) (46)
+- name: 🥇 🌐 140ms | SS (UN-96) (54)
   type: ss
   server: 176.123.5.253
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 140ms | SS (UN-41) (47)
+- name: 🥇 🌐 140ms | SS (UN-49) (55)
   type: ss
   server: 89.223.93.176
   port: 41348
   cipher: chacha20-ietf-poly1305
   password: Vmsf06YTMqtAYdhwMqdSuGqgdVkm0yddi4kYaAEVQWYj9iHA
   udp: true
-- name: 🥇 🌐 141ms | SS (UN-74) (48)
+- name: 🥇 🌐 141ms | SS (UN-59) (56)
   type: ss
   server: promo18v.bystrivpn.ru
   port: 443
   cipher: chacha20-ietf-poly1305
   password: dAHM1pm8ag7KdlrUylQi6t
   udp: true
-- name: 🥇 🌐 148ms | SS (UN-43) (49)
+- name: 🥇 🌐 148ms | SS (UN-87) (57)
   type: ss
   server: 176.123.1.175
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 168ms | SS (UN-83) (50)
+- name: 🥇 🌐 168ms | SS (UN-27) (58)
   type: ss
   server: 185.5.38.111
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: iZDJs2CDckHKqJ5W7cpvCq2veqsqWn95iqs6Kr6F3YNnyMsk2uPdRrChQfShvH1v56Br1qWEW44qJna5QcMcZF7RCJmdvwuq
   udp: true
-- name: 🥇 🌐 170ms | SS (UN-29) (51)
+- name: 🥇 🌐 170ms | SS (UN-51) (59)
   type: ss
   server: 103.106.228.247
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 178ms | SS (UN-66) (52)
+- name: 🥇 🌐 178ms | SS (UN-15) (60)
   type: ss
   server: 94.198.220.183
   port: 64674
   cipher: chacha20-ietf-poly1305
   password: s8LbJCgUiGXeCKVc63tHJP
   udp: true
-- name: 🥇 🌐 182ms | TROJAN (UN-22) (53)
+- name: 🥇 🌐 182ms | TROJAN (UN-72) (61)
   type: trojan
   server: 202.181.103.246
   port: 3423
@@ -381,7 +481,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 183ms | TROJAN (UN-37) (54)
+- name: 🥇 🌐 183ms | TROJAN (UN-48) (62)
   type: trojan
   server: 160.16.138.24
   port: 3901
@@ -390,7 +490,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 184ms | TROJAN (UN-13) (55)
+- name: 🥇 🌐 184ms | TROJAN (UN-63) (63)
   type: trojan
   server: 160.16.68.250
   port: 4006
@@ -399,7 +499,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 187ms | TROJAN (UN-96) (56)
+- name: 🥇 🌐 187ms | TROJAN (UN-78) (64)
   type: trojan
   server: 160.16.236.32
   port: 3901
@@ -408,7 +508,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 188ms | TROJAN (UN-72) (57)
+- name: 🥇 🌐 188ms | TROJAN (UN-99) (65)
   type: trojan
   server: 160.16.124.55
   port: 3423
@@ -417,7 +517,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 188ms | TROJAN (UN-35) (58)
+- name: 🥇 🌐 188ms | TROJAN (UN-05) (66)
   type: trojan
   server: 160.16.214.104
   port: 3423
@@ -426,7 +526,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 188ms | TROJAN (UN-43) (59)
+- name: 🥇 🌐 188ms | TROJAN (UN-78) (67)
   type: trojan
   server: 160.16.138.24
   port: 4006
@@ -435,7 +535,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 190ms | TROJAN (UN-18) (60)
+- name: 🥇 🌐 190ms | TROJAN (UN-40) (68)
   type: trojan
   server: 160.16.89.176
   port: 3076
@@ -444,7 +544,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 190ms | TROJAN (UN-96) (61)
+- name: 🥇 🌐 190ms | TROJAN (UN-15) (69)
   type: trojan
   server: 202.181.103.246
   port: 3076
@@ -453,7 +553,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 190ms | TROJAN (UN-74) (62)
+- name: 🥇 🌐 190ms | TROJAN (UN-86) (70)
   type: trojan
   server: 153.121.38.213
   port: 276
@@ -462,7 +562,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 190ms | TROJAN (UN-16) (63)
+- name: 🥇 🌐 190ms | TROJAN (UN-70) (71)
   type: trojan
   server: 160.16.130.21
   port: 544
@@ -471,7 +571,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 194ms | TROJAN (UN-70) (64)
+- name: 🥇 🌐 194ms | TROJAN (UN-80) (72)
   type: trojan
   server: 160.16.63.16
   port: 3423
@@ -480,7 +580,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 194ms | TROJAN (UN-65) (65)
+- name: 🥇 🌐 194ms | TROJAN (UN-79) (73)
   type: trojan
   server: 160.16.116.227
   port: 3423
@@ -489,7 +589,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 194ms | TROJAN (UN-85) (66)
+- name: 🥇 🌐 194ms | TROJAN (UN-97) (74)
   type: trojan
   server: 160.16.70.180
   port: 3901
@@ -498,14 +598,14 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 197ms | SS (UN-21) (67)
+- name: 🥇 🌐 197ms | SS (UN-93) (75)
   type: ss
   server: 109.61.39.28
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 197ms | TROJAN (UN-66) (68)
+- name: 🥇 🌐 197ms | TROJAN (UN-78) (76)
   type: trojan
   server: 153.121.45.139
   port: 3901
@@ -514,84 +614,84 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 207ms | SS (UN-38) (69)
+- name: 🥇 🌐 207ms | SS (UN-64) (77)
   type: ss
   server: 147.78.0.182
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 212ms | SS (UN-69) (70)
+- name: 🥇 🌐 212ms | SS (UN-10) (78)
   type: ss
   server: 156.59.243.6
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 214ms | SS (UN-07) (71)
+- name: 🥇 🌐 214ms | SS (UN-81) (79)
   type: ss
   server: 95.174.68.33
   port: 443
   cipher: chacha20-ietf-poly1305
   password: YzH4id7ZEyKpfy39F2YcOmzCsBklGwh8
   udp: true
-- name: 🥇 🌐 221ms | SS (UN-14) (72)
+- name: 🥇 🌐 221ms | SS (UN-26) (80)
   type: ss
   server: 38.54.59.180
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 225ms | SS (UN-37) (73)
+- name: 🥇 🌐 225ms | SS (UN-30) (81)
   type: ss
   server: exchange.gameaurela.click
   port: 52952
   cipher: chacha20-ietf-poly1305
   password: LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj
   udp: true
-- name: 🥇 🌐 227ms | SS (UN-34) (74)
+- name: 🥇 🌐 227ms | SS (UN-29) (82)
   type: ss
   server: 3.1.195.148
   port: 8313
   cipher: chacha20-ietf-poly1305
   password: ljqdalu13..
   udp: true
-- name: 🥇 🌐 232ms | SS (UN-49) (75)
+- name: 🥇 🌐 232ms | SS (UN-63) (83)
   type: ss
   server: 3.1.195.148
   port: 8319
   cipher: chacha20-ietf-poly1305
   password: ljqdalu13..
   udp: true
-- name: 🥇 🌐 236ms | SS (UN-53) (76)
+- name: 🥇 🌐 236ms | SS (UN-80) (84)
   type: ss
   server: 3.112.130.53
   port: 8319
   cipher: chacha20-ietf-poly1305
   password: ljqdalu13..
   udp: true
-- name: 🥇 🌐 238ms | SS (UN-80) (77)
+- name: 🥇 🌐 238ms | SS (UN-41) (85)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: bZ87amPpdG7KuWM62bKtm1KHoowuVjnV8CKtq653ymHcg2dPYcPJfnaQ61stuAjr2ZiLDaqH56XpkxEYuwDzzRrMWieebWGt
   udp: true
-- name: 🥇 🌐 250ms | SS (UN-92) (78)
+- name: 🥇 🌐 250ms | SS (UN-53) (86)
   type: ss
   server: 3.112.130.53
   port: 8316
   cipher: chacha20-ietf-poly1305
   password: ljqdalu13..
   udp: true
-- name: 🥇 🌐 250ms | SS (UN-70) (79)
+- name: 🥇 🌐 250ms | SS (UN-39) (87)
   type: ss
   server: 3.112.130.53
   port: 8313
   cipher: chacha20-ietf-poly1305
   password: ljqdalu13..
   udp: true
-- name: 🥇 🌐 252ms | VMESS (UN-70) (80)
+- name: 🥇 🌐 252ms | VMESS (UN-26) (88)
   type: vmess
   server: fullaccesstohongkongnet.azurewebsites.net
   port: 443
@@ -604,42 +704,51 @@ proxies:
   network: ws
   ws-opts:
     path: /ws
-- name: 🥇 🌐 253ms | SS (UN-04) (81)
+- name: 🥇 🌐 253ms | SS (UN-94) (89)
   type: ss
   server: portal.ninemakeda.cfd
   port: 43669
   cipher: chacha20-ietf-poly1305
   password: 23sUrwRcTBEAvxLS6VM6Aay57KQbws1upDAxr7Btf4hXu4gaUQW4BPbComjJjStM2JqJLDwVkteXL8V33k8eWkZR4UB8intz
   udp: true
-- name: 🥇 🌐 256ms | SS (UN-28) (82)
+- name: 🥇 🌐 256ms | SS (UN-37) (90)
   type: ss
   server: 156.38.168.58
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 275ms | SS (UN-00) (83)
+- name: 🥇 🌐 275ms | SS (UN-36) (91)
   type: ss
   server: 103.97.203.227
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 317ms | SS (UN-52) (84)
+- name: 🥇 🇮🇳 295ms | TROJAN (IN-84) (92)
+  type: trojan
+  server: 152.67.160.174
+  port: 443
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  network: tcp
+- name: 🥇 🌐 317ms | SS (UN-64) (93)
   type: ss
   server: 38.89.142.56
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 334ms | SS (UN-34) (85)
+- name: 🥇 🌐 334ms | SS (UN-96) (94)
   type: ss
   server: 154.70.207.97
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🥇 🌐 1143ms | TROJAN (UN-98) (86)
+- name: 🥇 🌐 1143ms | TROJAN (UN-31) (95)
   type: trojan
   server: 80.173.231.254
   port: 12420
@@ -648,7 +757,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥈 🌐 1ms | VMESS (UN-35) (87)
+- name: 🥈 🌐 1ms | VMESS (UN-79) (96)
   type: vmess
   server: 203.24.108.9
   port: 443
@@ -661,7 +770,7 @@ proxies:
   network: ws
   ws-opts:
     path: /5QNROSRV
-- name: 🥈 🌐 1ms | VMESS (UN-53) (88)
+- name: 🥈 🌐 1ms | VMESS (UN-94) (97)
   type: vmess
   server: 172.67.222.46
   port: 80
@@ -674,7 +783,7 @@ proxies:
   network: ws
   ws-opts:
     path: /sshkit/fdfadsfa/63848bfe228fd/
-- name: 🥈 🌐 2ms | VMESS (UN-96) (89)
+- name: 🥈 🌐 2ms | VMESS (UN-93) (98)
   type: vmess
   server: 172.67.199.34
   port: 443
@@ -687,7 +796,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shared
-- name: 🥈 🌐 2ms | VMESS (UN-88) (90)
+- name: 🥈 🌐 2ms | VMESS (UN-08) (99)
   type: vmess
   server: 172.67.199.34
   port: 443
@@ -700,7 +809,7 @@ proxies:
   network: ws
   ws-opts:
     path: /ECTCJ0DF
-- name: 🥈 🌐 2ms | VMESS (UN-88) (91)
+- name: 🥈 🌐 2ms | VMESS (UN-72) (100)
   type: vmess
   server: 185.162.228.229
   port: 443
@@ -713,7 +822,7 @@ proxies:
   network: ws
   ws-opts:
     path: /5QNROSRV
-- name: 🥈 🌐 2ms | VMESS (UN-97) (92)
+- name: 🥈 🌐 2ms | VMESS (UN-99) (101)
   type: vmess
   server: 203.30.190.191
   port: 443
@@ -726,7 +835,7 @@ proxies:
   network: ws
   ws-opts:
     path: /5QNROSRV
-- name: 🥈 🌐 2ms | VMESS (UN-36) (93)
+- name: 🥈 🌐 2ms | VMESS (UN-34) (102)
   type: vmess
   server: 203.30.189.191
   port: 443
@@ -739,7 +848,7 @@ proxies:
   network: ws
   ws-opts:
     path: /A2DJOPFT
-- name: 🥈 🌐 2ms | VMESS (UN-33) (94)
+- name: 🥈 🌐 2ms | VMESS (UN-12) (103)
   type: vmess
   server: 190.93.245.4
   port: 443
@@ -752,7 +861,7 @@ proxies:
   network: ws
   ws-opts:
     path: /A2DJOPFT
-- name: 🥈 🌐 2ms | VMESS (UN-86) (95)
+- name: 🥈 🌐 2ms | VMESS (UN-43) (104)
   type: vmess
   server: 141.101.114.134
   port: 443
@@ -765,7 +874,7 @@ proxies:
   network: ws
   ws-opts:
     path: /IYKLD53M
-- name: 🥈 🌐 2ms | VMESS (UN-07) (96)
+- name: 🥈 🌐 2ms | VMESS (UN-96) (105)
   type: vmess
   server: 141.101.114.31
   port: 443
@@ -778,7 +887,7 @@ proxies:
   network: ws
   ws-opts:
     path: /5QNROSRV
-- name: 🥈 🌐 2ms | VMESS (UN-42) (97)
+- name: 🥈 🌐 2ms | VMESS (UN-42) (106)
   type: vmess
   server: 104.18.6.82
   port: 443
@@ -791,7 +900,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 2ms | VMESS (UN-61) (98)
+- name: 🥈 🌐 2ms | VMESS (UN-46) (107)
   type: vmess
   server: 172.67.199.34
   port: 443
@@ -804,7 +913,33 @@ proxies:
   network: ws
   ws-opts:
     path: /sshkit/1350195536/63a625eb069d5/
-- name: 🥈 🌐 3ms | VMESS (UN-92) (99)
+- name: 🥈 🌐 2ms | VMESS (UN-74) (108)
+  type: vmess
+  server: 23.227.38.38
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇨🇦 2ms | VMESS (CA-13) (109)
+  type: vmess
+  server: 172.67.178.127
+  port: 443
+  uuid: 26b5fbcf-d199-407e-e8bf-96d7489d247d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /123
+- name: 🥈 🌐 3ms | VMESS (UN-63) (110)
   type: vmess
   server: cf.090227.xyz
   port: 443
@@ -817,7 +952,59 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 4ms | VMESS (UN-40) (100)
+- name: 🥈 🌐 3ms | VMESS (UN-00) (111)
+  type: vmess
+  server: 172.67.201.14
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🌐 3ms | VMESS (UN-31) (112)
+  type: vmess
+  server: 23.227.38.26
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇧🇿 3ms | VMESS (BZ-45) (113)
+  type: vmess
+  server: 203.30.188.121
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇧🇿 3ms | VMESS (BZ-27) (114)
+  type: vmess
+  server: 203.30.191.2
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🌐 4ms | VMESS (UN-30) (115)
   type: vmess
   server: 198.41.203.5
   port: 443
@@ -830,7 +1017,72 @@ proxies:
   network: ws
   ws-opts:
     path: /IYKLD53M
-- name: 🥈 🌐 5ms | VMESS (UN-35) (101)
+- name: 🥈 🇨🇦 4ms | VMESS (CA-22) (116)
+  type: vmess
+  server: 23.227.38.40
+  port: 443
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+- name: 🥈 🌐 4ms | VMESS (UN-60) (117)
+  type: vmess
+  server: 172.64.156.232
+  port: 8443
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /8cda48b3
+- name: 🥈 🇧🇿 4ms | VMESS (BZ-12) (118)
+  type: vmess
+  server: 203.30.188.189
+  port: 443
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+- name: 🥈 🌐 4ms | VMESS (UN-86) (119)
+  type: vmess
+  server: 172.66.44.197
+  port: 443
+  uuid: fa4cb529-3ac9-4268-bb04-ed4253813508
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /mR17oBKzZ7
+- name: 🥈 🇨🇾 4ms | VMESS (CY-82) (120)
+  type: vmess
+  server: 203.24.108.8
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🌐 5ms | VMESS (UN-51) (121)
   type: vmess
   server: 172.67.164.125
   port: 443
@@ -843,7 +1095,358 @@ proxies:
   network: ws
   ws-opts:
     path: /AUIKN8AU
-- name: 🥈 🌐 7ms | VMESS (UN-45) (102)
+- name: 🥈 🇨🇦 5ms | VMESS (CA-65) (122)
+  type: vmess
+  server: 23.227.38.25
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇧🇿 5ms | VMESS (BZ-45) (123)
+  type: vmess
+  server: 203.30.190.192
+  port: 443
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+- name: 🥈 🇨🇦 5ms | VMESS (CA-00) (124)
+  type: vmess
+  server: 103.21.244.219
+  port: 8443
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /8cda48b3
+- name: 🥈 🇨🇦 5ms | VMESS (CA-94) (125)
+  type: vmess
+  server: 23.227.38.27
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇨🇦 5ms | VMESS (CA-67) (126)
+  type: vmess
+  server: 172.67.203.162
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇧🇿 5ms | VMESS (BZ-58) (127)
+  type: vmess
+  server: 203.30.191.5
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🌐 5ms | VMESS (UN-99) (128)
+  type: vmess
+  server: 203.30.191.192
+  port: 443
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+- name: 🥈 🌐 6ms | VMESS (UN-38) (129)
+  type: vmess
+  server: 173.245.49.10
+  port: 8443
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /8cda48b3
+- name: 🥈 🇨🇦 6ms | VMESS (CA-30) (130)
+  type: vmess
+  server: 172.64.154.102
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥈 🇧🇿 6ms | VMESS (BZ-08) (131)
+  type: vmess
+  server: 203.30.191.3
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇧🇿 6ms | VMESS (BZ-11) (132)
+  type: vmess
+  server: 203.30.190.191
+  port: 443
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+- name: 🥈 🇨🇦 6ms | VMESS (CA-61) (133)
+  type: vmess
+  server: 173.245.49.55
+  port: 8443
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /8cda48b3
+- name: 🥈 🇨🇷 6ms | VMESS (CR-65) (134)
+  type: vmess
+  server: 190.93.246.3
+  port: 443
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+- name: 🥈 🇨🇷 6ms | VMESS (CR-37) (135)
+  type: vmess
+  server: 190.93.244.3
+  port: 443
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+- name: 🥈 🌐 6ms | VMESS (UN-81) (136)
+  type: vmess
+  server: 190.93.245.2
+  port: 443
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+- name: 🥈 🌐 6ms | VMESS (UN-24) (137)
+  type: vmess
+  server: 185.162.228.110
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🌐 6ms | VMESS (UN-38) (138)
+  type: vmess
+  server: 203.24.108.10
+  port: 443
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+- name: 🥈 🇧🇿 6ms | VMESS (BZ-36) (139)
+  type: vmess
+  server: 203.30.188.190
+  port: 443
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+- name: 🥈 🇧🇿 6ms | VMESS (BZ-29) (140)
+  type: vmess
+  server: 203.30.191.7
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🌐 6ms | VMESS (UN-76) (141)
+  type: vmess
+  server: 172.67.135.57
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🌐 6ms | VMESS (UN-86) (142)
+  type: vmess
+  server: 23.227.38.21
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇺🇸 6ms | VMESS (US-89) (143)
+  type: vmess
+  server: 188.114.99.10
+  port: 443
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+- name: 🥈 🌐 6ms | VMESS (UN-67) (144)
+  type: vmess
+  server: 172.67.145.166
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🌐 6ms | VMESS (UN-26) (145)
+  type: vmess
+  server: 203.24.108.9
+  port: 443
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+- name: 🥈 🇨🇦 6ms | VMESS (CA-98) (146)
+  type: vmess
+  server: 172.67.70.22
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🌐 6ms | VMESS (UN-27) (147)
+  type: vmess
+  server: 23.227.38.24
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇨🇦 6ms | VMESS (CA-18) (148)
+  type: vmess
+  server: 103.21.244.226
+  port: 8443
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /8cda48b3
+- name: 🥈 🌐 7ms | VMESS (UN-05) (149)
   type: vmess
   server: nextmi.hajmyab.ir
   port: 2053
@@ -856,7 +1459,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 7ms | VMESS (UN-55) (103)
+- name: 🥈 🌐 7ms | VMESS (UN-08) (150)
   type: vmess
   server: news.microsoft.com
   port: 443
@@ -869,7 +1472,449 @@ proxies:
   network: ws
   ws-opts:
     path: /share
-- name: 🥈 🌐 9ms | VMESS (UN-96) (104)
+- name: 🥈 🇨🇦 7ms | VMESS (CA-10) (151)
+  type: vmess
+  server: 172.64.150.170
+  port: 443
+  uuid: 65218fe8-d9c2-4e07-95bb-cb6e379a440b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /65218fe8-d9c2-4e07-95bb-cb6e379a440b-vm
+- name: 🥈 🇺🇸 7ms | VMESS (US-68) (152)
+  type: vmess
+  server: 141.101.114.121
+  port: 443
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+- name: 🥈 🌐 7ms | VMESS (UN-57) (153)
+  type: vmess
+  server: 203.30.191.9
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🌐 7ms | VMESS (UN-45) (154)
+  type: vmess
+  server: 190.93.246.2
+  port: 443
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+- name: 🥈 🌐 7ms | VMESS (UN-45) (155)
+  type: vmess
+  server: 190.93.244.2
+  port: 443
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+- name: 🥈 🇨🇷 7ms | VMESS (CR-35) (156)
+  type: vmess
+  server: 190.93.245.3
+  port: 443
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+- name: 🥈 🇧🇿 7ms | VMESS (BZ-25) (157)
+  type: vmess
+  server: 203.30.191.191
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇨🇦 7ms | VMESS (CA-48) (158)
+  type: vmess
+  server: 172.67.115.249
+  port: 8443
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /8cda48b3
+- name: 🥈 🌐 7ms | VMESS (UN-78) (159)
+  type: vmess
+  server: 103.21.244.127
+  port: 8443
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /8cda48b3
+- name: 🥈 🇨🇦 7ms | VMESS (CA-65) (160)
+  type: vmess
+  server: 173.245.49.111
+  port: 8443
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /8cda48b3
+- name: 🥈 🇨🇦 7ms | VMESS (CA-97) (161)
+  type: vmess
+  server: 103.21.244.249
+  port: 8443
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /8cda48b3
+- name: 🥈 🇧🇿 7ms | VMESS (BZ-34) (162)
+  type: vmess
+  server: 203.30.191.10
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇧🇿 7ms | VMESS (BZ-90) (163)
+  type: vmess
+  server: 203.30.189.189
+  port: 443
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+- name: 🥈 🌐 7ms | VMESS (UN-39) (164)
+  type: vmess
+  server: 203.30.189.191
+  port: 443
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+- name: 🥈 🇬🇧 7ms | VMESS (GB-93) (165)
+  type: vmess
+  server: 185.162.228.230
+  port: 443
+  uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /A2DJOPFT
+- name: 🥈 🇧🇿 7ms | VMESS (BZ-72) (166)
+  type: vmess
+  server: 203.30.189.190
+  port: 443
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+- name: 🥈 🇨🇦 8ms | VMESS (CA-14) (167)
+  type: vmess
+  server: 172.64.154.150
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥈 🇺🇸 8ms | VMESS (US-32) (168)
+  type: vmess
+  server: 141.101.115.100
+  port: 443
+  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /VHONOFZ3
+- name: 🥈 🇺🇸 8ms | VMESS (US-99) (169)
+  type: vmess
+  server: 141.101.114.17
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥈 🇺🇸 8ms | VMESS (US-85) (170)
+  type: vmess
+  server: 141.101.114.30
+  port: 443
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+- name: 🥈 🌐 8ms | VMESS (UN-66) (171)
+  type: vmess
+  server: 188.114.99.9
+  port: 443
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+- name: 🥈 🇧🇿 8ms | VMESS (BZ-84) (172)
+  type: vmess
+  server: 203.30.191.19
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥈 🇬🇧 8ms | VMESS (GB-24) (173)
+  type: vmess
+  server: 185.162.228.229
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🌐 8ms | VMESS (UN-10) (174)
+  type: vmess
+  server: 141.193.213.20
+  port: 443
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+- name: 🥈 🇧🇿 8ms | VMESS (BZ-67) (175)
+  type: vmess
+  server: 203.30.188.188
+  port: 443
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+- name: 🥈 🇨🇦 8ms | VMESS (CA-85) (176)
+  type: vmess
+  server: 23.227.38.22
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇨🇦 8ms | VMESS (CA-82) (177)
+  type: vmess
+  server: 103.21.244.70
+  port: 8443
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /8cda48b3
+- name: 🥈 🌐 8ms | VMESS (UN-61) (178)
+  type: vmess
+  server: 23.227.38.20
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇺🇸 8ms | VMESS (US-30) (179)
+  type: vmess
+  server: 141.101.115.30
+  port: 443
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+- name: 🥈 🇨🇦 8ms | VMESS (CA-10) (180)
+  type: vmess
+  server: 103.21.244.227
+  port: 8443
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /8cda48b3
+- name: 🥈 🇨🇦 8ms | VMESS (CA-17) (181)
+  type: vmess
+  server: 173.245.49.238
+  port: 8443
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /8cda48b3
+- name: 🥈 🌐 8ms | VMESS (UN-01) (182)
+  type: vmess
+  server: 203.30.191.6
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇧🇿 8ms | VMESS (BZ-78) (183)
+  type: vmess
+  server: 203.30.191.4
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇨🇦 8ms | VMESS (CA-00) (184)
+  type: vmess
+  server: 103.21.244.187
+  port: 8443
+  uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /8cda48b3
+- name: 🥈 🌐 9ms | VMESS (UN-02) (185)
   type: vmess
   server: 190.93.246.4
   port: 443
@@ -882,7 +1927,98 @@ proxies:
   network: ws
   ws-opts:
     path: /A2DJOPFT
-- name: 🥈 🌐 12ms | VMESS (UN-53) (105)
+- name: 🥈 🌐 9ms | VMESS (UN-22) (186)
+  type: vmess
+  server: 23.227.38.23
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇨🇦 9ms | VMESS (CA-83) (187)
+  type: vmess
+  server: 172.67.169.131
+  port: 443
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /AUIKN8AU
+- name: 🥈 🇬🇧 9ms | VMESS (GB-76) (188)
+  type: vmess
+  server: 185.162.228.228
+  port: 443
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+- name: 🥈 🌐 9ms | VMESS (UN-45) (189)
+  type: vmess
+  server: 141.101.114.31
+  port: 443
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+- name: 🥈 🇧🇿 9ms | VMESS (BZ-58) (190)
+  type: vmess
+  server: 203.30.191.18
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥈 🇧🇿 9ms | VMESS (BZ-72) (191)
+  type: vmess
+  server: 203.30.190.190
+  port: 443
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ECTCJ0DF
+- name: 🥈 🇧🇿 9ms | VMESS (BZ-02) (192)
+  type: vmess
+  server: 203.30.191.20
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥈 🌐 12ms | VMESS (UN-62) (193)
   type: vmess
   server: 162.159.128.7
   port: 443
@@ -895,7 +2031,7 @@ proxies:
   network: ws
   ws-opts:
     path: /A2DJOPFT
-- name: 🥈 🌐 12ms | VMESS (UN-87) (106)
+- name: 🥈 🌐 12ms | VMESS (UN-91) (194)
   type: vmess
   server: 23.227.38.39
   port: 443
@@ -908,7 +2044,7 @@ proxies:
   network: ws
   ws-opts:
     path: /5QNROSRV
-- name: 🥈 🌐 12ms | VMESS (UN-22) (107)
+- name: 🥈 🌐 12ms | VMESS (UN-97) (195)
   type: vmess
   server: 23.227.38.38
   port: 443
@@ -921,7 +2057,7 @@ proxies:
   network: ws
   ws-opts:
     path: /ECTCJ0DF
-- name: 🥈 🌐 12ms | VMESS (UN-55) (108)
+- name: 🥈 🌐 12ms | VMESS (UN-47) (196)
   type: vmess
   server: 172.67.135.55
   port: 443
@@ -934,7 +2070,7 @@ proxies:
   network: ws
   ws-opts:
     path: /AUIKN8AU
-- name: 🥈 🌐 15ms | VMESS (UN-99) (109)
+- name: 🥈 🌐 15ms | VMESS (UN-47) (197)
   type: vmess
   server: 134.195.198.147
   port: 443
@@ -947,7 +2083,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 16ms | VMESS (UN-51) (110)
+- name: 🥈 🌐 16ms | VMESS (UN-65) (198)
   type: vmess
   server: 134.195.198.147
   port: 443
@@ -960,7 +2096,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 20ms | VMESS (UN-55) (111)
+- name: 🥈 🌐 20ms | VMESS (UN-71) (199)
   type: vmess
   server: 172.67.199.34
   port: 443
@@ -973,7 +2109,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shares
-- name: 🥈 🌐 21ms | VMESS (UN-81) (112)
+- name: 🥈 🌐 21ms | VMESS (UN-14) (200)
   type: vmess
   server: 172.67.199.34
   port: 80
@@ -986,7 +2122,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shares
-- name: 🥈 🌐 26ms | VMESS (UN-82) (113)
+- name: 🥈 🌐 26ms | VMESS (UN-84) (201)
   type: vmess
   server: 23.162.200.227
   port: 443
@@ -999,7 +2135,7 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
-- name: 🥈 🌐 26ms | VMESS (UN-82) (114)
+- name: 🥈 🌐 26ms | VMESS (UN-22) (202)
   type: vmess
   server: t1.620720.xyz
   port: 8443
@@ -1012,7 +2148,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 27ms | VMESS (UN-96) (115)
+- name: 🥈 🌐 27ms | VMESS (UN-23) (203)
   type: vmess
   server: 134.195.198.147
   port: 443
@@ -1025,7 +2161,7 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
-- name: 🥈 🌐 27ms | VMESS (UN-65) (116)
+- name: 🥈 🌐 27ms | VMESS (UN-92) (204)
   type: vmess
   server: sy4.620720.xyz
   port: 443
@@ -1038,7 +2174,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 28ms | VMESS (UN-58) (117)
+- name: 🥈 🌐 28ms | VMESS (UN-61) (205)
   type: vmess
   server: c7.620720.xyz
   port: 8443
@@ -1051,7 +2187,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 29ms | VMESS (UN-19) (118)
+- name: 🥈 🌐 29ms | VMESS (UN-19) (206)
   type: vmess
   server: hgtrojan.zabc.net
   port: 2083
@@ -1064,7 +2200,46 @@ proxies:
   network: ws
   ws-opts:
     path: /e6395c20
-- name: 🥈 🌐 30ms | VMESS (UN-57) (119)
+- name: 🥈 🇺🇸 29ms | VMESS (US-00) (207)
+  type: vmess
+  server: 141.101.114.111
+  port: 443
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+- name: 🥈 🇨🇦 29ms | VMESS (CA-72) (208)
+  type: vmess
+  server: 172.64.154.102
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥈 🇨🇦 29ms | VMESS (CA-59) (209)
+  type: vmess
+  server: 172.64.154.155
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥈 🌐 30ms | VMESS (UN-86) (210)
   type: vmess
   server: vjp3.0bad.com
   port: 443
@@ -1077,7 +2252,358 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 34ms | VMESS (UN-56) (120)
+- name: 🥈 🇨🇦 30ms | VMESS (CA-91) (211)
+  type: vmess
+  server: 172.66.40.10
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 30ms | VMESS (UN-27) (212)
+  type: vmess
+  server: 141.101.114.100
+  port: 443
+  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /VHONOFZ3
+- name: 🥈 🌐 30ms | VMESS (UN-61) (213)
+  type: vmess
+  server: 172.64.153.155
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥈 🇨🇦 30ms | VMESS (CA-19) (214)
+  type: vmess
+  server: 198.41.203.5
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+- name: 🥈 🇨🇦 30ms | VMESS (CA-19) (215)
+  type: vmess
+  server: 172.66.43.1
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 30ms | VMESS (UN-74) (216)
+  type: vmess
+  server: 198.41.203.6
+  port: 443
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+- name: 🥈 🌐 30ms | VMESS (UN-61) (217)
+  type: vmess
+  server: 198.41.203.3
+  port: 443
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥈 🇨🇦 30ms | VMESS (CA-16) (218)
+  type: vmess
+  server: 172.64.152.150
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥈 🇺🇸 30ms | VMESS (US-66) (219)
+  type: vmess
+  server: 141.101.115.121
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+- name: 🥈 🇺🇸 30ms | VMESS (US-70) (220)
+  type: vmess
+  server: 141.101.114.25
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+- name: 🥈 🇨🇦 30ms | VMESS (CA-91) (221)
+  type: vmess
+  server: 172.67.125.28
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🇨🇦 30ms | VMESS (CA-17) (222)
+  type: vmess
+  server: 172.67.183.35
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🇨🇦 30ms | VMESS (CA-93) (223)
+  type: vmess
+  server: 172.64.154.222
+  port: 443
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+- name: 🥈 🇺🇸 30ms | VMESS (US-59) (224)
+  type: vmess
+  server: 141.101.114.20
+  port: 443
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥈 🌐 30ms | VMESS (UN-35) (225)
+  type: vmess
+  server: 141.101.115.133
+  port: 443
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+- name: 🥈 🇺🇸 30ms | VMESS (US-18) (226)
+  type: vmess
+  server: 141.101.115.120
+  port: 443
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥈 🇺🇸 30ms | VMESS (US-45) (227)
+  type: vmess
+  server: 141.101.114.133
+  port: 443
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+- name: 🥈 🇺🇸 30ms | VMESS (US-68) (228)
+  type: vmess
+  server: 141.101.115.111
+  port: 443
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+- name: 🥈 🇺🇸 30ms | VMESS (US-25) (229)
+  type: vmess
+  server: 141.101.115.136
+  port: 443
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+- name: 🥈 🇨🇦 31ms | VMESS (CA-18) (230)
+  type: vmess
+  server: 172.64.153.150
+  port: 443
+  uuid: bf4619e4-01dc-48ca-be08-0976b54968ce
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥈 🇺🇸 31ms | VMESS (US-09) (231)
+  type: vmess
+  server: 141.101.115.2
+  port: 443
+  uuid: a5ba8b2b-8fc5-4521-a35e-9281be61c1c3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+- name: 🥈 🌐 31ms | VMESS (UN-97) (232)
+  type: vmess
+  server: 172.64.155.200
+  port: 443
+  uuid: a8030afd-812a-4afe-a766-9c76ff3eddd4
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 31ms | VMESS (UN-34) (233)
+  type: vmess
+  server: 172.67.218.162
+  port: 443
+  uuid: 70d9bf20-3e6b-4cd3-ff28-b62567ff5a23
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🇨🇦 31ms | VMESS (CA-73) (234)
+  type: vmess
+  server: 172.67.196.0
+  port: 443
+  uuid: 4db99e96-3ee3-419c-b1fb-856975801380
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+- name: 🥈 🇨🇦 32ms | VMESS (CA-88) (235)
+  type: vmess
+  server: 172.64.144.100
+  port: 443
+  uuid: 6e9217de-ad7e-4a67-bd17-a6dca951733b
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 32ms | VMESS (UN-82) (236)
+  type: vmess
+  server: shopify.com
+  port: 80
+  uuid: 4397d066-f753-4300-e7ed-44797ddfcd24
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries
+- name: 🥈 🌐 33ms | VMESS (UN-80) (237)
+  type: vmess
+  server: shopify.com
+  port: 80
+  uuid: 353bbf5f-a264-4731-e735-984e611c2e01
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 34ms | VMESS (UN-55) (238)
   type: vmess
   server: 15.235.41.200
   port: 80
@@ -1090,7 +2616,7 @@ proxies:
   network: ws
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🌐 34ms | VMESS (UN-52) (121)
+- name: 🥈 🌐 34ms | VMESS (UN-99) (239)
   type: vmess
   server: vjp1.0bad.com
   port: 443
@@ -1103,7 +2629,85 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 58ms | VMESS (UN-84) (122)
+- name: 🥈 🌐 34ms | VMESS (UN-32) (240)
+  type: vmess
+  server: shopify.com
+  port: 80
+  uuid: 36bd9969-bb96-4bdd-a6df-960bbd8e4439
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 36ms | VMESS (UN-48) (241)
+  type: vmess
+  server: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
+  port: 443
+  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
+- name: 🥈 🌐 38ms | VMESS (UN-58) (242)
+  type: vmess
+  server: surongwei.eu.org
+  port: 443
+  uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /reffs7y26g0ua
+- name: 🥈 🌐 38ms | VMESS (UN-28) (243)
+  type: vmess
+  server: hynesconstruction.com
+  port: 443
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sshkit/401452697/635b464921141/
+- name: 🥈 🌐 39ms | VMESS (UN-75) (244)
+  type: vmess
+  server: uk.xlkjjs.top
+  port: 443
+  uuid: 6ea22ab5-2923-3feb-827c-79e4b8cd3f38
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 40ms | VMESS (UN-73) (245)
+  type: vmess
+  server: zhuyong.hucloud-dns.xyz
+  port: 443
+  uuid: 4ce21a11-44fe-4814-a639-4b7caf501031
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 58ms | VMESS (UN-00) (246)
   type: vmess
   server: 172.67.199.34
   port: 443
@@ -1116,7 +2720,7 @@ proxies:
   network: ws
   ws-opts:
     path: /shirker
-- name: 🥈 🌐 61ms | VMESS (UN-43) (123)
+- name: 🥈 🌐 61ms | VMESS (UN-61) (247)
   type: vmess
   server: 162.159.128.7
   port: 443
@@ -1129,7 +2733,7 @@ proxies:
   network: ws
   ws-opts:
     path: /5QNROSRV
-- name: 🥈 🌐 61ms | VMESS (UN-07) (124)
+- name: 🥈 🌐 61ms | VMESS (UN-01) (248)
   type: vmess
   server: 23.227.38.100
   port: 443
@@ -1142,7 +2746,7 @@ proxies:
   network: ws
   ws-opts:
     path: /UMW36262
-- name: 🥈 🌐 72ms | VMESS (UN-69) (125)
+- name: 🥈 🌐 72ms | VMESS (UN-18) (249)
   type: vmess
   server: 15.235.41.200
   port: 80
@@ -1155,7 +2759,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 74ms | VMESS (UN-94) (126)
+- name: 🥈 🌐 74ms | VMESS (UN-25) (250)
   type: vmess
   server: mx1.v2rayserv.com
   port: 80
@@ -1168,7 +2772,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 78ms | VMESS (UN-32) (127)
+- name: 🥈 🌐 78ms | VMESS (UN-46) (251)
   type: vmess
   server: 57.128.189.240
   port: 443
@@ -1181,7 +2785,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 79ms | VMESS (UN-65) (128)
+- name: 🥈 🌐 79ms | VMESS (UN-02) (252)
   type: vmess
   server: fr2.v2rayserv.com
   port: 80
@@ -1194,7 +2798,7 @@ proxies:
   network: ws
   ws-opts:
     path: /sshocean
-- name: 🥈 🌐 83ms | VMESS (UN-00) (129)
+- name: 🥈 🌐 83ms | VMESS (UN-07) (253)
   type: vmess
   server: vuk2.0bad.com
   port: 443
@@ -1207,7 +2811,7 @@ proxies:
   network: ws
   ws-opts:
     path: /chat
-- name: 🥈 🌐 83ms | VMESS (UN-45) (130)
+- name: 🥈 🌐 83ms | VMESS (UN-11) (254)
   type: vmess
   server: cf.fovi.tk
   port: 2053
@@ -1220,7 +2824,7 @@ proxies:
   network: ws
   ws-opts:
     path: /eisasqa
-- name: 🥈 🌐 85ms | VMESS (UN-13) (131)
+- name: 🥈 🌐 85ms | VMESS (UN-86) (255)
   type: vmess
   server: 91.134.8.101
   port: 443
@@ -1233,7 +2837,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 86ms | VMESS (UN-26) (132)
+- name: 🥈 🌐 86ms | VMESS (UN-03) (256)
   type: vmess
   server: 23.162.200.227
   port: 443
@@ -1246,7 +2850,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 90ms | VMESS (UN-67) (133)
+- name: 🥈 🌐 90ms | VMESS (UN-90) (257)
   type: vmess
   server: vau1.0bad.com
   port: 443
@@ -1259,7 +2863,7 @@ proxies:
   network: ws
   ws-opts:
     path: /chat
-- name: 🥈 🌐 94ms | VMESS (UN-76) (134)
+- name: 🥈 🌐 94ms | VMESS (UN-72) (258)
   type: vmess
   server: 57.129.24.125
   port: 443
@@ -1272,7 +2876,20 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 105ms | VMESS (UN-34) (135)
+- name: 🥈 🇫🇷 97ms | VMESS (FR-23) (259)
+  type: vmess
+  server: 91.134.8.101
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 105ms | VMESS (UN-59) (260)
   type: vmess
   server: 131.196.252.59
   port: 20521
@@ -1285,7 +2902,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 109ms | VMESS (UN-56) (136)
+- name: 🥈 🌐 109ms | VMESS (UN-21) (261)
   type: vmess
   server: 57.128.189.240
   port: 443
@@ -1298,7 +2915,7 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
-- name: 🥈 🌐 109ms | VMESS (UN-50) (137)
+- name: 🥈 🌐 109ms | VMESS (UN-75) (262)
   type: vmess
   server: 91.134.8.101
   port: 443
@@ -1311,7 +2928,7 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
-- name: 🥈 🌐 112ms | VMESS (UN-78) (138)
+- name: 🥈 🌐 112ms | VMESS (UN-15) (263)
   type: vmess
   server: 209.126.84.189
   port: 443
@@ -1324,7 +2941,7 @@ proxies:
   network: ws
   ws-opts:
     path: /vmessws
-- name: 🥈 🌐 115ms | VMESS (UN-85) (139)
+- name: 🥈 🌐 115ms | VMESS (UN-25) (264)
   type: vmess
   server: 57.129.24.125
   port: 443
@@ -1337,7 +2954,7 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
-- name: 🥈 🌐 119ms | VMESS (UN-68) (140)
+- name: 🥈 🌐 119ms | VMESS (UN-63) (265)
   type: vmess
   server: 209.126.84.189
   port: 443
@@ -1350,7 +2967,20 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 128ms | VMESS (UN-86) (141)
+- name: 🥈 🇱🇹 124ms | VMESS (LT-48) (266)
+  type: vmess
+  server: 85.206.165.36
+  port: 443
+  uuid: ba49ab05-78f8-4b0b-9400-1826cc2d3f75
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 128ms | VMESS (UN-54) (267)
   type: vmess
   server: v2ray.codefyinc.com
   port: 443
@@ -1363,7 +2993,20 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 135ms | VMESS (UN-99) (142)
+- name: 🥈 🌐 132ms | VMESS (UN-82) (268)
+  type: vmess
+  server: sgp.kapok.buzz
+  port: 443
+  uuid: c1bac6b8-934a-44e2-9cf2-ee0db1fc1c85
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /4befdd8a6/
+- name: 🥈 🌐 135ms | VMESS (UN-18) (269)
   type: vmess
   server: v2.kdanmmgmasz.xyz
   port: 443
@@ -1376,7 +3019,7 @@ proxies:
   network: ws
   ws-opts:
     path: /zksna
-- name: 🥈 🌐 146ms | VMESS (UN-00) (143)
+- name: 🥈 🌐 146ms | VMESS (UN-19) (270)
   type: vmess
   server: cvywfavasdc.cymlr.xyz
   port: 443
@@ -1389,7 +3032,46 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 185ms | VMESS (UN-84) (144)
+- name: 🥈 🌐 152ms | VMESS (UN-69) (271)
+  type: vmess
+  server: 34.72img.xyz
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 163ms | VMESS (UN-43) (272)
+  type: vmess
+  server: 25.72img.xyz
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 164ms | VMESS (UN-41) (273)
+  type: vmess
+  server: 36.72img.xyz
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 185ms | VMESS (UN-30) (274)
   type: vmess
   server: vjp1.0bad.com
   port: 443
@@ -1402,7 +3084,7 @@ proxies:
   network: ws
   ws-opts:
     path: /chat
-- name: 🥈 🌐 186ms | VMESS (UN-25) (145)
+- name: 🥈 🌐 186ms | VMESS (UN-70) (275)
   type: vmess
   server: fullaccesstojapannetsubnode1.azurewebsites.net
   port: 443
@@ -1415,7 +3097,7 @@ proxies:
   network: ws
   ws-opts:
     path: /ws
-- name: 🥈 🌐 209ms | VMESS (UN-00) (146)
+- name: 🥈 🌐 209ms | VMESS (UN-03) (276)
   type: vmess
   server: vjp3.0bad.com
   port: 443
@@ -1428,7 +3110,20 @@ proxies:
   network: ws
   ws-opts:
     path: /chat
-- name: 🥈 🌐 220ms | VMESS (UN-48) (147)
+- name: 🥈 🌐 216ms | VMESS (UN-96) (277)
+  type: vmess
+  server: news.microsoft.com
+  port: 443
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /5QNROSRV
+- name: 🥈 🌐 220ms | VMESS (UN-67) (278)
   type: vmess
   server: 47.244.120.197
   port: 36703
@@ -1441,7 +3136,20 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
-- name: 🥈 🌐 221ms | VMESS (UN-27) (148)
+- name: 🥈 🌐 220ms | VMESS (UN-56) (279)
+  type: vmess
+  server: buyvm.imkcp.eu.org
+  port: 443
+  uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /imkcpyyds
+- name: 🥈 🌐 221ms | VMESS (UN-66) (280)
   type: vmess
   server: seoul03.zgjok.com
   port: 443
@@ -1454,7 +3162,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 224ms | VMESS (UN-38) (149)
+- name: 🥈 🌐 224ms | VMESS (UN-20) (281)
   type: vmess
   server: 139.99.61.53
   port: 80
@@ -1467,7 +3175,7 @@ proxies:
   network: ws
   ws-opts:
     path: /vmess
-- name: 🥈 🌐 224ms | VMESS (UN-45) (150)
+- name: 🥈 🌐 224ms | VMESS (UN-37) (282)
   type: vmess
   server: 103.56.160.184
   port: 80
@@ -1480,7 +3188,7 @@ proxies:
   network: ws
   ws-opts:
     path: /tandung288.click
-- name: 🥈 🌐 225ms | VMESS (UN-87) (151)
+- name: 🥈 🌐 225ms | VMESS (UN-31) (283)
   type: vmess
   server: 103.166.183.226
   port: 80
@@ -1493,7 +3201,7 @@ proxies:
   network: ws
   ws-opts:
     path: /tandung288.click
-- name: 🥈 🌐 225ms | VMESS (UN-08) (152)
+- name: 🥈 🌐 225ms | VMESS (UN-76) (284)
   type: vmess
   server: 15.235.147.186
   port: 80
@@ -1506,7 +3214,7 @@ proxies:
   network: ws
   ws-opts:
     path: /sshkit/Ertusg86/635014638c264/
-- name: 🥈 🌐 225ms | VMESS (UN-44) (153)
+- name: 🥈 🌐 225ms | VMESS (UN-70) (285)
   type: vmess
   server: 103.75.186.153
   port: 80
@@ -1519,7 +3227,7 @@ proxies:
   network: ws
   ws-opts:
     path: /tandung288.click
-- name: 🥈 🌐 227ms | VMESS (UN-34) (154)
+- name: 🥈 🌐 227ms | VMESS (UN-70) (286)
   type: vmess
   server: 47.243.135.74
   port: 55185
@@ -1532,7 +3240,7 @@ proxies:
   network: ws
   ws-opts:
     path: /Notif_Chat
-- name: 🥈 🌐 233ms | VMESS (UN-18) (155)
+- name: 🥈 🌐 233ms | VMESS (UN-39) (287)
   type: vmess
   server: 47.244.120.197
   port: 36703
@@ -1545,7 +3253,33 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 237ms | VMESS (UN-39) (156)
+- name: 🥈 🌐 235ms | VMESS (UN-21) (288)
+  type: vmess
+  server: 26.72img.xyz
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 235ms | VMESS (UN-98) (289)
+  type: vmess
+  server: 54.72img.xyz
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 237ms | VMESS (UN-45) (290)
   type: vmess
   server: 47.250.45.234
   port: 43063
@@ -1558,7 +3292,7 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
-- name: 🥈 🌐 237ms | VMESS (UN-01) (157)
+- name: 🥈 🌐 237ms | VMESS (UN-36) (291)
   type: vmess
   server: 47.250.45.234
   port: 43063
@@ -1571,7 +3305,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 238ms | VMESS (UN-10) (158)
+- name: 🥈 🌐 238ms | VMESS (UN-55) (292)
   type: vmess
   server: 47.243.135.74
   port: 55185
@@ -1584,7 +3318,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 243ms | VMESS (UN-56) (159)
+- name: 🥈 🌐 243ms | VMESS (UN-89) (293)
   type: vmess
   server: 47.250.45.234
   port: 8613
@@ -1597,7 +3331,7 @@ proxies:
   network: ws
   ws-opts:
     path: /arki?ed=2048
-- name: 🥈 🌐 244ms | VMESS (UN-06) (160)
+- name: 🥈 🌐 244ms | VMESS (UN-48) (294)
   type: vmess
   server: 47.250.45.234
   port: 8613
@@ -1610,7 +3344,20 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 249ms | VMESS (UN-32) (161)
+- name: 🥈 🌐 246ms | VMESS (UN-89) (295)
+  type: vmess
+  server: cfhk.oppo.quest
+  port: 80
+  uuid: 2508cb1d-bd54-47c0-aead-1b8f55090427
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 249ms | VMESS (UN-15) (296)
   type: vmess
   server: singapore02.zgjok.com
   port: 443
@@ -1623,7 +3370,150 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 548ms | VMESS (UN-76) (162)
+- name: 🥈 🌐 254ms | VMESS (UN-65) (297)
+  type: vmess
+  server: ee.oppo.quest
+  port: 80
+  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 259ms | VMESS (UN-07) (298)
+  type: vmess
+  server: v2ray.online
+  port: 443
+  uuid: 00BBF5B8-173E-6818-9927-5AD1AA073C7D
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /speedtest
+- name: 🥈 🌐 261ms | VMESS (UN-55) (299)
+  type: vmess
+  server: vuk1.0bad.com
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /chat
+- name: 🥈 🌐 270ms | VMESS (UN-24) (300)
+  type: vmess
+  server: vus3.0bad.com
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /chat
+- name: 🥈 🌐 280ms | VMESS (UN-99) (301)
+  type: vmess
+  server: 9.72img.xyz
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 280ms | VMESS (UN-75) (302)
+  type: vmess
+  server: 29.72img.xyz
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 287ms | VMESS (UN-98) (303)
+  type: vmess
+  server: vin1.0bad.com
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /chat
+- name: 🥈 🌐 306ms | VMESS (UN-72) (304)
+  type: vmess
+  server: 22.72img.xyz
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 316ms | VMESS (UN-74) (305)
+  type: vmess
+  server: 20.72img.xyz
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 319ms | VMESS (UN-03) (306)
+  type: vmess
+  server: 21.72img.xyz
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 328ms | VMESS (UN-55) (307)
+  type: vmess
+  server: cvywfavasdc.cymlr.xyz
+  port: 443
+  uuid: 23f4bc80-3b0a-4aa3-cbe5-b8be4e8c32fc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ksebupo
+- name: 🥈 🌐 548ms | VMESS (UN-75) (308)
   type: vmess
   server: n1761214919.mv7wh.tech
   port: 443
@@ -1636,7 +3526,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 783ms | VMESS (UN-05) (163)
+- name: 🥈 🌐 783ms | VMESS (UN-79) (309)
   type: vmess
   server: n1753598448.74qxv.top
   port: 443
@@ -1649,7 +3539,7 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥈 🌐 1024ms | VMESS (UN-55) (164)
+- name: 🥈 🌐 1024ms | VMESS (UN-25) (310)
   type: vmess
   server: 134.195.198.147
   port: 443
@@ -1662,7 +3552,7 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
-- name: 🥈 🌐 1117ms | VMESS (UN-80) (165)
+- name: 🥈 🌐 1117ms | VMESS (UN-01) (311)
   type: vmess
   server: v2ray.codefyinc.com
   port: 443
@@ -1675,7 +3565,20 @@ proxies:
   network: ws
   ws-opts:
     path: /vmessws
-- name: 🥈 🌐 1485ms | VMESS (UN-64) (166)
+- name: 🥈 🌐 1221ms | VMESS (UN-63) (312)
+  type: vmess
+  server: 55.72img.xyz
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐 1485ms | VMESS (UN-34) (313)
   type: vmess
   server: n1761214908.wpg27.xyz
   port: 443
@@ -1688,357 +3591,364 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🥉 🌐 20ms | SS (UN-52) (167)
+- name: 🥉 🌐 20ms | SS (UN-18) (314)
   type: ss
   server: 144.217.164.29
   port: 12000
   cipher: aes-256-gcm
   password: 8JCsPssfgS8tiRwiMlhARg==
   udp: true
-- name: 🥉 🌐 27ms | SS (UN-00) (168)
+- name: 🥉 🌐 27ms | SS (UN-53) (315)
   type: ss
   server: 37.19.198.236
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🥉 🌐 27ms | SS (UN-92) (169)
+- name: 🥉 🌐 27ms | SS (UN-67) (316)
   type: ss
   server: 137.184.174.93
   port: 8080
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
   udp: true
-- name: 🥉 🌐 43ms | SS (UN-73) (170)
+- name: 🥉 🌐 43ms | SS (UN-23) (317)
   type: ss
   server: 156.146.38.169
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🥉 🌐 43ms | SS (UN-92) (171)
+- name: 🥉 🌐 43ms | SS (UN-86) (318)
   type: ss
   server: 156.146.38.167
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🥉 🌐 43ms | SS (UN-61) (172)
+- name: 🥉 🌐 43ms | SS (UN-24) (319)
   type: ss
   server: 156.146.38.170
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🥉 🌐 53ms | SS (UN-94) (173)
+- name: 🥉 🌐 53ms | SS (UN-02) (320)
   type: ss
   server: 147.78.1.230
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 64ms | SS (UN-01) (174)
+- name: 🥉 🌐 64ms | SS (UN-23) (321)
   type: ss
   server: 154.223.16.212
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 70ms | SS (UN-02) (175)
+- name: 🥉 🌐 70ms | SS (UN-53) (322)
   type: ss
   server: 185.47.255.22
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 74ms | SS (UN-31) (176)
+- name: 🥉 🌐 74ms | SS (UN-29) (323)
   type: ss
   server: 104.192.226.106
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 78ms | SS (UN-47) (177)
+- name: 🥉 🌐 78ms | SS (UN-96) (324)
   type: ss
   server: 173.244.56.6
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🥉 🌐 82ms | SS (UN-06) (178)
+- name: 🥉 🌐 82ms | SS (UN-57) (325)
   type: ss
   server: 79.127.233.170
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 84ms | SS (UN-25) (179)
+- name: 🥉 🌐 84ms | SS (UN-39) (326)
   type: ss
   server: 149.202.82.172
   port: 8080
   cipher: aes-256-gcm
   password: KixLvKzwjekG00rm
   udp: true
-- name: 🥉 🌐 85ms | SS (UN-95) (180)
+- name: 🥉 🌐 85ms | SS (UN-90) (327)
   type: ss
   server: 156.146.38.163
   port: 443
   cipher: aes-128-cfb
   password: shadowsocks
   udp: true
-- name: 🥉 🌐 90ms | SS (UN-38) (181)
+- name: 🥉 🌐 90ms | SS (UN-01) (328)
   type: ss
   server: 146.70.61.37
   port: 8080
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
   udp: true
-- name: 🥉 🌐 105ms | SS (UN-44) (182)
+- name: 🥉 🌐 105ms | SS (UN-56) (329)
   type: ss
   server: 138.186.143.32
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 108ms | SS (UN-96) (183)
+- name: 🥉 🌐 108ms | SS (UN-01) (330)
   type: ss
   server: 195.154.119.77
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 108ms | SS (UN-09) (184)
+- name: 🥉 🌐 108ms | SS (UN-08) (331)
   type: ss
   server: 217.30.10.70
   port: 9093
   cipher: aes-256-cfb
   password: wfLC2y7rzZyCmuyt
   udp: true
-- name: 🥉 🌐 109ms | SS (UN-32) (185)
+- name: 🥉 🌐 109ms | SS (UN-41) (332)
   type: ss
   server: 141.98.101.178
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🥉 🌐 109ms | SS (UN-66) (186)
+- name: 🥉 🌐 109ms | SS (UN-76) (333)
   type: ss
   server: 141.98.101.182
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🥉 🌐 109ms | SS (UN-97) (187)
+- name: 🥉 🌐 109ms | SS (UN-73) (334)
   type: ss
   server: 51.15.17.169
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 109ms | SS (UN-57) (188)
+- name: 🥉 🌐 109ms | SS (UN-47) (335)
   type: ss
   server: 121.127.46.147
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 109ms | SS (UN-83) (189)
+- name: 🥉 🌐 109ms | SS (UN-07) (336)
   type: ss
   server: 192.71.244.150
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 110ms | SS (UN-08) (190)
+- name: 🥉 🌐 110ms | SS (UN-40) (337)
   type: ss
   server: 109.201.152.181
   port: 443
   cipher: aes-128-cfb
   password: shadowsocks
   udp: true
-- name: 🥉 🌐 110ms | SS (UN-89) (191)
+- name: 🥉 🌐 110ms | SS (UN-48) (338)
   type: ss
   server: 51.159.106.175
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 113ms | SS (UN-99) (192)
+- name: 🥉 🌐 113ms | SS (UN-16) (339)
   type: ss
   server: 192.71.249.78
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 113ms | SS (UN-42) (193)
+- name: 🥉 🌐 113ms | SS (UN-19) (340)
   type: ss
   server: 51.15.23.63
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 114ms | SS (UN-18) (194)
+- name: 🥉 🌐 114ms | SS (UN-95) (341)
   type: ss
   server: 192.36.27.94
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 119ms | SS (UN-10) (195)
+- name: 🥉 🌐 119ms | SS (UN-49) (342)
   type: ss
   server: 46.183.184.60
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 123ms | SS (UN-75) (196)
+- name: 🥉 🌐 123ms | SS (UN-21) (343)
   type: ss
   server: 38.54.57.90
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 129ms | SS (UN-57) (197)
+- name: 🥉 🌐 129ms | SS (UN-53) (344)
   type: ss
   server: 57.128.214.100
   port: 12000
   cipher: aes-256-gcm
   password: 8JCsPssfgS8tiRwiMlhARg==
   udp: true
-- name: 🥉 🌐 130ms | SS (UN-80) (198)
+- name: 🥉 🌐 130ms | SS (UN-30) (345)
   type: ss
   server: 46.183.185.37
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 135ms | SS (UN-89) (199)
+- name: 🥉 🌐 135ms | SS (UN-98) (346)
   type: ss
   server: 192.71.166.100
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 136ms | SS (UN-39) (200)
+- name: 🥉 🌐 136ms | SS (UN-20) (347)
   type: ss
   server: 38.54.20.59
   port: 8881
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
   udp: true
-- name: 🥉 🌐 136ms | SS (UN-83) (201)
+- name: 🥉 🌐 136ms | SS (UN-04) (348)
   type: ss
   server: 171.22.254.17
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 158ms | SS (UN-96) (202)
+- name: 🥉 🌐 158ms | SS (UN-38) (349)
   type: ss
   server: 38.60.223.8
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 178ms | SS (UN-30) (203)
+- name: 🥉 🌐 178ms | SS (UN-33) (350)
   type: ss
   server: 172.105.199.111
   port: 8080
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
   udp: true
-- name: 🥉 🌐 208ms | SS (UN-33) (204)
+- name: 🥉 🌐 208ms | SS (UN-01) (351)
   type: ss
   server: 149.22.87.204
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🥉 🌐 210ms | SS (UN-57) (205)
+- name: 🥉 🌐 210ms | SS (UN-13) (352)
   type: ss
   server: 221.139.79.57
   port: 13979
   cipher: aes-256-cfb
   password: qwerREWQ@@
   udp: true
-- name: 🥉 🌐 216ms | SS (UN-87) (206)
+- name: 🥉 🌐 216ms | SS (UN-41) (353)
   type: ss
   server: 218.237.185.230
   port: 4652
   cipher: aes-256-cfb
   password: qwerREWQ@@
   udp: true
-- name: 🥉 🌐 222ms | SS (UN-80) (207)
+- name: 🥉 🌐 222ms | SS (UN-45) (354)
   type: ss
   server: 38.165.233.93
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 229ms | SS (UN-58) (208)
+- name: 🥉 🌐 229ms | SS (UN-66) (355)
   type: ss
   server: 216.250.97.82
   port: 38388
   cipher: aes-256-cfb
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   udp: true
-- name: 🥉 🌐 238ms | SS (UN-55) (209)
+- name: 🥉 🌐 238ms | SS (UN-53) (356)
   type: ss
   server: 154.223.20.79
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 263ms | SS (UN-81) (210)
+- name: 🥉 🌐 260ms | SS (UN-48) (357)
+  type: ss
+  server: ss.036.node-for-bigairport.win
+  port: 16688
+  cipher: aes-256-gcm
+  password: c69374da-2208-4cbd-b81e-cdf88b5e7f53
+  udp: true
+- name: 🥉 🌐 263ms | SS (UN-94) (358)
   type: ss
   server: 68.183.227.4
   port: 8080
   cipher: rc4-md5
   password: 14fFPrbezE3HDZzsMOr6
   udp: true
-- name: 🥉 🌐 279ms | SS (UN-15) (211)
+- name: 🥉 🌐 279ms | SS (UN-08) (359)
   type: ss
   server: 103.163.218.2
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 285ms | SS (UN-59) (212)
+- name: 🥉 🌐 285ms | SS (UN-84) (360)
   type: ss
   server: 134.209.147.198
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 288ms | SS (UN-49) (213)
+- name: 🥉 🌐 288ms | SS (UN-01) (361)
   type: ss
   server: 154.90.63.177
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 329ms | SS (UN-00) (214)
+- name: 🥉 🌐 329ms | SS (UN-57) (362)
   type: ss
   server: 82.180.146.173
   port: 35652
   cipher: aes-128-gcm
   password: 93498539-7838-4836-b9b3-8311ffc79bcf
   udp: true
-- name: 🥉 🌐 433ms | SS (UN-09) (215)
+- name: 🥉 🌐 433ms | SS (UN-31) (363)
   type: ss
   server: p141.panda001.net
   port: 4652
   cipher: aes-256-cfb
   password: qwerREWQ@@
   udp: true
-- name: 🥉 🌐 437ms | SS (UN-71) (216)
+- name: 🥉 🌐 437ms | SS (UN-37) (364)
   type: ss
   server: 154.90.62.168
   port: 989
   cipher: aes-256-cfb
   password: f8f7aCzcPKbsF8p3
   udp: true
-- name: 🥉 🌐 1919ms | SS (UN-48) (217)
+- name: 🥉 🌐 1919ms | SS (UN-84) (365)
   type: ss
   server: 141.164.45.187
   port: 7001
@@ -2052,223 +3962,371 @@ proxy-groups:
   interval: 600
   timeout: 5000
   proxies:
-  - 🥇 🌐 20ms | SS (UN-12) (0)
-  - 🥇 🌐 21ms | SS (UN-71) (1)
-  - 🥇 🌐 28ms | SS (UN-16) (2)
-  - 🥇 🌐 30ms | SS (UN-62) (3)
-  - 🥇 🌐 53ms | SS (UN-59) (4)
-  - 🥇 🌐 84ms | SS (UN-69) (5)
-  - 🥇 🌐 89ms | SS (UN-17) (6)
-  - 🥇 🌐 93ms | SS (UN-22) (7)
-  - 🥇 🌐 93ms | SS (UN-53) (8)
-  - 🥇 🌐 96ms | SS (UN-19) (9)
-  - 🥇 🌐 109ms | SS (UN-36) (10)
-  - 🥇 🌐 109ms | SS (UN-46) (11)
-  - 🥇 🌐 109ms | SS (UN-55) (12)
-  - 🥇 🌐 109ms | SS (UN-33) (13)
-  - 🥇 🌐 109ms | SS (UN-12) (14)
-  - 🥇 🌐 109ms | SS (UN-31) (15)
-  - 🥇 🌐 109ms | SS (UN-84) (16)
-  - 🥇 🌐 109ms | SS (UN-34) (17)
-  - 🥇 🌐 109ms | SS (UN-59) (18)
-  - 🥇 🌐 109ms | SS (UN-70) (19)
-  - 🥇 🌐 109ms | SS (UN-09) (20)
-  - 🥇 🌐 109ms | SS (UN-64) (21)
-  - 🥇 🌐 109ms | SS (UN-60) (22)
-  - 🥇 🌐 109ms | SS (UN-29) (23)
-  - 🥇 🌐 109ms | SS (UN-64) (24)
-  - 🥇 🌐 110ms | SS (UN-05) (25)
-  - 🥇 🌐 110ms | SS (UN-88) (26)
-  - 🥇 🌐 110ms | SS (UN-59) (27)
-  - 🥇 🌐 110ms | SS (UN-73) (28)
-  - 🥇 🌐 110ms | SS (UN-24) (29)
-  - 🥇 🌐 110ms | SS (UN-31) (30)
-  - 🥇 🌐 110ms | SS (UN-42) (31)
-  - 🥇 🌐 110ms | SS (UN-08) (32)
-  - 🥇 🌐 110ms | SS (UN-04) (33)
-  - 🥇 🌐 110ms | SS (UN-37) (34)
-  - 🥇 🌐 110ms | SS (UN-44) (35)
-  - 🥇 🌐 112ms | SS (UN-64) (36)
-  - 🥇 🌐 112ms | SS (UN-82) (37)
-  - 🥇 🌐 117ms | SS (UN-41) (38)
-  - 🥇 🌐 119ms | TROJAN (UN-46) (39)
-  - 🥇 🌐 124ms | SS (UN-57) (40)
-  - 🥇 🌐 127ms | SS (UN-45) (41)
-  - 🥇 🌐 132ms | SS (UN-55) (42)
-  - 🥇 🌐 133ms | SS (UN-95) (43)
-  - 🥇 🌐 138ms | SS (UN-34) (44)
-  - 🥇 🌐 138ms | SS (UN-91) (45)
-  - 🥇 🌐 140ms | SS (UN-19) (46)
-  - 🥇 🌐 140ms | SS (UN-41) (47)
-  - 🥇 🌐 141ms | SS (UN-74) (48)
-  - 🥇 🌐 148ms | SS (UN-43) (49)
-  - 🥇 🌐 168ms | SS (UN-83) (50)
-  - 🥇 🌐 170ms | SS (UN-29) (51)
-  - 🥇 🌐 178ms | SS (UN-66) (52)
-  - 🥇 🌐 182ms | TROJAN (UN-22) (53)
-  - 🥇 🌐 183ms | TROJAN (UN-37) (54)
-  - 🥇 🌐 184ms | TROJAN (UN-13) (55)
-  - 🥇 🌐 187ms | TROJAN (UN-96) (56)
-  - 🥇 🌐 188ms | TROJAN (UN-72) (57)
-  - 🥇 🌐 188ms | TROJAN (UN-35) (58)
-  - 🥇 🌐 188ms | TROJAN (UN-43) (59)
-  - 🥇 🌐 190ms | TROJAN (UN-18) (60)
-  - 🥇 🌐 190ms | TROJAN (UN-96) (61)
-  - 🥇 🌐 190ms | TROJAN (UN-74) (62)
-  - 🥇 🌐 190ms | TROJAN (UN-16) (63)
-  - 🥇 🌐 194ms | TROJAN (UN-70) (64)
-  - 🥇 🌐 194ms | TROJAN (UN-65) (65)
-  - 🥇 🌐 194ms | TROJAN (UN-85) (66)
-  - 🥇 🌐 197ms | SS (UN-21) (67)
-  - 🥇 🌐 197ms | TROJAN (UN-66) (68)
-  - 🥇 🌐 207ms | SS (UN-38) (69)
-  - 🥇 🌐 212ms | SS (UN-69) (70)
-  - 🥇 🌐 214ms | SS (UN-07) (71)
-  - 🥇 🌐 221ms | SS (UN-14) (72)
-  - 🥇 🌐 225ms | SS (UN-37) (73)
-  - 🥇 🌐 227ms | SS (UN-34) (74)
-  - 🥇 🌐 232ms | SS (UN-49) (75)
-  - 🥇 🌐 236ms | SS (UN-53) (76)
-  - 🥇 🌐 238ms | SS (UN-80) (77)
-  - 🥇 🌐 250ms | SS (UN-92) (78)
-  - 🥇 🌐 250ms | SS (UN-70) (79)
-  - 🥇 🌐 252ms | VMESS (UN-70) (80)
-  - 🥇 🌐 253ms | SS (UN-04) (81)
-  - 🥇 🌐 256ms | SS (UN-28) (82)
-  - 🥇 🌐 275ms | SS (UN-00) (83)
-  - 🥇 🌐 317ms | SS (UN-52) (84)
-  - 🥇 🌐 334ms | SS (UN-34) (85)
-  - 🥇 🌐 1143ms | TROJAN (UN-98) (86)
-  - 🥈 🌐 1ms | VMESS (UN-35) (87)
-  - 🥈 🌐 1ms | VMESS (UN-53) (88)
-  - 🥈 🌐 2ms | VMESS (UN-96) (89)
-  - 🥈 🌐 2ms | VMESS (UN-88) (90)
-  - 🥈 🌐 2ms | VMESS (UN-88) (91)
-  - 🥈 🌐 2ms | VMESS (UN-97) (92)
-  - 🥈 🌐 2ms | VMESS (UN-36) (93)
-  - 🥈 🌐 2ms | VMESS (UN-33) (94)
-  - 🥈 🌐 2ms | VMESS (UN-86) (95)
-  - 🥈 🌐 2ms | VMESS (UN-07) (96)
-  - 🥈 🌐 2ms | VMESS (UN-42) (97)
-  - 🥈 🌐 2ms | VMESS (UN-61) (98)
-  - 🥈 🌐 3ms | VMESS (UN-92) (99)
-  - 🥈 🌐 4ms | VMESS (UN-40) (100)
-  - 🥈 🌐 5ms | VMESS (UN-35) (101)
-  - 🥈 🌐 7ms | VMESS (UN-45) (102)
-  - 🥈 🌐 7ms | VMESS (UN-55) (103)
-  - 🥈 🌐 9ms | VMESS (UN-96) (104)
-  - 🥈 🌐 12ms | VMESS (UN-53) (105)
-  - 🥈 🌐 12ms | VMESS (UN-87) (106)
-  - 🥈 🌐 12ms | VMESS (UN-22) (107)
-  - 🥈 🌐 12ms | VMESS (UN-55) (108)
-  - 🥈 🌐 15ms | VMESS (UN-99) (109)
-  - 🥈 🌐 16ms | VMESS (UN-51) (110)
-  - 🥈 🌐 20ms | VMESS (UN-55) (111)
-  - 🥈 🌐 21ms | VMESS (UN-81) (112)
-  - 🥈 🌐 26ms | VMESS (UN-82) (113)
-  - 🥈 🌐 26ms | VMESS (UN-82) (114)
-  - 🥈 🌐 27ms | VMESS (UN-96) (115)
-  - 🥈 🌐 27ms | VMESS (UN-65) (116)
-  - 🥈 🌐 28ms | VMESS (UN-58) (117)
-  - 🥈 🌐 29ms | VMESS (UN-19) (118)
-  - 🥈 🌐 30ms | VMESS (UN-57) (119)
-  - 🥈 🌐 34ms | VMESS (UN-56) (120)
-  - 🥈 🌐 34ms | VMESS (UN-52) (121)
-  - 🥈 🌐 58ms | VMESS (UN-84) (122)
-  - 🥈 🌐 61ms | VMESS (UN-43) (123)
-  - 🥈 🌐 61ms | VMESS (UN-07) (124)
-  - 🥈 🌐 72ms | VMESS (UN-69) (125)
-  - 🥈 🌐 74ms | VMESS (UN-94) (126)
-  - 🥈 🌐 78ms | VMESS (UN-32) (127)
-  - 🥈 🌐 79ms | VMESS (UN-65) (128)
-  - 🥈 🌐 83ms | VMESS (UN-00) (129)
-  - 🥈 🌐 83ms | VMESS (UN-45) (130)
-  - 🥈 🌐 85ms | VMESS (UN-13) (131)
-  - 🥈 🌐 86ms | VMESS (UN-26) (132)
-  - 🥈 🌐 90ms | VMESS (UN-67) (133)
-  - 🥈 🌐 94ms | VMESS (UN-76) (134)
-  - 🥈 🌐 105ms | VMESS (UN-34) (135)
-  - 🥈 🌐 109ms | VMESS (UN-56) (136)
-  - 🥈 🌐 109ms | VMESS (UN-50) (137)
-  - 🥈 🌐 112ms | VMESS (UN-78) (138)
-  - 🥈 🌐 115ms | VMESS (UN-85) (139)
-  - 🥈 🌐 119ms | VMESS (UN-68) (140)
-  - 🥈 🌐 128ms | VMESS (UN-86) (141)
-  - 🥈 🌐 135ms | VMESS (UN-99) (142)
-  - 🥈 🌐 146ms | VMESS (UN-00) (143)
-  - 🥈 🌐 185ms | VMESS (UN-84) (144)
-  - 🥈 🌐 186ms | VMESS (UN-25) (145)
-  - 🥈 🌐 209ms | VMESS (UN-00) (146)
-  - 🥈 🌐 220ms | VMESS (UN-48) (147)
-  - 🥈 🌐 221ms | VMESS (UN-27) (148)
-  - 🥈 🌐 224ms | VMESS (UN-38) (149)
-  - 🥈 🌐 224ms | VMESS (UN-45) (150)
-  - 🥈 🌐 225ms | VMESS (UN-87) (151)
-  - 🥈 🌐 225ms | VMESS (UN-08) (152)
-  - 🥈 🌐 225ms | VMESS (UN-44) (153)
-  - 🥈 🌐 227ms | VMESS (UN-34) (154)
-  - 🥈 🌐 233ms | VMESS (UN-18) (155)
-  - 🥈 🌐 237ms | VMESS (UN-39) (156)
-  - 🥈 🌐 237ms | VMESS (UN-01) (157)
-  - 🥈 🌐 238ms | VMESS (UN-10) (158)
-  - 🥈 🌐 243ms | VMESS (UN-56) (159)
-  - 🥈 🌐 244ms | VMESS (UN-06) (160)
-  - 🥈 🌐 249ms | VMESS (UN-32) (161)
-  - 🥈 🌐 548ms | VMESS (UN-76) (162)
-  - 🥈 🌐 783ms | VMESS (UN-05) (163)
-  - 🥈 🌐 1024ms | VMESS (UN-55) (164)
-  - 🥈 🌐 1117ms | VMESS (UN-80) (165)
-  - 🥈 🌐 1485ms | VMESS (UN-64) (166)
-  - 🥉 🌐 20ms | SS (UN-52) (167)
-  - 🥉 🌐 27ms | SS (UN-00) (168)
-  - 🥉 🌐 27ms | SS (UN-92) (169)
-  - 🥉 🌐 43ms | SS (UN-73) (170)
-  - 🥉 🌐 43ms | SS (UN-92) (171)
-  - 🥉 🌐 43ms | SS (UN-61) (172)
-  - 🥉 🌐 53ms | SS (UN-94) (173)
-  - 🥉 🌐 64ms | SS (UN-01) (174)
-  - 🥉 🌐 70ms | SS (UN-02) (175)
-  - 🥉 🌐 74ms | SS (UN-31) (176)
-  - 🥉 🌐 78ms | SS (UN-47) (177)
-  - 🥉 🌐 82ms | SS (UN-06) (178)
-  - 🥉 🌐 84ms | SS (UN-25) (179)
-  - 🥉 🌐 85ms | SS (UN-95) (180)
-  - 🥉 🌐 90ms | SS (UN-38) (181)
-  - 🥉 🌐 105ms | SS (UN-44) (182)
-  - 🥉 🌐 108ms | SS (UN-96) (183)
-  - 🥉 🌐 108ms | SS (UN-09) (184)
-  - 🥉 🌐 109ms | SS (UN-32) (185)
-  - 🥉 🌐 109ms | SS (UN-66) (186)
-  - 🥉 🌐 109ms | SS (UN-97) (187)
-  - 🥉 🌐 109ms | SS (UN-57) (188)
-  - 🥉 🌐 109ms | SS (UN-83) (189)
-  - 🥉 🌐 110ms | SS (UN-08) (190)
-  - 🥉 🌐 110ms | SS (UN-89) (191)
-  - 🥉 🌐 113ms | SS (UN-99) (192)
-  - 🥉 🌐 113ms | SS (UN-42) (193)
-  - 🥉 🌐 114ms | SS (UN-18) (194)
-  - 🥉 🌐 119ms | SS (UN-10) (195)
-  - 🥉 🌐 123ms | SS (UN-75) (196)
-  - 🥉 🌐 129ms | SS (UN-57) (197)
-  - 🥉 🌐 130ms | SS (UN-80) (198)
-  - 🥉 🌐 135ms | SS (UN-89) (199)
-  - 🥉 🌐 136ms | SS (UN-39) (200)
-  - 🥉 🌐 136ms | SS (UN-83) (201)
-  - 🥉 🌐 158ms | SS (UN-96) (202)
-  - 🥉 🌐 178ms | SS (UN-30) (203)
-  - 🥉 🌐 208ms | SS (UN-33) (204)
-  - 🥉 🌐 210ms | SS (UN-57) (205)
-  - 🥉 🌐 216ms | SS (UN-87) (206)
-  - 🥉 🌐 222ms | SS (UN-80) (207)
-  - 🥉 🌐 229ms | SS (UN-58) (208)
-  - 🥉 🌐 238ms | SS (UN-55) (209)
-  - 🥉 🌐 263ms | SS (UN-81) (210)
-  - 🥉 🌐 279ms | SS (UN-15) (211)
-  - 🥉 🌐 285ms | SS (UN-59) (212)
-  - 🥉 🌐 288ms | SS (UN-49) (213)
-  - 🥉 🌐 329ms | SS (UN-00) (214)
-  - 🥉 🌐 433ms | SS (UN-09) (215)
-  - 🥉 🌐 437ms | SS (UN-71) (216)
-  - 🥉 🌐 1919ms | SS (UN-48) (217)
+  - 🥇 🇺🇸 6ms | VMESS (US-75) (0)
+  - 🥇 🌐 8ms | VMESS (UN-91) (1)
+  - 🥇 🌐 19ms | TROJAN (UN-82) (2)
+  - 🥇 🌐 20ms | SS (UN-43) (3)
+  - 🥇 🌐 21ms | SS (UN-54) (4)
+  - 🥇 🌐 28ms | SS (UN-75) (5)
+  - 🥇 🌐 30ms | SS (UN-08) (6)
+  - 🥇 🌐 30ms | VMESS (UN-66) (7)
+  - 🥇 🌐 30ms | VMESS (UN-04) (8)
+  - 🥇 🌐 30ms | VMESS (UN-88) (9)
+  - 🥇 🌐 30ms | VMESS (UN-76) (10)
+  - 🥇 🇨🇦 32ms | VMESS (CA-41) (11)
+  - 🥇 🌐 53ms | SS (UN-10) (12)
+  - 🥇 🌐 84ms | SS (UN-59) (13)
+  - 🥇 🌐 89ms | SS (UN-00) (14)
+  - 🥇 🌐 93ms | SS (UN-71) (15)
+  - 🥇 🌐 93ms | SS (UN-98) (16)
+  - 🥇 🌐 96ms | SS (UN-66) (17)
+  - 🥇 🌐 109ms | SS (UN-62) (18)
+  - 🥇 🌐 109ms | SS (UN-73) (19)
+  - 🥇 🌐 109ms | SS (UN-90) (20)
+  - 🥇 🌐 109ms | SS (UN-09) (21)
+  - 🥇 🌐 109ms | SS (UN-09) (22)
+  - 🥇 🌐 109ms | SS (UN-71) (23)
+  - 🥇 🌐 109ms | SS (UN-19) (24)
+  - 🥇 🌐 109ms | SS (UN-67) (25)
+  - 🥇 🌐 109ms | SS (UN-51) (26)
+  - 🥇 🌐 109ms | SS (UN-39) (27)
+  - 🥇 🌐 109ms | SS (UN-83) (28)
+  - 🥇 🌐 109ms | SS (UN-68) (29)
+  - 🥇 🌐 109ms | SS (UN-27) (30)
+  - 🥇 🌐 109ms | SS (UN-00) (31)
+  - 🥇 🌐 109ms | SS (UN-90) (32)
+  - 🥇 🌐 110ms | SS (UN-30) (33)
+  - 🥇 🌐 110ms | SS (UN-05) (34)
+  - 🥇 🌐 110ms | SS (UN-77) (35)
+  - 🥇 🌐 110ms | SS (UN-84) (36)
+  - 🥇 🌐 110ms | SS (UN-51) (37)
+  - 🥇 🌐 110ms | SS (UN-16) (38)
+  - 🥇 🌐 110ms | SS (UN-63) (39)
+  - 🥇 🌐 110ms | SS (UN-54) (40)
+  - 🥇 🌐 110ms | SS (UN-21) (41)
+  - 🥇 🌐 110ms | SS (UN-18) (42)
+  - 🥇 🌐 110ms | SS (UN-91) (43)
+  - 🥇 🌐 112ms | SS (UN-58) (44)
+  - 🥇 🌐 112ms | SS (UN-95) (45)
+  - 🥇 🌐 117ms | SS (UN-73) (46)
+  - 🥇 🌐 119ms | TROJAN (UN-79) (47)
+  - 🥇 🌐 124ms | SS (UN-36) (48)
+  - 🥇 🌐 127ms | SS (UN-11) (49)
+  - 🥇 🌐 132ms | SS (UN-69) (50)
+  - 🥇 🌐 133ms | SS (UN-38) (51)
+  - 🥇 🌐 138ms | SS (UN-23) (52)
+  - 🥇 🌐 138ms | SS (UN-21) (53)
+  - 🥇 🌐 140ms | SS (UN-96) (54)
+  - 🥇 🌐 140ms | SS (UN-49) (55)
+  - 🥇 🌐 141ms | SS (UN-59) (56)
+  - 🥇 🌐 148ms | SS (UN-87) (57)
+  - 🥇 🌐 168ms | SS (UN-27) (58)
+  - 🥇 🌐 170ms | SS (UN-51) (59)
+  - 🥇 🌐 178ms | SS (UN-15) (60)
+  - 🥇 🌐 182ms | TROJAN (UN-72) (61)
+  - 🥇 🌐 183ms | TROJAN (UN-48) (62)
+  - 🥇 🌐 184ms | TROJAN (UN-63) (63)
+  - 🥇 🌐 187ms | TROJAN (UN-78) (64)
+  - 🥇 🌐 188ms | TROJAN (UN-99) (65)
+  - 🥇 🌐 188ms | TROJAN (UN-05) (66)
+  - 🥇 🌐 188ms | TROJAN (UN-78) (67)
+  - 🥇 🌐 190ms | TROJAN (UN-40) (68)
+  - 🥇 🌐 190ms | TROJAN (UN-15) (69)
+  - 🥇 🌐 190ms | TROJAN (UN-86) (70)
+  - 🥇 🌐 190ms | TROJAN (UN-70) (71)
+  - 🥇 🌐 194ms | TROJAN (UN-80) (72)
+  - 🥇 🌐 194ms | TROJAN (UN-79) (73)
+  - 🥇 🌐 194ms | TROJAN (UN-97) (74)
+  - 🥇 🌐 197ms | SS (UN-93) (75)
+  - 🥇 🌐 197ms | TROJAN (UN-78) (76)
+  - 🥇 🌐 207ms | SS (UN-64) (77)
+  - 🥇 🌐 212ms | SS (UN-10) (78)
+  - 🥇 🌐 214ms | SS (UN-81) (79)
+  - 🥇 🌐 221ms | SS (UN-26) (80)
+  - 🥇 🌐 225ms | SS (UN-30) (81)
+  - 🥇 🌐 227ms | SS (UN-29) (82)
+  - 🥇 🌐 232ms | SS (UN-63) (83)
+  - 🥇 🌐 236ms | SS (UN-80) (84)
+  - 🥇 🌐 238ms | SS (UN-41) (85)
+  - 🥇 🌐 250ms | SS (UN-53) (86)
+  - 🥇 🌐 250ms | SS (UN-39) (87)
+  - 🥇 🌐 252ms | VMESS (UN-26) (88)
+  - 🥇 🌐 253ms | SS (UN-94) (89)
+  - 🥇 🌐 256ms | SS (UN-37) (90)
+  - 🥇 🌐 275ms | SS (UN-36) (91)
+  - 🥇 🇮🇳 295ms | TROJAN (IN-84) (92)
+  - 🥇 🌐 317ms | SS (UN-64) (93)
+  - 🥇 🌐 334ms | SS (UN-96) (94)
+  - 🥇 🌐 1143ms | TROJAN (UN-31) (95)
+  - 🥈 🌐 1ms | VMESS (UN-79) (96)
+  - 🥈 🌐 1ms | VMESS (UN-94) (97)
+  - 🥈 🌐 2ms | VMESS (UN-93) (98)
+  - 🥈 🌐 2ms | VMESS (UN-08) (99)
+  - 🥈 🌐 2ms | VMESS (UN-72) (100)
+  - 🥈 🌐 2ms | VMESS (UN-99) (101)
+  - 🥈 🌐 2ms | VMESS (UN-34) (102)
+  - 🥈 🌐 2ms | VMESS (UN-12) (103)
+  - 🥈 🌐 2ms | VMESS (UN-43) (104)
+  - 🥈 🌐 2ms | VMESS (UN-96) (105)
+  - 🥈 🌐 2ms | VMESS (UN-42) (106)
+  - 🥈 🌐 2ms | VMESS (UN-46) (107)
+  - 🥈 🌐 2ms | VMESS (UN-74) (108)
+  - 🥈 🇨🇦 2ms | VMESS (CA-13) (109)
+  - 🥈 🌐 3ms | VMESS (UN-63) (110)
+  - 🥈 🌐 3ms | VMESS (UN-00) (111)
+  - 🥈 🌐 3ms | VMESS (UN-31) (112)
+  - 🥈 🇧🇿 3ms | VMESS (BZ-45) (113)
+  - 🥈 🇧🇿 3ms | VMESS (BZ-27) (114)
+  - 🥈 🌐 4ms | VMESS (UN-30) (115)
+  - 🥈 🇨🇦 4ms | VMESS (CA-22) (116)
+  - 🥈 🌐 4ms | VMESS (UN-60) (117)
+  - 🥈 🇧🇿 4ms | VMESS (BZ-12) (118)
+  - 🥈 🌐 4ms | VMESS (UN-86) (119)
+  - 🥈 🇨🇾 4ms | VMESS (CY-82) (120)
+  - 🥈 🌐 5ms | VMESS (UN-51) (121)
+  - 🥈 🇨🇦 5ms | VMESS (CA-65) (122)
+  - 🥈 🇧🇿 5ms | VMESS (BZ-45) (123)
+  - 🥈 🇨🇦 5ms | VMESS (CA-00) (124)
+  - 🥈 🇨🇦 5ms | VMESS (CA-94) (125)
+  - 🥈 🇨🇦 5ms | VMESS (CA-67) (126)
+  - 🥈 🇧🇿 5ms | VMESS (BZ-58) (127)
+  - 🥈 🌐 5ms | VMESS (UN-99) (128)
+  - 🥈 🌐 6ms | VMESS (UN-38) (129)
+  - 🥈 🇨🇦 6ms | VMESS (CA-30) (130)
+  - 🥈 🇧🇿 6ms | VMESS (BZ-08) (131)
+  - 🥈 🇧🇿 6ms | VMESS (BZ-11) (132)
+  - 🥈 🇨🇦 6ms | VMESS (CA-61) (133)
+  - 🥈 🇨🇷 6ms | VMESS (CR-65) (134)
+  - 🥈 🇨🇷 6ms | VMESS (CR-37) (135)
+  - 🥈 🌐 6ms | VMESS (UN-81) (136)
+  - 🥈 🌐 6ms | VMESS (UN-24) (137)
+  - 🥈 🌐 6ms | VMESS (UN-38) (138)
+  - 🥈 🇧🇿 6ms | VMESS (BZ-36) (139)
+  - 🥈 🇧🇿 6ms | VMESS (BZ-29) (140)
+  - 🥈 🌐 6ms | VMESS (UN-76) (141)
+  - 🥈 🌐 6ms | VMESS (UN-86) (142)
+  - 🥈 🇺🇸 6ms | VMESS (US-89) (143)
+  - 🥈 🌐 6ms | VMESS (UN-67) (144)
+  - 🥈 🌐 6ms | VMESS (UN-26) (145)
+  - 🥈 🇨🇦 6ms | VMESS (CA-98) (146)
+  - 🥈 🌐 6ms | VMESS (UN-27) (147)
+  - 🥈 🇨🇦 6ms | VMESS (CA-18) (148)
+  - 🥈 🌐 7ms | VMESS (UN-05) (149)
+  - 🥈 🌐 7ms | VMESS (UN-08) (150)
+  - 🥈 🇨🇦 7ms | VMESS (CA-10) (151)
+  - 🥈 🇺🇸 7ms | VMESS (US-68) (152)
+  - 🥈 🌐 7ms | VMESS (UN-57) (153)
+  - 🥈 🌐 7ms | VMESS (UN-45) (154)
+  - 🥈 🌐 7ms | VMESS (UN-45) (155)
+  - 🥈 🇨🇷 7ms | VMESS (CR-35) (156)
+  - 🥈 🇧🇿 7ms | VMESS (BZ-25) (157)
+  - 🥈 🇨🇦 7ms | VMESS (CA-48) (158)
+  - 🥈 🌐 7ms | VMESS (UN-78) (159)
+  - 🥈 🇨🇦 7ms | VMESS (CA-65) (160)
+  - 🥈 🇨🇦 7ms | VMESS (CA-97) (161)
+  - 🥈 🇧🇿 7ms | VMESS (BZ-34) (162)
+  - 🥈 🇧🇿 7ms | VMESS (BZ-90) (163)
+  - 🥈 🌐 7ms | VMESS (UN-39) (164)
+  - 🥈 🇬🇧 7ms | VMESS (GB-93) (165)
+  - 🥈 🇧🇿 7ms | VMESS (BZ-72) (166)
+  - 🥈 🇨🇦 8ms | VMESS (CA-14) (167)
+  - 🥈 🇺🇸 8ms | VMESS (US-32) (168)
+  - 🥈 🇺🇸 8ms | VMESS (US-99) (169)
+  - 🥈 🇺🇸 8ms | VMESS (US-85) (170)
+  - 🥈 🌐 8ms | VMESS (UN-66) (171)
+  - 🥈 🇧🇿 8ms | VMESS (BZ-84) (172)
+  - 🥈 🇬🇧 8ms | VMESS (GB-24) (173)
+  - 🥈 🌐 8ms | VMESS (UN-10) (174)
+  - 🥈 🇧🇿 8ms | VMESS (BZ-67) (175)
+  - 🥈 🇨🇦 8ms | VMESS (CA-85) (176)
+  - 🥈 🇨🇦 8ms | VMESS (CA-82) (177)
+  - 🥈 🌐 8ms | VMESS (UN-61) (178)
+  - 🥈 🇺🇸 8ms | VMESS (US-30) (179)
+  - 🥈 🇨🇦 8ms | VMESS (CA-10) (180)
+  - 🥈 🇨🇦 8ms | VMESS (CA-17) (181)
+  - 🥈 🌐 8ms | VMESS (UN-01) (182)
+  - 🥈 🇧🇿 8ms | VMESS (BZ-78) (183)
+  - 🥈 🇨🇦 8ms | VMESS (CA-00) (184)
+  - 🥈 🌐 9ms | VMESS (UN-02) (185)
+  - 🥈 🌐 9ms | VMESS (UN-22) (186)
+  - 🥈 🇨🇦 9ms | VMESS (CA-83) (187)
+  - 🥈 🇬🇧 9ms | VMESS (GB-76) (188)
+  - 🥈 🌐 9ms | VMESS (UN-45) (189)
+  - 🥈 🇧🇿 9ms | VMESS (BZ-58) (190)
+  - 🥈 🇧🇿 9ms | VMESS (BZ-72) (191)
+  - 🥈 🇧🇿 9ms | VMESS (BZ-02) (192)
+  - 🥈 🌐 12ms | VMESS (UN-62) (193)
+  - 🥈 🌐 12ms | VMESS (UN-91) (194)
+  - 🥈 🌐 12ms | VMESS (UN-97) (195)
+  - 🥈 🌐 12ms | VMESS (UN-47) (196)
+  - 🥈 🌐 15ms | VMESS (UN-47) (197)
+  - 🥈 🌐 16ms | VMESS (UN-65) (198)
+  - 🥈 🌐 20ms | VMESS (UN-71) (199)
+  - 🥈 🌐 21ms | VMESS (UN-14) (200)
+  - 🥈 🌐 26ms | VMESS (UN-84) (201)
+  - 🥈 🌐 26ms | VMESS (UN-22) (202)
+  - 🥈 🌐 27ms | VMESS (UN-23) (203)
+  - 🥈 🌐 27ms | VMESS (UN-92) (204)
+  - 🥈 🌐 28ms | VMESS (UN-61) (205)
+  - 🥈 🌐 29ms | VMESS (UN-19) (206)
+  - 🥈 🇺🇸 29ms | VMESS (US-00) (207)
+  - 🥈 🇨🇦 29ms | VMESS (CA-72) (208)
+  - 🥈 🇨🇦 29ms | VMESS (CA-59) (209)
+  - 🥈 🌐 30ms | VMESS (UN-86) (210)
+  - 🥈 🇨🇦 30ms | VMESS (CA-91) (211)
+  - 🥈 🌐 30ms | VMESS (UN-27) (212)
+  - 🥈 🌐 30ms | VMESS (UN-61) (213)
+  - 🥈 🇨🇦 30ms | VMESS (CA-19) (214)
+  - 🥈 🇨🇦 30ms | VMESS (CA-19) (215)
+  - 🥈 🌐 30ms | VMESS (UN-74) (216)
+  - 🥈 🌐 30ms | VMESS (UN-61) (217)
+  - 🥈 🇨🇦 30ms | VMESS (CA-16) (218)
+  - 🥈 🇺🇸 30ms | VMESS (US-66) (219)
+  - 🥈 🇺🇸 30ms | VMESS (US-70) (220)
+  - 🥈 🇨🇦 30ms | VMESS (CA-91) (221)
+  - 🥈 🇨🇦 30ms | VMESS (CA-17) (222)
+  - 🥈 🇨🇦 30ms | VMESS (CA-93) (223)
+  - 🥈 🇺🇸 30ms | VMESS (US-59) (224)
+  - 🥈 🌐 30ms | VMESS (UN-35) (225)
+  - 🥈 🇺🇸 30ms | VMESS (US-18) (226)
+  - 🥈 🇺🇸 30ms | VMESS (US-45) (227)
+  - 🥈 🇺🇸 30ms | VMESS (US-68) (228)
+  - 🥈 🇺🇸 30ms | VMESS (US-25) (229)
+  - 🥈 🇨🇦 31ms | VMESS (CA-18) (230)
+  - 🥈 🇺🇸 31ms | VMESS (US-09) (231)
+  - 🥈 🌐 31ms | VMESS (UN-97) (232)
+  - 🥈 🌐 31ms | VMESS (UN-34) (233)
+  - 🥈 🇨🇦 31ms | VMESS (CA-73) (234)
+  - 🥈 🇨🇦 32ms | VMESS (CA-88) (235)
+  - 🥈 🌐 32ms | VMESS (UN-82) (236)
+  - 🥈 🌐 33ms | VMESS (UN-80) (237)
+  - 🥈 🌐 34ms | VMESS (UN-55) (238)
+  - 🥈 🌐 34ms | VMESS (UN-99) (239)
+  - 🥈 🌐 34ms | VMESS (UN-32) (240)
+  - 🥈 🌐 36ms | VMESS (UN-48) (241)
+  - 🥈 🌐 38ms | VMESS (UN-58) (242)
+  - 🥈 🌐 38ms | VMESS (UN-28) (243)
+  - 🥈 🌐 39ms | VMESS (UN-75) (244)
+  - 🥈 🌐 40ms | VMESS (UN-73) (245)
+  - 🥈 🌐 58ms | VMESS (UN-00) (246)
+  - 🥈 🌐 61ms | VMESS (UN-61) (247)
+  - 🥈 🌐 61ms | VMESS (UN-01) (248)
+  - 🥈 🌐 72ms | VMESS (UN-18) (249)
+  - 🥈 🌐 74ms | VMESS (UN-25) (250)
+  - 🥈 🌐 78ms | VMESS (UN-46) (251)
+  - 🥈 🌐 79ms | VMESS (UN-02) (252)
+  - 🥈 🌐 83ms | VMESS (UN-07) (253)
+  - 🥈 🌐 83ms | VMESS (UN-11) (254)
+  - 🥈 🌐 85ms | VMESS (UN-86) (255)
+  - 🥈 🌐 86ms | VMESS (UN-03) (256)
+  - 🥈 🌐 90ms | VMESS (UN-90) (257)
+  - 🥈 🌐 94ms | VMESS (UN-72) (258)
+  - 🥈 🇫🇷 97ms | VMESS (FR-23) (259)
+  - 🥈 🌐 105ms | VMESS (UN-59) (260)
+  - 🥈 🌐 109ms | VMESS (UN-21) (261)
+  - 🥈 🌐 109ms | VMESS (UN-75) (262)
+  - 🥈 🌐 112ms | VMESS (UN-15) (263)
+  - 🥈 🌐 115ms | VMESS (UN-25) (264)
+  - 🥈 🌐 119ms | VMESS (UN-63) (265)
+  - 🥈 🇱🇹 124ms | VMESS (LT-48) (266)
+  - 🥈 🌐 128ms | VMESS (UN-54) (267)
+  - 🥈 🌐 132ms | VMESS (UN-82) (268)
+  - 🥈 🌐 135ms | VMESS (UN-18) (269)
+  - 🥈 🌐 146ms | VMESS (UN-19) (270)
+  - 🥈 🌐 152ms | VMESS (UN-69) (271)
+  - 🥈 🌐 163ms | VMESS (UN-43) (272)
+  - 🥈 🌐 164ms | VMESS (UN-41) (273)
+  - 🥈 🌐 185ms | VMESS (UN-30) (274)
+  - 🥈 🌐 186ms | VMESS (UN-70) (275)
+  - 🥈 🌐 209ms | VMESS (UN-03) (276)
+  - 🥈 🌐 216ms | VMESS (UN-96) (277)
+  - 🥈 🌐 220ms | VMESS (UN-67) (278)
+  - 🥈 🌐 220ms | VMESS (UN-56) (279)
+  - 🥈 🌐 221ms | VMESS (UN-66) (280)
+  - 🥈 🌐 224ms | VMESS (UN-20) (281)
+  - 🥈 🌐 224ms | VMESS (UN-37) (282)
+  - 🥈 🌐 225ms | VMESS (UN-31) (283)
+  - 🥈 🌐 225ms | VMESS (UN-76) (284)
+  - 🥈 🌐 225ms | VMESS (UN-70) (285)
+  - 🥈 🌐 227ms | VMESS (UN-70) (286)
+  - 🥈 🌐 233ms | VMESS (UN-39) (287)
+  - 🥈 🌐 235ms | VMESS (UN-21) (288)
+  - 🥈 🌐 235ms | VMESS (UN-98) (289)
+  - 🥈 🌐 237ms | VMESS (UN-45) (290)
+  - 🥈 🌐 237ms | VMESS (UN-36) (291)
+  - 🥈 🌐 238ms | VMESS (UN-55) (292)
+  - 🥈 🌐 243ms | VMESS (UN-89) (293)
+  - 🥈 🌐 244ms | VMESS (UN-48) (294)
+  - 🥈 🌐 246ms | VMESS (UN-89) (295)
+  - 🥈 🌐 249ms | VMESS (UN-15) (296)
+  - 🥈 🌐 254ms | VMESS (UN-65) (297)
+  - 🥈 🌐 259ms | VMESS (UN-07) (298)
+  - 🥈 🌐 261ms | VMESS (UN-55) (299)
+  - 🥈 🌐 270ms | VMESS (UN-24) (300)
+  - 🥈 🌐 280ms | VMESS (UN-99) (301)
+  - 🥈 🌐 280ms | VMESS (UN-75) (302)
+  - 🥈 🌐 287ms | VMESS (UN-98) (303)
+  - 🥈 🌐 306ms | VMESS (UN-72) (304)
+  - 🥈 🌐 316ms | VMESS (UN-74) (305)
+  - 🥈 🌐 319ms | VMESS (UN-03) (306)
+  - 🥈 🌐 328ms | VMESS (UN-55) (307)
+  - 🥈 🌐 548ms | VMESS (UN-75) (308)
+  - 🥈 🌐 783ms | VMESS (UN-79) (309)
+  - 🥈 🌐 1024ms | VMESS (UN-25) (310)
+  - 🥈 🌐 1117ms | VMESS (UN-01) (311)
+  - 🥈 🌐 1221ms | VMESS (UN-63) (312)
+  - 🥈 🌐 1485ms | VMESS (UN-34) (313)
+  - 🥉 🌐 20ms | SS (UN-18) (314)
+  - 🥉 🌐 27ms | SS (UN-53) (315)
+  - 🥉 🌐 27ms | SS (UN-67) (316)
+  - 🥉 🌐 43ms | SS (UN-23) (317)
+  - 🥉 🌐 43ms | SS (UN-86) (318)
+  - 🥉 🌐 43ms | SS (UN-24) (319)
+  - 🥉 🌐 53ms | SS (UN-02) (320)
+  - 🥉 🌐 64ms | SS (UN-23) (321)
+  - 🥉 🌐 70ms | SS (UN-53) (322)
+  - 🥉 🌐 74ms | SS (UN-29) (323)
+  - 🥉 🌐 78ms | SS (UN-96) (324)
+  - 🥉 🌐 82ms | SS (UN-57) (325)
+  - 🥉 🌐 84ms | SS (UN-39) (326)
+  - 🥉 🌐 85ms | SS (UN-90) (327)
+  - 🥉 🌐 90ms | SS (UN-01) (328)
+  - 🥉 🌐 105ms | SS (UN-56) (329)
+  - 🥉 🌐 108ms | SS (UN-01) (330)
+  - 🥉 🌐 108ms | SS (UN-08) (331)
+  - 🥉 🌐 109ms | SS (UN-41) (332)
+  - 🥉 🌐 109ms | SS (UN-76) (333)
+  - 🥉 🌐 109ms | SS (UN-73) (334)
+  - 🥉 🌐 109ms | SS (UN-47) (335)
+  - 🥉 🌐 109ms | SS (UN-07) (336)
+  - 🥉 🌐 110ms | SS (UN-40) (337)
+  - 🥉 🌐 110ms | SS (UN-48) (338)
+  - 🥉 🌐 113ms | SS (UN-16) (339)
+  - 🥉 🌐 113ms | SS (UN-19) (340)
+  - 🥉 🌐 114ms | SS (UN-95) (341)
+  - 🥉 🌐 119ms | SS (UN-49) (342)
+  - 🥉 🌐 123ms | SS (UN-21) (343)
+  - 🥉 🌐 129ms | SS (UN-53) (344)
+  - 🥉 🌐 130ms | SS (UN-30) (345)
+  - 🥉 🌐 135ms | SS (UN-98) (346)
+  - 🥉 🌐 136ms | SS (UN-20) (347)
+  - 🥉 🌐 136ms | SS (UN-04) (348)
+  - 🥉 🌐 158ms | SS (UN-38) (349)
+  - 🥉 🌐 178ms | SS (UN-33) (350)
+  - 🥉 🌐 208ms | SS (UN-01) (351)
+  - 🥉 🌐 210ms | SS (UN-13) (352)
+  - 🥉 🌐 216ms | SS (UN-41) (353)
+  - 🥉 🌐 222ms | SS (UN-45) (354)
+  - 🥉 🌐 229ms | SS (UN-66) (355)
+  - 🥉 🌐 238ms | SS (UN-53) (356)
+  - 🥉 🌐 260ms | SS (UN-48) (357)
+  - 🥉 🌐 263ms | SS (UN-94) (358)
+  - 🥉 🌐 279ms | SS (UN-08) (359)
+  - 🥉 🌐 285ms | SS (UN-84) (360)
+  - 🥉 🌐 288ms | SS (UN-01) (361)
+  - 🥉 🌐 329ms | SS (UN-57) (362)
+  - 🥉 🌐 433ms | SS (UN-31) (363)
+  - 🥉 🌐 437ms | SS (UN-37) (364)
+  - 🥉 🌐 1919ms | SS (UN-84) (365)
 rules:
 - MATCH,🚀 Auto Select

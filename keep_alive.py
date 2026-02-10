@@ -9,28 +9,34 @@ def safe_decode(s):
     except: return ""
 
 def get_flag(code):
-    """Превращает 'DE' в флаг Германии"""
     if not code or code == "UN" or len(code) != 2: return "🇺🇳"
     return "".join(chr(ord(c) + 127397) for c in code.upper())
 
-def link_to_clash_dict(url, latency, is_ai, country):
+def link_to_clash_dict(url, latency, tier, country):
     try:
         flag = get_flag(country)
-        ai_tag = " ✨ AI" if is_ai else ""
+        # МЕДАЛИ ПО ТИРАМ
+        tier_icon = "🥇" if tier == 1 else "🥈" if tier == 2 else "🥉"
+        
         try: srv = url.split('@')[-1].split(':')[0].split('.')[-1]
         except: srv = "srv"
-        name = f"{flag}{ai_tag} {latency}ms | {srv}"
+        
+        name = f"{tier_icon} {flag} {latency}ms | {srv}"
 
         if url.startswith("vmess://"):
             d = json.loads(safe_decode(url[8:]))
             return {'name': name, 'type': 'vmess', 'server': d.get('add'), 'port': int(d.get('port')), 'uuid': d.get('id'), 'alterId': 0, 'cipher': 'auto', 'udp': True, 'tls': d.get('tls') == 'tls', 'skip-cert-verify': True, 'network': d.get('net', 'tcp'), 'ws-opts': {'path': d.get('path', '/')} if d.get('net') == 'ws' else None}
+        
         if url.startswith(("vless://", "trojan://")):
             p = urlparse(url); q = parse_qs(p.query); tp = 'vless' if url.startswith('vless') else 'trojan'
             obj = {'name': name, 'type': tp, 'server': p.hostname, 'port': p.port, 'uuid': p.username or p.password, 'password': p.username or p.password, 'udp': True, 'skip-cert-verify': True, 'tls': q.get('security', [''])[0] in ['tls', 'reality'], 'network': q.get('type', ['tcp'])[0]}
             if tp == 'trojan' and 'uuid' in obj: del obj['uuid']
             if q.get('security', [''])[0] == 'reality':
                 obj['servername'] = q.get('sni', [''])[0]; obj['reality-opts'] = {'public-key': q.get('pbk', [''])[0], 'short-id': q.get('sid', [''])[0]}; obj['client-fingerprint'] = 'chrome'
+            if obj['network'] == 'ws':
+                obj['ws-opts'] = {'path': q.get('path', ['/'])[0], 'headers': {'Host': q.get('host', [''])[0]}}
             return obj
+            
         if url.startswith("ss://"):
             main = url.split("#")[0].replace("ss://", "")
             if "@" in main:
@@ -42,15 +48,12 @@ def link_to_clash_dict(url, latency, is_ai, country):
 
 async def handle_sub(request):
     if os.path.exists(FINAL_SUB_PATH):
-        # Читаем файл целиком, чтобы закрыть его быстро
-        with open(FINAL_SUB_PATH, 'rb') as f:
-            data = f.read()
-        return web.Response(body=data, headers={'Content-Type': 'text/yaml; charset=utf-8', 'Content-Disposition': 'inline; filename="proxies.yaml"'})
+        with open(FINAL_SUB_PATH, 'rb') as f: data = f.read()
+        return web.Response(body=data, headers={'Content-Type': 'text/yaml; charset=utf-8', 'Content-Length': str(len(data))})
     return web.Response(text="proxies: []", content_type='text/yaml')
 
 async def start_server():
     app = web.Application()
-    app.router.add_get('/', lambda r: web.Response(text="Monk Hub Alive"))
     app.router.add_get('/sub', handle_sub)
     runner = web.AppRunner(app)
     await runner.setup()

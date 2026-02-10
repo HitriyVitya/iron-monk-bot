@@ -12014,14 +12014,7 @@ proxies:
   cipher: aes-256-cfb
   password: asdKkaskJKfnsa
   udp: true
-- name: 🇺🇸 ✨ AI 211ms | 52 (994)
-  type: ss
-  server: 142.202.48.52
-  port: 8080
-  cipher: aes-256-gcm
-  password: KixLvKzwjekG00rm
-  udp: true
-- name: 🇩🇪 ✨ AI 211ms | VlessConfig (995)
+- name: 🇩🇪 ✨ AI 211ms | VlessConfig (994)
   type: vless
   server: 18.195.91.205
   port: 22224
@@ -12031,7 +12024,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   network: ws
-- name: 🇩🇪 ✨ AI 211ms | 205 (996)
+- name: 🇩🇪 ✨ AI 211ms | 205 (995)
   type: trojan
   server: 18.195.91.205
   port: 22222
@@ -12040,26 +12033,33 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🇧🇬 ✨ AI 212ms | 135 (997)
+- name: 🇧🇬 ✨ AI 212ms | 135 (996)
   type: ss
   server: 193.135.174.135
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🇩🇪 ✨ AI 212ms | 107 (998)
+- name: 🇩🇪 ✨ AI 212ms | 107 (997)
   type: ss
   server: 38.60.250.107
   port: 990
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
-- name: 🇳🇱 ✨ AI 212ms | 242 (999)
+- name: 🇳🇱 ✨ AI 212ms | 242 (998)
   type: ss
   server: 213.109.147.242
   port: 62685
   cipher: chacha20-ietf-poly1305
   password: VpKABcOpNNA0l5G2AVOmw8
+  udp: true
+- name: 🇧🇴 ✨ AI 212ms | 60 (999)
+  type: ss
+  server: 185.93.173.60
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   udp: true
 proxy-groups:
 - name: 🚀 Auto Select
@@ -13062,11 +13062,11 @@ proxy-groups:
   - 🇩🇪 ✨ AI 210ms | vmess (991)
   - 🇰🇷 ✨ AI 210ms | vmess (992)
   - 🇫🇷 ✨ AI 210ms | 161 (993)
-  - 🇺🇸 ✨ AI 211ms | 52 (994)
-  - 🇩🇪 ✨ AI 211ms | VlessConfig (995)
-  - 🇩🇪 ✨ AI 211ms | 205 (996)
-  - 🇧🇬 ✨ AI 212ms | 135 (997)
-  - 🇩🇪 ✨ AI 212ms | 107 (998)
-  - 🇳🇱 ✨ AI 212ms | 242 (999)
+  - 🇩🇪 ✨ AI 211ms | VlessConfig (994)
+  - 🇩🇪 ✨ AI 211ms | 205 (995)
+  - 🇧🇬 ✨ AI 212ms | 135 (996)
+  - 🇩🇪 ✨ AI 212ms | 107 (997)
+  - 🇳🇱 ✨ AI 212ms | 242 (998)
+  - 🇧🇴 ✨ AI 212ms | 60 (999)
 rules:
 - MATCH,🚀 Auto Select

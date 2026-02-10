@@ -28,6 +28,7 @@ MAX_TOTAL_ALIVE = 1500 # 1000 Tier 1 + 500 остальных
 MAX_PAGES_TG = 2000     # Глубочайшая пагинация истории
 TIMEOUT = 4.0          # Даем серверам шанс ответить
 
+
 def safe_decode(s):
     try:
         s = re.sub(r'[^a-zA-Z0-9+/=]', '', s)
@@ -35,21 +36,21 @@ def safe_decode(s):
     except: return ""
 
 def get_tier(url):
-    """Строгое определение тиров без обмана в названиях"""
-    u = url.lower()
-    # Фильтруем параметры, а не название в хэштеге
-    is_reality = "security=reality" in u or "pbk=" in u
+    """Строгая иерархия БЕЗ учета названия (fragment)"""
+    # Отрезаем всё после #, чтобы не вестись на названия
+    main_url = url.split('#')[0].lower()
     
-    # TIER 1: Reality, Hysteria 2, Trojan
-    if is_reality: return 1
-    if "hy2" in u or "hysteria2" in u: return 1
-    if u.startswith("trojan://"): return 1
+    # Tier 1: Reality, Hysteria 2, Trojan
+    if "security=reality" in main_url or "pbk=" in main_url: return 1
+    if "hy2" in main_url or "hysteria2" in main_url: return 1
+    if url.startswith("trojan://"): return 1
     
-    # TIER 2: VMess, Современные Shadowsocks
-    if u.startswith("vmess://"): return 2
-    if u.startswith("ss://"):
-        if any(x in u for x in ['gcm', 'poly1305', '2022']): return 2
-        return 3 # Старье
+    # Tier 2: VMess, Современные Shadowsocks
+    if url.startswith("vmess://"): return 2
+    if url.startswith("ss://"):
+        # Если в функциональной части есть современные шифры
+        if any(x in main_url for x in ['gcm', 'poly1305', '2022']): return 2
+        return 3
         
     return 3
 
@@ -61,19 +62,19 @@ def push_to_github(content):
         r = requests.get(url, headers=headers)
         sha = r.json().get('sha') if r.status_code == 200 else None
         b64_content = base64.b64encode(content.encode('utf-8')).decode('utf-8')
-        payload = {"message": f"Update proxies {time.strftime('%H:%M')}", "content": b64_content, "branch": "main"}
+        payload = {"message": f"Update Tier-System {time.strftime('%H:%M')}", "content": b64_content, "branch": "main"}
         if sha: payload["sha"] = sha
         requests.put(url, headers=headers, json=payload, timeout=15)
-        logging.info("🚀 proxies.yaml обновлен на Гитхабе")
-    except Exception as e:
-        logging.error(f"GitHub Push Error: {e}")
+    except: pass
 
-async def get_geo_info_batch(ips):
+async def get_countries_batch(ips):
     res_map = {}
+    if not ips: return res_map
     try:
         unique_ips = list(set(ips))[:100]
         r = await asyncio.to_thread(requests.post, "http://ip-api.com/batch?fields=query,countryCode", json=[{"query": i} for i in unique_ips], timeout=15)
-        for item in r.json(): res_map[item['query']] = item.get('countryCode', 'UN')
+        for item in r.json():
+            res_map[item['query']] = item.get('countryCode', 'UN')
     except: pass
     return res_map
 
@@ -81,50 +82,33 @@ async def scraper_task():
     regex = re.compile(r'(?:vless|vmess|ss|ssr|trojan|hy2|hysteria|tuic)://[^\s<"\'\)]+')
     headers = {'User-Agent': 'Mozilla/5.0'}
     while True:
-        logging.info("📥 [Scraper] Глобальный выгреб начат...")
-        
-        # 1. Гитхаб источники
+        logging.info("📥 [Scraper] Глобальный выгреб...")
+        # Гитхаб
         for url in EXTERNAL_SUBS:
             try:
                 r = await asyncio.to_thread(requests.get, url, headers=headers, timeout=15)
                 text = r.text if "://" in r.text[:50] else safe_decode(r.text)
                 found = regex.findall(text)
-                if found:
-                    db.save_proxy_batch([l.strip() for l in found])
-                    logging.info(f"   + Нашел {len(found)} ссылок на внешке")
+                if found: db.save_proxy_batch([l.strip() for l in found])
             except: pass
-
-        # 2. ТЕЛЕГРАМ (Бесконечная листалка)
+        # ТГ
         for ch in TG_CHANNELS:
             base_url = f"https://t.me/s/{ch}"
-            found_in_channel = 0
-            for p_idx in range(MAX_PAGES_TG):
+            for _ in range(MAX_PAGES_TG):
                 try:
                     r = await asyncio.to_thread(requests.get, base_url, headers=headers, timeout=10)
                     matches = regex.findall(r.text)
-                    if matches:
-                        clean_links = [l.strip().split('<')[0] for l in matches]
-                        db.save_proxy_batch(clean_links)
-                        found_in_channel += len(clean_links)
-                    
-                    if 'tme_messages_more' not in r.text: 
-                        break # История кончилась
-                    
-                    # Ищем ссылку на более старые посты
+                    if matches: db.save_proxy_batch([l.strip().split('<')[0] for l in matches])
+                    if 'tme_messages_more' not in r.text: break
                     match = re.search(r'href="(/s/.*?before=\d+)"', r.text)
-                    if match:
-                        base_url = "https://t.me" + match.group(1)
+                    if match: base_url = "https://t.me" + match.group(1)
                     else: break
                 except: break
-            logging.info(f"   + Канал {ch}: выгреб {found_in_channel} ссылок")
-        
-        logging.info("💤 [Scraper] Сплю 40 минут.")
         await asyncio.sleep(2400)
 
 async def checker_task():
     sem = asyncio.Semaphore(100)
     while True:
-        # Берем пачку для проверки
         candidates = db.get_proxies_to_check(200)
         if candidates:
             results = []
@@ -135,11 +119,10 @@ async def checker_task():
                             d = json.loads(safe_decode(url[8:])); host, port = d['add'], int(d['port'])
                         else: 
                             p = urlparse(url); host, port = p.hostname, p.port
-                        
                         if not host or not port: return
                         
                         st = time.time()
-                        _, w = await asyncio.wait_for(asyncio.open_connection(host, port), timeout=TIMEOUT)
+                        _, w = await asyncio.wait_for(asyncio.open_connection(host, port), timeout=2.5)
                         lat = int((time.time() - st) * 1000)
                         w.close(); await w.wait_closed()
                         results.append({'url': url, 'lat': lat, 'ip': host})
@@ -148,13 +131,13 @@ async def checker_task():
             await asyncio.gather(*(verify(u) for u in candidates))
             
             if results:
-                geo_map = await get_geo_info_batch([r['ip'] for r in results])
+                geo_map = await get_countries_batch([r['ip'] for r in results])
                 for r in results:
                     cc = geo_map.get(r['ip'], "UN")
                     tier = get_tier(r['url'])
                     db.update_proxy_status(r['url'], r['lat'], tier, cc)
                 
-                # СРАЗУ ГЕНЕРИРУЕМ И ПУШИМ
+                # ГЕНЕРАЦИЯ И ПУШ
                 from keep_alive import link_to_clash_dict
                 rows = db.get_best_proxies_for_sub()
                 clash_proxies = []
@@ -168,8 +151,7 @@ async def checker_task():
                     full_config = {
                         "proxies": clash_proxies,
                         "proxy-groups": [{
-                            "name": "🚀 Auto Select", 
-                            "type": "url-test", 
+                            "name": "🚀 Auto Select", "type": "url-test", 
                             "url": "https://www.google.com/generate_204", 
                             "interval": 600, "timeout": 5000, 
                             "proxies": [p['name'] for p in clash_proxies]
@@ -177,7 +159,6 @@ async def checker_task():
                         "rules": ["MATCH,🚀 Auto Select"]
                     }
                     push_to_github(yaml.dump(full_config, allow_unicode=True, sort_keys=False))
-
         await asyncio.sleep(5)
 
 async def vacuum_job():

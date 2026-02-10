@@ -1,17 +1,10 @@
-
 import asyncio, requests, re, json, base64, time, logging, yaml, os
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, unquote, parse_qs
 
-
-
-# --- СПИСКИ ---
+# --- НАСТРОЙКИ ---
 TG_CHANNELS = [
-    "shadowsockskeys", "oneclickvpnkeys", "v2ray_outlineir",
-    "v2ray_free_conf", "v2rayngvpn", "v2ray_free_vpn",
-    "gurvpn_keys", "vmessh", "VMESS7", "VlessConfig",
-    "PrivateVPNs", "nV_v2ray", "NotorVPN", "FairVpn_V2ray",
-    "outline_marzban", "outline_k"
+    "shadowsockskeys", "oneclickvpnkeys", "VlessConfig", "PrivateVPNs", "nV_v2ray", "gurvpn_keys", "vmessh", "VMESS7", "outline_marzban", "outline_k"
 ]
 
 EXTERNAL_SUBS = [
@@ -22,7 +15,6 @@ EXTERNAL_SUBS = [
     "https://raw.githubusercontent.com/LonUp/NodeList/main/NodeList.txt",
     "https://raw.githubusercontent.com/officialputuid/V2Ray-Config/main/Splitted-v2ray-config/all"
 ]
-
 
 GH_TOKEN = os.getenv("GH_TOKEN")
 GH_REPO = "HitriyVitya/iron-monk-bot"
@@ -45,7 +37,9 @@ def push_to_github(content):
         payload = {"message": "Update proxies", "content": b64_content, "branch": "main"}
         if sha: payload["sha"] = sha
         requests.put(url, headers=headers, json=payload, timeout=10)
-    except: pass
+        logging.info("🚀 YAML запушен на Гитхаб")
+    except Exception as e:
+        logging.error(f"GitHub Push Error: {e}")
 
 async def get_geo_info_batch(ips):
     res_map = {}
@@ -57,7 +51,7 @@ async def get_geo_info_batch(ips):
     return res_map
 
 async def checker_task():
-    sem = asyncio.Semaphore(100) # Жарим на все деньги
+    sem = asyncio.Semaphore(100)
     while True:
         candidates = db.get_proxies_to_check(200)
         if candidates:
@@ -69,7 +63,7 @@ async def checker_task():
                         else: p = urlparse(url); host, port = p.hostname, p.port
                         if not host or not port: return
                         st = time.time()
-                        _, w = await asyncio.wait_for(asyncio.open_connection(host, port), timeout=1.5)
+                        _, w = await asyncio.wait_for(asyncio.open_connection(host, port), timeout=2.0)
                         lat = int((time.time() - st) * 1000)
                         w.close(); await w.wait_closed()
                         results.append({'url': url, 'lat': lat, 'ip': host})
@@ -81,11 +75,13 @@ async def checker_task():
                 geo_map = await get_geo_info_batch([r['ip'] for r in results])
                 for r in results:
                     cc = geo_map.get(r['ip'], "UN")
-                    db.update_proxy_status(r['url'], r['lat'], (1 if r['lat'] < 300 else 0), cc)
+                    # Если пинг < 400 и не забаненная страна - AI
+                    is_ai = 1 if r['lat'] < 400 and cc not in ['RU','CN','IR'] else 0
+                    db.update_proxy_status(r['url'], r['lat'], is_ai, cc)
                 
-                # Собираем файл и шлём на Гитхаб
+                # ГЕНЕРАЦИЯ YAML С НАСТРОЙКАМИ ДЛЯ ВИНДЫ
                 from keep_alive import link_to_clash_dict
-                rows = db.get_best_proxies_for_sub()
+                rows = db.get_best_proxies_for_sub() # Берет 1000 шт
                 clash_proxies = []
                 for idx, r in enumerate(rows):
                     obj = link_to_clash_dict(r[0], r[1], r[2], r[3])
@@ -96,34 +92,40 @@ async def checker_task():
                 if clash_proxies:
                     full_config = {
                         "proxies": clash_proxies,
-                        "proxy-groups": [{"name": "🚀 Auto Select", "type": "url-test", "url": "http://www.gstatic.com/generate_204", "interval": 300, "proxies": [p['name'] for p in clash_proxies]}],
+                        "proxy-groups": [
+                            {
+                                "name": "🚀 Auto Select", 
+                                "type": "url-test", 
+                                "url": "https://www.google.com/generate_204", # HTTPS!
+                                "interval": 600,
+                                "timeout": 5000, # Форсируем 5 секунд на ПК
+                                "proxies": [p['name'] for p in clash_proxies]
+                            }
+                        ],
                         "rules": ["MATCH,🚀 Auto Select"]
                     }
                     push_to_github(yaml.dump(full_config, allow_unicode=True, sort_keys=False))
+
         await asyncio.sleep(5)
 
 async def scraper_task():
     regex = re.compile(r'(?:vless|vmess|ss|ssr|trojan|hy2|hysteria)://[^\s<"\'\)]+')
     headers = {'User-Agent': 'Mozilla/5.0'}
     while True:
+        logging.info("📥 [Scraper] Сбор...")
         for url in EXTERNAL_SUBS:
             try:
                 r = await asyncio.to_thread(requests.get, url, headers=headers, timeout=10)
                 t = r.text if "://" in r.text[:50] else safe_decode(r.text)
-                db.save_proxy_batch(regex.findall(t))
+                found = regex.findall(t)
+                if found: db.save_proxy_batch([l.strip() for l in found])
             except: pass
         for ch in TG_CHANNELS:
-            url = f"https://t.me/s/{ch}"
-            for _ in range(30):
-                try:
-                    r = await asyncio.to_thread(requests.get, url, headers=headers, timeout=5)
-                    found = regex.findall(r.text)
-                    if found: db.save_proxy_batch([l.strip().split('<')[0] for l in found])
-                    if 'tme_messages_more' not in r.text: break
-                    match = re.search(r'href="(/s/.*?)"', r.text)
-                    if match: url = "https://t.me" + match.group(1)
-                    else: break
-                except: break
+            try:
+                r = await asyncio.to_thread(requests.get, f"https://t.me/s/{ch}", headers=headers, timeout=5)
+                found = regex.findall(r.text)
+                if found: db.save_proxy_batch([l.strip().split('<')[0] for l in found])
+            except: pass
         await asyncio.sleep(1200)
 
 async def vacuum_job():

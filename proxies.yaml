@@ -6335,16 +6335,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   network: tcp
-- name: 🥇 🇭🇰 219ms | TROJAN (#643)
-  type: trojan
-  server: 219.76.13.180
-  port: 443
-  password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  network: tcp
-- name: 🥇 🌐 219ms | VLESS (#644)
+- name: 🥇 🌐 219ms | VLESS (#643)
   type: vless
   server: nl02-vlr01.tcp-reset-club.net
   port: 443
@@ -6354,7 +6345,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   network: tcp
-- name: 🥇 🇷🇺 220ms | VLESS (#645)
+- name: 🥇 🇷🇺 220ms | VLESS (#644)
   type: vless
   server: 79.137.175.56
   port: 443
@@ -6364,7 +6355,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   network: tcp
-- name: 🥇 🇷🇺 220ms | VLESS (#646)
+- name: 🥇 🇷🇺 220ms | VLESS (#645)
   type: vless
   server: 212.111.84.82
   port: 8443
@@ -6374,7 +6365,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   network: tcp
-- name: 🥇 🇷🇺 220ms | VLESS (#647)
+- name: 🥇 🇷🇺 220ms | VLESS (#646)
   type: vless
   server: 141.98.188.98
   port: 443
@@ -6384,7 +6375,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   network: tcp
-- name: 🥇 🌐 220ms | VLESS (#648)
+- name: 🥇 🌐 220ms | VLESS (#647)
   type: vless
   server: us.cdn.stun.su
   port: 443
@@ -6394,7 +6385,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   network: tcp
-- name: 🥇 🇭🇰 221ms | TROJAN (#649)
+- name: 🥇 🇭🇰 221ms | TROJAN (#648)
   type: trojan
   server: 219.76.13.181
   port: 443
@@ -6403,7 +6394,7 @@ proxies:
   skip-cert-verify: true
   tls: true
   network: tcp
-- name: 🥇 🌐 221ms | VLESS (#650)
+- name: 🥇 🌐 221ms | VLESS (#649)
   type: vless
   server: srv25.outlinekeys.com
   port: 443
@@ -6413,7 +6404,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   network: tcp
-- name: 🥇 🇫🇮 221ms | VLESS (#651)
+- name: 🥇 🇫🇮 221ms | VLESS (#650)
   type: vless
   server: 65.108.108.151
   port: 443
@@ -6423,7 +6414,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   network: tcp
-- name: 🥇 🇱🇹 222ms | VLESS (#652)
+- name: 🥇 🇱🇹 222ms | VLESS (#651)
   type: vless
   server: 2.59.162.100
   port: 443
@@ -6433,7 +6424,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   network: tcp
-- name: 🥇 🇷🇺 223ms | VLESS (#653)
+- name: 🥇 🇷🇺 223ms | VLESS (#652)
   type: vless
   server: 130.193.59.133
   port: 51101
@@ -6443,7 +6434,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   network: tcp
-- name: 🥇 🇷🇺 223ms | VLESS (#654)
+- name: 🥇 🇷🇺 223ms | VLESS (#653)
   type: vless
   server: 89.169.162.214
   port: 443
@@ -6453,7 +6444,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   network: tcp
-- name: 🥇 🇷🇺 223ms | VLESS (#655)
+- name: 🥇 🇷🇺 223ms | VLESS (#654)
   type: vless
   server: 87.239.106.153
   port: 443
@@ -6463,7 +6454,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   network: tcp
-- name: 🥇 🌐 223ms | VLESS (#656)
+- name: 🥇 🌐 223ms | VLESS (#655)
   type: vless
   server: swe01-vlr01.tcp-reset-club.net
   port: 443
@@ -6473,14 +6464,14 @@ proxies:
   skip-cert-verify: true
   tls: false
   network: tcp
-- name: 🥇 🇫🇮💻 224ms | SS (#657)
+- name: 🥇 🇫🇮💻 224ms | SS (#656)
   type: ss
   server: 185.5.38.111
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: NRKiRKbFdENKGAB1Dtk3asvtimbQnmDS4qVG8YQeeggj92VKDxejBu98VEcWn2DG6afNaYMBmQ36WruT9RUgqxWXx5VkwW3X
   udp: true
-- name: 🥇 🇷🇺 224ms | VLESS (#658)
+- name: 🥇 🇷🇺 224ms | VLESS (#657)
   type: vless
   server: 158.160.221.132
   port: 8443
@@ -6490,7 +6481,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   network: tcp
-- name: 🥇 🇷🇺 224ms | VLESS (#659)
+- name: 🥇 🇷🇺 224ms | VLESS (#658)
   type: vless
   server: 158.160.105.121
   port: 8443
@@ -6499,6 +6490,15 @@ proxies:
   udp: true
   skip-cert-verify: true
   tls: false
+  network: tcp
+- name: 🥇 🇭🇰 225ms | TROJAN (#659)
+  type: trojan
+  server: 219.76.13.180
+  port: 443
+  password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
+  udp: true
+  skip-cert-verify: true
+  tls: true
   network: tcp
 - name: 🥇 🌐 225ms | VLESS (#660)
   type: vless
@@ -16815,23 +16815,23 @@ proxy-groups:
   - 🥇 🇫🇮💻 218ms | SS (#640)
   - 🥇 🇷🇺 218ms | VLESS (#641)
   - 🥇 🇷🇺 218ms | VLESS (#642)
-  - 🥇 🇭🇰 219ms | TROJAN (#643)
-  - 🥇 🌐 219ms | VLESS (#644)
+  - 🥇 🌐 219ms | VLESS (#643)
+  - 🥇 🇷🇺 220ms | VLESS (#644)
   - 🥇 🇷🇺 220ms | VLESS (#645)
   - 🥇 🇷🇺 220ms | VLESS (#646)
-  - 🥇 🇷🇺 220ms | VLESS (#647)
-  - 🥇 🌐 220ms | VLESS (#648)
-  - 🥇 🇭🇰 221ms | TROJAN (#649)
-  - 🥇 🌐 221ms | VLESS (#650)
-  - 🥇 🇫🇮 221ms | VLESS (#651)
-  - 🥇 🇱🇹 222ms | VLESS (#652)
+  - 🥇 🌐 220ms | VLESS (#647)
+  - 🥇 🇭🇰 221ms | TROJAN (#648)
+  - 🥇 🌐 221ms | VLESS (#649)
+  - 🥇 🇫🇮 221ms | VLESS (#650)
+  - 🥇 🇱🇹 222ms | VLESS (#651)
+  - 🥇 🇷🇺 223ms | VLESS (#652)
   - 🥇 🇷🇺 223ms | VLESS (#653)
   - 🥇 🇷🇺 223ms | VLESS (#654)
-  - 🥇 🇷🇺 223ms | VLESS (#655)
-  - 🥇 🌐 223ms | VLESS (#656)
-  - 🥇 🇫🇮💻 224ms | SS (#657)
+  - 🥇 🌐 223ms | VLESS (#655)
+  - 🥇 🇫🇮💻 224ms | SS (#656)
+  - 🥇 🇷🇺 224ms | VLESS (#657)
   - 🥇 🇷🇺 224ms | VLESS (#658)
-  - 🥇 🇷🇺 224ms | VLESS (#659)
+  - 🥇 🇭🇰 225ms | TROJAN (#659)
   - 🥇 🌐 225ms | VLESS (#660)
   - 🥇 🇷🇺 225ms | VLESS (#661)
   - 🥇 🇷🇺 225ms | VLESS (#662)

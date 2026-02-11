@@ -410,11 +410,11 @@ proxies:
     public-key: ihtXyG0UidSbXjvCJXUhABwZGCCB62DUsVBFn_qVd3g
     short-id: 54c71eb172a3
   client-fingerprint: chrome
-- name: 🥈 🇨🇦💻 17ms | VMESS (#35)
+- name: 🥈 🌐💻 14ms | VMESS (#35)
   type: vmess
-  server: 23.162.200.227
+  server: eed4.7777125.xyz
   port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: fc3704d6-8e5e-443a-bd5b-20ec7cfbe990
   alterId: 0
   cipher: auto
   udp: true
@@ -422,20 +422,20 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 17ms | VMESS (#36)
+    path: /eszjp4nTT8TxDHFepMpfNkCk8
+- name: 🥈 🌐💻 15ms | VMESS (#36)
   type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: nju.bb4.indevs.in
+  port: 80
+  uuid: b020865b-7404-4894-ba65-a7414b10cda3
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /linkvws
+    path: /boWUVaU0sxrNtFSdOPjqSc7fzeJr
 - name: 🥈 🇨🇦💻 17ms | VMESS (#37)
   type: vmess
   server: 23.162.200.227
@@ -464,6 +464,32 @@ proxies:
     path: /linkvws
 - name: 🥈 🇨🇦💻 17ms | VMESS (#39)
   type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 17ms | VMESS (#40)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 17ms | VMESS (#41)
+  type: vmess
   server: 51.79.102.253
   port: 80
   uuid: 58fe1542-5290-40ad-815a-77707a81afe5
@@ -475,45 +501,19 @@ proxies:
   network: ws
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 18ms | VMESS (#40)
+- name: 🥈 🇨🇦💻 17ms | VMESS (#42)
   type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 18ms | VMESS (#41)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 18ms | VMESS (#42)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
+    path: /IOebhLMhl1CTbFHbL95myfRX2
 - name: 🥈 🇨🇦💻 18ms | VMESS (#43)
   type: vmess
   server: 23.162.200.227
@@ -542,17 +542,17 @@ proxies:
     path: /linkvws
 - name: 🥈 🇨🇦💻 18ms | VMESS (#45)
   type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
+    path: /linkvws
 - name: 🥈 🇨🇦💻 18ms | VMESS (#46)
   type: vmess
   server: 23.162.200.227
@@ -568,17 +568,17 @@ proxies:
     path: /linkvws
 - name: 🥈 🇨🇦💻 18ms | VMESS (#47)
   type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
+    path: /linkvws
 - name: 🥈 🇨🇦💻 18ms | VMESS (#48)
   type: vmess
   server: 51.79.102.253
@@ -631,7 +631,7 @@ proxies:
   network: ws
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 19ms | VMESS (#52)
+- name: 🥈 🇨🇦💻 18ms | VMESS (#52)
   type: vmess
   server: 23.162.200.227
   port: 443
@@ -644,7 +644,7 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
-- name: 🥈 🇨🇦💻 19ms | VMESS (#53)
+- name: 🥈 🇨🇦💻 18ms | VMESS (#53)
   type: vmess
   server: 51.79.102.253
   port: 80
@@ -657,7 +657,7 @@ proxies:
   network: ws
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 20ms | VMESS (#54)
+- name: 🥈 🇨🇦💻 18ms | VMESS (#54)
   type: vmess
   server: 51.79.102.253
   port: 80
@@ -670,512 +670,7 @@ proxies:
   network: ws
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇺🇸💻 78ms | VMESS (#55)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 78ms | VMESS (#56)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 78ms | VMESS (#57)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 78ms | VMESS (#58)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 78ms | VMESS (#59)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#60)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#61)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#62)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#63)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#64)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#65)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#66)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#67)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#68)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#69)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#70)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#71)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#72)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#73)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#74)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#75)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 79ms | VMESS (#76)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 80ms | VMESS (#77)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 80ms | VMESS (#78)
-  type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇩🇪💻 93ms | VMESS (#79)
-  type: vmess
-  server: 162.19.248.238
-  port: 550
-  uuid: ede27a79-b039-490b-932c-495de4b68880
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇩🇪💻 93ms | VMESS (#80)
-  type: vmess
-  server: 162.19.248.238
-  port: 550
-  uuid: ede27a79-b039-490b-932c-495de4b68880
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇩🇪💻 93ms | VMESS (#81)
-  type: vmess
-  server: 162.19.248.238
-  port: 550
-  uuid: ede27a79-b039-490b-932c-495de4b68880
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇩🇪💻 93ms | VMESS (#82)
-  type: vmess
-  server: 162.19.248.238
-  port: 550
-  uuid: ede27a79-b039-490b-932c-495de4b68880
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇨🇦💻 160ms | VMESS (#83)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 160ms | VMESS (#84)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 160ms | VMESS (#85)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 160ms | VMESS (#86)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 160ms | VMESS (#87)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 160ms | VMESS (#88)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 160ms | VMESS (#89)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 160ms | VMESS (#90)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 160ms | VMESS (#91)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 160ms | VMESS (#92)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 160ms | VMESS (#93)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 160ms | VMESS (#94)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 160ms | VMESS (#95)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 160ms | VMESS (#96)
+- name: 🥈 🇨🇦💻 18ms | VMESS (#55)
   type: vmess
   server: 51.79.102.253
   port: 80
@@ -1188,7 +683,20 @@ proxies:
   network: ws
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 160ms | VMESS (#97)
+- name: 🥈 🇨🇦💻 18ms | VMESS (#56)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 19ms | VMESS (#57)
   type: vmess
   server: 23.162.200.227
   port: 443
@@ -1201,7 +709,7 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#98)
+- name: 🥈 🇨🇦💻 19ms | VMESS (#58)
   type: vmess
   server: 51.79.102.253
   port: 80
@@ -1214,7 +722,7 @@ proxies:
   network: ws
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 161ms | VMESS (#99)
+- name: 🥈 🇨🇦💻 19ms | VMESS (#59)
   type: vmess
   server: 51.79.102.253
   port: 80
@@ -1227,7 +735,7 @@ proxies:
   network: ws
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 161ms | VMESS (#100)
+- name: 🥈 🇨🇦💻 20ms | VMESS (#60)
   type: vmess
   server: 51.79.102.253
   port: 80
@@ -1240,24 +748,11 @@ proxies:
   network: ws
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 161ms | VMESS (#101)
+- name: 🥈 🌐💻 20ms | VMESS (#61)
   type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 161ms | VMESS (#102)
-  type: vmess
-  server: 158.51.121.63
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: hgtrojan.zabc.net
+  port: 2083
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
   alterId: 0
   cipher: auto
   udp: true
@@ -1265,21 +760,8 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#103)
-  type: vmess
-  server: 158.51.121.63
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#104)
+    path: /e6395c20
+- name: 🥈 🇨🇦💻 20ms | VMESS (#62)
   type: vmess
   server: 51.79.102.253
   port: 80
@@ -1292,20 +774,7 @@ proxies:
   network: ws
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 161ms | VMESS (#105)
-  type: vmess
-  server: 158.51.121.63
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#106)
+- name: 🥈 🇨🇦💻 20ms | VMESS (#63)
   type: vmess
   server: 51.79.102.253
   port: 80
@@ -1318,85 +787,7 @@ proxies:
   network: ws
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 161ms | VMESS (#107)
-  type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 161ms | VMESS (#108)
-  type: vmess
-  server: 158.51.121.63
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#109)
-  type: vmess
-  server: 158.51.121.63
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#110)
-  type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 161ms | VMESS (#111)
-  type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 161ms | VMESS (#112)
-  type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 161ms | VMESS (#113)
+- name: 🥈 🇨🇦💻 20ms | VMESS (#64)
   type: vmess
   server: 23.162.200.227
   port: 443
@@ -1409,33 +800,20 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#114)
+- name: 🥈 🇨🇦💻 20ms | VMESS (#65)
   type: vmess
-  server: 158.51.121.63
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
   alterId: 0
   cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#115)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#116)
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 21ms | VMESS (#66)
   type: vmess
   server: 23.162.200.227
   port: 443
@@ -1448,7 +826,46 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#117)
+- name: 🥈 🇨🇦💻 21ms | VMESS (#67)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 21ms | VMESS (#68)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 21ms | VMESS (#69)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 22ms | VMESS (#70)
   type: vmess
   server: 23.162.200.227
   port: 443
@@ -1461,11 +878,11 @@ proxies:
   network: ws
   ws-opts:
     path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#118)
+- name: 🥈 🌐💻 24ms | VMESS (#71)
   type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: t1.620720.xyz
+  port: 8443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   alterId: 0
   cipher: auto
   udp: true
@@ -1473,12 +890,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#119)
+    path: /
+- name: 🥈 🌐💻 26ms | VMESS (#72)
   type: vmess
-  server: 23.162.200.227
+  server: sy4.620720.xyz
   port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   alterId: 0
   cipher: auto
   udp: true
@@ -1486,12 +903,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#120)
+    path: /
+- name: 🥈 🌐💻 48ms | VMESS (#73)
   type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: c7.620720.xyz
+  port: 8443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   alterId: 0
   cipher: auto
   udp: true
@@ -1499,12 +916,12 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#121)
+    path: /
+- name: 🥈 🌐💻 48ms | VMESS (#74)
   type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  server: c7.620720.xyz
+  port: 8443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   alterId: 0
   cipher: auto
   udp: true
@@ -1512,8 +929,164 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#122)
+    path: /
+- name: 🥈 🌐💻 48ms | VMESS (#75)
+  type: vmess
+  server: t1.620720.xyz
+  port: 8443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐💻 49ms | VMESS (#76)
+  type: vmess
+  server: c7.620720.xyz
+  port: 8443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐💻 49ms | VMESS (#77)
+  type: vmess
+  server: t1.620720.xyz
+  port: 8443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐💻 49ms | VMESS (#78)
+  type: vmess
+  server: hgtrojan.zabc.net
+  port: 2083
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /e6395c20
+- name: 🥈 🌐💻 49ms | VMESS (#79)
+  type: vmess
+  server: t1.620720.xyz
+  port: 8443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐💻 49ms | VMESS (#80)
+  type: vmess
+  server: sy4.620720.xyz
+  port: 443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐💻 50ms | VMESS (#81)
+  type: vmess
+  server: hgtrojan.zabc.net
+  port: 2083
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /e6395c20
+- name: 🥈 🌐💻 50ms | VMESS (#82)
+  type: vmess
+  server: c7.620720.xyz
+  port: 8443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐💻 50ms | VMESS (#83)
+  type: vmess
+  server: c7.620720.xyz
+  port: 8443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐💻 50ms | VMESS (#84)
+  type: vmess
+  server: sy4.620720.xyz
+  port: 443
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐💻 50ms | VMESS (#85)
+  type: vmess
+  server: hgtrojan.zabc.net
+  port: 2083
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /e6395c20
+- name: 🥈 🌐💻 50ms | VMESS (#86)
+  type: vmess
+  server: hgtrojan.zabc.net
+  port: 2083
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /e6395c20
+- name: 🥈 🇨🇦💻 68ms | VMESS (#87)
   type: vmess
   server: 51.79.103.76
   port: 80
@@ -1526,380 +1099,7 @@ proxies:
   network: ws
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 161ms | VMESS (#123)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#124)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#125)
-  type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 161ms | VMESS (#126)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#127)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#128)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#129)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#130)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#131)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#132)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#133)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#134)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#135)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#136)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 161ms | VMESS (#137)
-  type: vmess
-  server: 23.162.200.227
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /linkvws
-- name: 🥈 🇨🇦💻 162ms | VMESS (#138)
-  type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 162ms | VMESS (#139)
-  type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 162ms | VMESS (#140)
-  type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 162ms | VMESS (#141)
-  type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 162ms | VMESS (#142)
-  type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 162ms | VMESS (#143)
-  type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇺🇸💻 162ms | VMESS (#144)
-  type: vmess
-  server: 209.54.104.219
-  port: 43966
-  uuid: 0e3606ae-321a-4d0b-85ec-5f4352f4bc24
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇨🇦💻 162ms | VMESS (#145)
-  type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 162ms | VMESS (#146)
-  type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 162ms | VMESS (#147)
-  type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇺🇸💻 162ms | VMESS (#148)
-  type: vmess
-  server: 209.54.104.219
-  port: 43966
-  uuid: 0e3606ae-321a-4d0b-85ec-5f4352f4bc24
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇺🇸💻 162ms | VMESS (#149)
-  type: vmess
-  server: 209.54.104.219
-  port: 43966
-  uuid: 0e3606ae-321a-4d0b-85ec-5f4352f4bc24
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇨🇦💻 162ms | VMESS (#150)
-  type: vmess
-  server: 51.79.102.253
-  port: 80
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇺🇸💻 162ms | VMESS (#151)
-  type: vmess
-  server: 209.54.104.219
-  port: 43966
-  uuid: 0e3606ae-321a-4d0b-85ec-5f4352f4bc24
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: tcp
-  ws-opts: null
-- name: 🥈 🇨🇦💻 162ms | VMESS (#152)
+- name: 🥈 🇨🇦💻 69ms | VMESS (#88)
   type: vmess
   server: 51.79.103.76
   port: 80
@@ -1912,7 +1112,494 @@ proxies:
   network: ws
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇨🇦💻 162ms | VMESS (#153)
+- name: 🥈 🇨🇦💻 69ms | VMESS (#89)
+  type: vmess
+  server: 51.79.103.76
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 70ms | VMESS (#90)
+  type: vmess
+  server: 51.79.103.76
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 71ms | VMESS (#91)
+  type: vmess
+  server: 51.79.103.76
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 72ms | VMESS (#92)
+  type: vmess
+  server: 51.79.103.76
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 72ms | VMESS (#93)
+  type: vmess
+  server: 51.79.103.76
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 72ms | VMESS (#94)
+  type: vmess
+  server: 51.79.103.76
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇺🇸💻 74ms | VMESS (#95)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 74ms | VMESS (#96)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 75ms | VMESS (#97)
+  type: vmess
+  server: 137.175.49.124
+  port: 37009
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /path/1737281819057
+- name: 🥈 🇺🇸💻 78ms | VMESS (#98)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 78ms | VMESS (#99)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 78ms | VMESS (#100)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 78ms | VMESS (#101)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 78ms | VMESS (#102)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#103)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#104)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#105)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#106)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#107)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#108)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#109)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#110)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#111)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#112)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#113)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#114)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#115)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#116)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#117)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#118)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 79ms | VMESS (#119)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 80ms | VMESS (#120)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 80ms | VMESS (#121)
+  type: vmess
+  server: 165.140.216.141
+  port: 443
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇩🇪💻 93ms | VMESS (#122)
+  type: vmess
+  server: 162.19.248.238
+  port: 550
+  uuid: ede27a79-b039-490b-932c-495de4b68880
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇩🇪💻 93ms | VMESS (#123)
+  type: vmess
+  server: 162.19.248.238
+  port: 550
+  uuid: ede27a79-b039-490b-932c-495de4b68880
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇩🇪💻 93ms | VMESS (#124)
+  type: vmess
+  server: 162.19.248.238
+  port: 550
+  uuid: ede27a79-b039-490b-932c-495de4b68880
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇩🇪💻 93ms | VMESS (#125)
+  type: vmess
+  server: 162.19.248.238
+  port: 550
+  uuid: ede27a79-b039-490b-932c-495de4b68880
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇩🇪💻 95ms | VMESS (#126)
+  type: vmess
+  server: 162.19.248.238
+  port: 550
+  uuid: ede27a79-b039-490b-932c-495de4b68880
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇩🇪💻 95ms | VMESS (#127)
+  type: vmess
+  server: 162.19.248.238
+  port: 550
+  uuid: ede27a79-b039-490b-932c-495de4b68880
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇩🇪💻 95ms | VMESS (#128)
+  type: vmess
+  server: 162.19.248.238
+  port: 550
+  uuid: ede27a79-b039-490b-932c-495de4b68880
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇨🇦💻 127ms | VMESS (#129)
   type: vmess
   server: 15.235.41.200
   port: 80
@@ -1925,7 +1612,1056 @@ proxies:
   network: ws
   ws-opts:
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 🥈 🇩🇪💻 163ms | VMESS (#154)
+- name: 🥈 🇨🇦💻 127ms | VMESS (#130)
+  type: vmess
+  server: 15.235.41.200
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 128ms | VMESS (#131)
+  type: vmess
+  server: 15.235.41.200
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 128ms | VMESS (#132)
+  type: vmess
+  server: 15.235.41.200
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 128ms | VMESS (#133)
+  type: vmess
+  server: 15.235.41.200
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 128ms | VMESS (#134)
+  type: vmess
+  server: 15.235.41.200
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 128ms | VMESS (#135)
+  type: vmess
+  server: 15.235.41.200
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 130ms | VMESS (#136)
+  type: vmess
+  server: 15.235.41.200
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 131ms | VMESS (#137)
+  type: vmess
+  server: 15.235.41.200
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 131ms | VMESS (#138)
+  type: vmess
+  server: 15.235.41.200
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 134ms | VMESS (#139)
+  type: vmess
+  server: 15.235.41.200
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 160ms | VMESS (#140)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 160ms | VMESS (#141)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 160ms | VMESS (#142)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 160ms | VMESS (#143)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 160ms | VMESS (#144)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 160ms | VMESS (#145)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 160ms | VMESS (#146)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 160ms | VMESS (#147)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 160ms | VMESS (#148)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 160ms | VMESS (#149)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 160ms | VMESS (#150)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 160ms | VMESS (#151)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 160ms | VMESS (#152)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 160ms | VMESS (#153)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 160ms | VMESS (#154)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#155)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 161ms | VMESS (#156)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 161ms | VMESS (#157)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 161ms | VMESS (#158)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 161ms | VMESS (#159)
+  type: vmess
+  server: 158.51.121.63
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#160)
+  type: vmess
+  server: 158.51.121.63
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#161)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 161ms | VMESS (#162)
+  type: vmess
+  server: 158.51.121.63
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#163)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 161ms | VMESS (#164)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 161ms | VMESS (#165)
+  type: vmess
+  server: 158.51.121.63
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#166)
+  type: vmess
+  server: 158.51.121.63
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#167)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 161ms | VMESS (#168)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 161ms | VMESS (#169)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 161ms | VMESS (#170)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#171)
+  type: vmess
+  server: 158.51.121.63
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#172)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#173)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#174)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#175)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#176)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#177)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#178)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#179)
+  type: vmess
+  server: 51.79.103.76
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 161ms | VMESS (#180)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#181)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#182)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 161ms | VMESS (#183)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#184)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#185)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#186)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#187)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#188)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#189)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#190)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#191)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#192)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#193)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 161ms | VMESS (#194)
+  type: vmess
+  server: 23.162.200.227
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /linkvws
+- name: 🥈 🇨🇦💻 162ms | VMESS (#195)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 162ms | VMESS (#196)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 162ms | VMESS (#197)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 162ms | VMESS (#198)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 162ms | VMESS (#199)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 162ms | VMESS (#200)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇺🇸💻 162ms | VMESS (#201)
+  type: vmess
+  server: 209.54.104.219
+  port: 43966
+  uuid: 0e3606ae-321a-4d0b-85ec-5f4352f4bc24
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇨🇦💻 162ms | VMESS (#202)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 162ms | VMESS (#203)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 162ms | VMESS (#204)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇺🇸💻 162ms | VMESS (#205)
+  type: vmess
+  server: 209.54.104.219
+  port: 43966
+  uuid: 0e3606ae-321a-4d0b-85ec-5f4352f4bc24
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇺🇸💻 162ms | VMESS (#206)
+  type: vmess
+  server: 209.54.104.219
+  port: 43966
+  uuid: 0e3606ae-321a-4d0b-85ec-5f4352f4bc24
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇨🇦💻 162ms | VMESS (#207)
+  type: vmess
+  server: 51.79.102.253
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇺🇸💻 162ms | VMESS (#208)
+  type: vmess
+  server: 209.54.104.219
+  port: 43966
+  uuid: 0e3606ae-321a-4d0b-85ec-5f4352f4bc24
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇨🇦💻 162ms | VMESS (#209)
+  type: vmess
+  server: 51.79.103.76
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇨🇦💻 162ms | VMESS (#210)
+  type: vmess
+  server: 15.235.41.200
+  port: 80
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 🥈 🇩🇪💻 163ms | VMESS (#211)
   type: vmess
   server: 162.19.248.238
   port: 550
@@ -1937,7 +2673,344 @@ proxies:
   skip-cert-verify: true
   network: tcp
   ws-opts: null
-- name: 🥈 🌐💻 258ms | VMESS (#155)
+- name: 🥈 🇹🇼💻 195ms | VMESS (#212)
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇹🇼💻 195ms | VMESS (#213)
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇹🇼💻 196ms | VMESS (#214)
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇰🇷💻 196ms | VMESS (#215)
+  type: vmess
+  server: 146.56.112.110
+  port: 8888
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇰🇷💻 198ms | VMESS (#216)
+  type: vmess
+  server: 146.56.112.110
+  port: 8888
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇰🇷💻 199ms | VMESS (#217)
+  type: vmess
+  server: 146.56.112.110
+  port: 8888
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇹🇼💻 201ms | VMESS (#218)
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇹🇼💻 201ms | VMESS (#219)
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇰🇷💻 201ms | VMESS (#220)
+  type: vmess
+  server: 146.56.112.110
+  port: 8888
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇹🇼💻 202ms | VMESS (#221)
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇰🇷💻 202ms | VMESS (#222)
+  type: vmess
+  server: 146.56.112.110
+  port: 8888
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇰🇷💻 203ms | VMESS (#223)
+  type: vmess
+  server: 146.56.112.110
+  port: 8888
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇰🇷💻 210ms | VMESS (#224)
+  type: vmess
+  server: 140.238.2.250
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🇭🇰💻 226ms | VMESS (#225)
+  type: vmess
+  server: 8.217.13.74
+  port: 31769
+  uuid: cf1ad6c7-5987-4314-82bb-b4399040d047
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🌐💻 227ms | VMESS (#226)
+  type: vmess
+  server: lv4.789900.xyz
+  port: 2087
+  uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
+- name: 🥈 🇭🇰💻 233ms | VMESS (#227)
+  type: vmess
+  server: 47.243.135.74
+  port: 55185
+  uuid: 1375985e-334a-4c25-8f64-52a182bc8037
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /Notif_Chat
+- name: 🥈 🌐💻 239ms | VMESS (#228)
+  type: vmess
+  server: lv4.789900.xyz
+  port: 2087
+  uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
+- name: 🥈 🌐💻 239ms | VMESS (#229)
+  type: vmess
+  server: seoul03.zgjok.com
+  port: 443
+  uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐💻 248ms | VMESS (#230)
+  type: vmess
+  server: dv4.789900.xyz
+  port: 2096
+  uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
+- name: 🥈 🌐💻 249ms | VMESS (#231)
+  type: vmess
+  server: seoul03.zgjok.com
+  port: 443
+  uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐💻 249ms | VMESS (#232)
+  type: vmess
+  server: dv4.789900.xyz
+  port: 2096
+  uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
+- name: 🥈 🌐💻 249ms | VMESS (#233)
+  type: vmess
+  server: seoul03.zgjok.com
+  port: 443
+  uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐💻 253ms | VMESS (#234)
+  type: vmess
+  server: dv4.789900.xyz
+  port: 2096
+  uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
+- name: 🥈 🌐💻 253ms | VMESS (#235)
+  type: vmess
+  server: seoul03.zgjok.com
+  port: 443
+  uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐💻 254ms | VMESS (#236)
+  type: vmess
+  server: seoul03.zgjok.com
+  port: 443
+  uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐💻 256ms | VMESS (#237)
+  type: vmess
+  server: lv4.789900.xyz
+  port: 2087
+  uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
+- name: 🥈 🌐💻 256ms | VMESS (#238)
+  type: vmess
+  server: seoul03.zgjok.com
+  port: 443
+  uuid: 72a0dac4-9689-4a57-b164-5c65bfa94772
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐💻 258ms | VMESS (#239)
   type: vmess
   server: gold6.goldspeed.org
   port: 40973
@@ -1949,7 +3022,32 @@ proxies:
   skip-cert-verify: true
   network: tcp
   ws-opts: null
-- name: 🥈 🌐💻 267ms | VMESS (#156)
+- name: 🥈 🌐💻 258ms | VMESS (#240)
+  type: vmess
+  server: fast38.funfil.link
+  port: 31541
+  uuid: 41792324-68e1-413b-be71-f26a28213e21
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: tcp
+  ws-opts: null
+- name: 🥈 🌐💻 260ms | VMESS (#241)
+  type: vmess
+  server: dv4.789900.xyz
+  port: 2096
+  uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
+- name: 🥈 🌐💻 267ms | VMESS (#242)
   type: vmess
   server: tr1-smart.adelping.com
   port: 80
@@ -1962,7 +3060,7 @@ proxies:
   network: ws
   ws-opts:
     path: ''
-- name: 🥈 🌐💻 268ms | VMESS (#157)
+- name: 🥈 🌐💻 268ms | VMESS (#243)
   type: vmess
   server: tr1-smart.adelping.com
   port: 80
@@ -1975,945 +3073,1321 @@ proxies:
   network: ws
   ws-opts:
     path: ''
-- name: 🥉 🇳🇱💻 92ms | SS (#158)
+- name: 🥈 🌐💻 315ms | VMESS (#244)
+  type: vmess
+  server: singapore02.zgjok.com
+  port: 443
+  uuid: 780c7671-e8c8-45ab-922b-4fdfc4310aa0
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥈 🌐💻 1569ms | VMESS (#245)
+  type: vmess
+  server: n1761214915.mv7wh.tech
+  port: 443
+  uuid: 1f2daf43-ff90-4df9-9276-dfb8486d72bc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+- name: 🥉 🇳🇱💻 92ms | SS (#246)
   type: ss
   server: 82.38.31.199
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 94ms | SS (#159)
+- name: 🥉 🇳🇱💻 94ms | SS (#247)
   type: ss
   server: 82.38.31.199
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 96ms | SS (#160)
+- name: 🥉 🇳🇱💻 96ms | SS (#248)
   type: ss
   server: 82.38.31.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 96ms | SS (#161)
+- name: 🥉 🇳🇱💻 96ms | SS (#249)
   type: ss
   server: 82.38.31.190
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 97ms | SS (#162)
+- name: 🥉 🇳🇱💻 97ms | SS (#250)
   type: ss
   server: 82.38.31.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇬🇧💻 97ms | SS (#163)
+- name: 🥉 🇬🇧💻 97ms | SS (#251)
   type: ss
   server: 78.129.140.11
   port: 443
   cipher: chacha20-ietf-poly1305
   password: y3SowqUkrt1cbm487g74Ac
   udp: true
-- name: 🥉 🇳🇱💻 98ms | SS (#164)
+- name: 🥉 🇳🇱💻 98ms | SS (#252)
   type: ss
   server: 82.38.31.99
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🥉 🇳🇱💻 99ms | SS (#165)
+- name: 🥉 🇳🇱💻 99ms | SS (#253)
   type: ss
   server: 82.38.31.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 99ms | SS (#166)
+- name: 🥉 🇳🇱💻 99ms | SS (#254)
   type: ss
   server: 82.38.31.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 100ms | SS (#167)
+- name: 🥉 🇩🇪💻 99ms | VLESS (#255)
+  type: vless
+  server: 195.201.222.173
+  port: 51781
+  uuid: 7afb5c1f-ca54-4f4a-ae77-a46cdad4f45e
+  password: 7afb5c1f-ca54-4f4a-ae77-a46cdad4f45e
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: tcp
+- name: 🥉 🇳🇱💻 100ms | SS (#256)
   type: ss
   server: 82.38.31.214
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 100ms | SS (#168)
+- name: 🥉 🇳🇱💻 100ms | SS (#257)
   type: ss
   server: 82.38.31.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇬🇧💻 100ms | SS (#169)
+- name: 🥉 🇬🇧💻 100ms | SS (#258)
   type: ss
   server: 78.129.140.11
   port: 443
   cipher: chacha20-ietf-poly1305
   password: y3SowqUkrt1cbm487g74Ac
   udp: true
-- name: 🥉 🇳🇱💻 101ms | SS (#170)
+- name: 🥉 🇳🇱💻 101ms | SS (#259)
   type: ss
   server: 82.38.31.218
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 101ms | SS (#171)
+- name: 🥉 🇳🇱💻 101ms | SS (#260)
   type: ss
   server: 82.38.31.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 101ms | SS (#172)
+- name: 🥉 🇳🇱💻 101ms | SS (#261)
   type: ss
   server: 82.38.31.218
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 101ms | SS (#173)
+- name: 🥉 🇳🇱💻 101ms | SS (#262)
   type: ss
   server: 82.38.31.218
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 105ms | SS (#174)
+- name: 🥉 🇳🇱💻 105ms | SS (#263)
   type: ss
   server: 82.38.31.184
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 105ms | SS (#175)
+- name: 🥉 🇳🇱💻 105ms | SS (#264)
   type: ss
   server: 82.38.31.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 105ms | SS (#176)
+- name: 🥉 🇳🇱💻 105ms | SS (#265)
   type: ss
   server: 82.38.31.217
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 106ms | SS (#177)
+- name: 🥉 🇳🇱💻 106ms | SS (#266)
   type: ss
   server: 82.38.31.218
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 106ms | SS (#178)
+- name: 🥉 🇳🇱💻 106ms | SS (#267)
   type: ss
   server: 82.38.31.214
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 106ms | SS (#179)
+- name: 🥉 🇳🇱💻 106ms | SS (#268)
   type: ss
   server: 213.109.147.242
   port: 62685
   cipher: chacha20-ietf-poly1305
   password: VpKABcOpNNA0l5G2AVOmw8
   udp: true
-- name: 🥉 🇳🇱💻 107ms | SS (#180)
+- name: 🥉 🇳🇱💻 107ms | SS (#269)
   type: ss
   server: 82.38.31.190
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 108ms | SS (#181)
+- name: 🥉 🇳🇱💻 108ms | SS (#270)
   type: ss
   server: 82.38.31.214
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 108ms | SS (#182)
+- name: 🥉 🇳🇱💻 108ms | SS (#271)
   type: ss
   server: 82.38.31.184
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 109ms | SS (#183)
+- name: 🥉 🇳🇱💻 109ms | SS (#272)
   type: ss
   server: 213.109.147.242
   port: 62685
   cipher: chacha20-ietf-poly1305
   password: VpKABcOpNNA0l5G2AVOmw8
   udp: true
-- name: 🥉 🇳🇱💻 109ms | SS (#184)
+- name: 🥉 🇳🇱💻 109ms | SS (#273)
   type: ss
   server: 213.109.147.242
   port: 62685
   cipher: chacha20-ietf-poly1305
   password: VpKABcOpNNA0l5G2AVOmw8
   udp: true
-- name: 🥉 🇳🇱💻 110ms | SS (#185)
+- name: 🥉 🇳🇱💻 110ms | SS (#274)
   type: ss
   server: 82.38.31.184
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 111ms | SS (#186)
+- name: 🥉 🇳🇱💻 111ms | SS (#275)
   type: ss
   server: 82.38.31.184
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 111ms | SS (#187)
+- name: 🥉 🇳🇱💻 111ms | SS (#276)
   type: ss
   server: 213.109.147.242
   port: 62685
   cipher: chacha20-ietf-poly1305
   password: VpKABcOpNNA0l5G2AVOmw8
   udp: true
-- name: 🥉 🇳🇱💻 113ms | SS (#188)
+- name: 🥉 🇳🇱💻 113ms | SS (#277)
   type: ss
   server: 213.109.147.242
   port: 62685
   cipher: chacha20-ietf-poly1305
   password: VpKABcOpNNA0l5G2AVOmw8
   udp: true
-- name: 🥉 🇳🇱💻 113ms | SS (#189)
+- name: 🥉 🇳🇱💻 113ms | SS (#278)
   type: ss
   server: 213.109.147.242
   port: 62685
   cipher: chacha20-ietf-poly1305
   password: VpKABcOpNNA0l5G2AVOmw8
   udp: true
-- name: 🥉 🇳🇱💻 113ms | SS (#190)
+- name: 🥉 🇳🇱💻 113ms | SS (#279)
   type: ss
   server: 82.38.31.184
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🥉 🇳🇱💻 114ms | SS (#191)
+- name: 🥉 🇳🇱💻 114ms | SS (#280)
   type: ss
   server: 213.109.147.242
   port: 62685
   cipher: chacha20-ietf-poly1305
   password: VpKABcOpNNA0l5G2AVOmw8
   udp: true
-- name: 🥉 🇳🇱💻 114ms | SS (#192)
+- name: 🥉 🇳🇱💻 114ms | SS (#281)
   type: ss
   server: 213.109.147.242
   port: 62685
   cipher: chacha20-ietf-poly1305
   password: VpKABcOpNNA0l5G2AVOmw8
   udp: true
-- name: 🥉 🌐💻 132ms | SS (#193)
+- name: 🥉 🇮🇸💻 122ms | TROJAN (#282)
+  type: trojan
+  server: 37.235.49.209
+  port: 28099
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: tcp
+- name: 🥉 🌐💻 132ms | SS (#283)
   type: ss
   server: curwa.outlinekeys.net
   port: 8443
   cipher: chacha20-ietf-poly1305
   password: lqPIZicTtAtofnjUZ1eNYN
   udp: true
-- name: 🥉 🌐💻 141ms | SS (#194)
+- name: 🥉 🌐💻 141ms | SS (#284)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: XieXs1xd2nXCnnr43tCRyPGS7BCANaeEiY5wepC5aVrxheM1x3jvxQwW7zLfEniWb81NPNUKYkHrA43V5TdhojcVjL7UVGo6
   udp: true
-- name: 🥉 🇫🇮💻 142ms | SS (#195)
+- name: 🥉 🇫🇮💻 142ms | SS (#285)
   type: ss
   server: 185.5.38.111
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: BpFieMT6SobpqRiKFefvYu7eXk99XfCeWfjpntzSh81FfMx9R7rJW6LTmzH78StTEhCd7w32ZMxbGJZS98gpn1ozr9jAbMoa
   udp: true
-- name: 🥉 🌐💻 143ms | SS (#196)
+- name: 🥉 🌐💻 143ms | SS (#286)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2FRp4BQyeVxLA5RaBxJ9czwTtZqaXVuVTmgVtTRsmjLvpBBNSTGtyyg7uNcgppVRqnhjdJmP8bKM3zsK88rNhMgXNJoauxkJ
   udp: true
-- name: 🥉 🌐💻 144ms | SS (#197)
+- name: 🥉 🌐💻 144ms | SS (#287)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2UArZiZkWsgHGMxo6aDSbXbGvFCq5z1o3H2eMoUAn2TFBbaeHDTa4zTyoLPk3o6TA1hTQV9DibygB17ctGeQtvCa5ayGZdTv
   udp: true
-- name: 🥉 🇫🇮💻 144ms | SS (#198)
+- name: 🥉 🇫🇮💻 144ms | SS (#288)
   type: ss
   server: 185.5.38.111
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: BpFieMT6SobpqRiKFefvYu7eXk99XfCeWfjpntzSh81FfMx9R7rJW6LTmzH78StTEhCd7w32ZMxbGJZS98gpn1ozr9jAbMoa
   udp: true
-- name: 🥉 🌐💻 145ms | SS (#199)
+- name: 🥉 🌐💻 145ms | SS (#289)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 28qiyq1L4vKsTegcgDdasTUnbCv4B66cx7uWJfHt24Ti3ry9fggm9c4Jg4izjECfWWRmcNfoGCARDy9CaCVmuZi8ovoPDLCH
   udp: true
-- name: 🥉 🌐💻 145ms | SS (#200)
+- name: 🥉 🌐💻 145ms | SS (#290)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: wUcoYw1SAVnxhKb1PGmqe69uCJjggJoDogXfPCmDCkvhnM1mJbExnxJethPBEiC49dsUdurRBCn9gh2U231vYAyYPSwtYAaw
   udp: true
-- name: 🥉 🌐💻 145ms | SS (#201)
+- name: 🥉 🌐💻 145ms | SS (#291)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2Kt8E86x2tVtKbtpsgVpHHE11rU3XWuhC8WzM6KAUwwwpDLcJF6vqWvyR8VHg2LDbJQQjVA1wA6TMq8JSx17ZcKVxcAPGnur
   udp: true
-- name: 🥉 🌐💻 146ms | SS (#202)
+- name: 🥉 🌐💻 146ms | SS (#292)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 5QMZKZoXMsCbhE8GHAg7Lixi7tVMmw3xH2A3biivUTgs3uo9ntbH685jA8pj98n4pJji3yw6ajzn2qzJUa4dFij1upacCtKW
   udp: true
-- name: 🥉 🇫🇮💻 146ms | SS (#203)
+- name: 🥉 🇫🇮💻 146ms | SS (#293)
   type: ss
   server: 185.5.38.111
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: WCvca7VF1142ECcQJBQSB69gHyvn4JbwXJM4q5AR9bFnG7TCXCbPhieVb2GZzRnTzG58rnYEMmsFtNF14c1XpmWg4mXpMghH
   udp: true
-- name: 🥉 🌐💻 146ms | SS (#204)
+- name: 🥉 🌐💻 146ms | SS (#294)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: p9UCPSVPxK92Msfi2nSV7rK62WkCJf721N3Zk2e3kh6aYdVhxcLwxq34S1Z4WA4HsHQXBrhhAjkZLSKtBaMVP6hTHF31RMov
   udp: true
-- name: 🥉 🌐💻 146ms | SS (#205)
+- name: 🥉 🌐💻 146ms | SS (#295)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2EmWRS1TkS3TkxKApnrihb3aHjDSXRvT1T1K9U2Bruxrnp5A8zmpTxwwTNje6BkVqmn9BgRF6pq8qoRHCfZdcah7BLbjrpT1
   udp: true
-- name: 🥉 🌐💻 146ms | SS (#206)
+- name: 🥉 🌐💻 146ms | SS (#296)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: iBnyuBxYFgJF3RrQYiRVQmhYFufXMGR1zwqR5MLJAKpc3QL4GF3iNC7y2E3kvPQqYx6j7pmCDWDzvuzbNFLdrB7az7f7ys3C
   udp: true
-- name: 🥉 🌐💻 146ms | SS (#207)
+- name: 🥉 🌐💻 146ms | SS (#297)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2WCNWEUTYhuiDyg6jZhgnHx2yWHdq9EMKZRFdEkprZozZv2mvAhmGjJ838APnGFaLNsuhZyfpP5WMFUcqLkJg2CcmSMgeXTT
   udp: true
-- name: 🥉 🌐💻 146ms | SS (#208)
+- name: 🥉 🌐💻 146ms | SS (#298)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2Lj2ME3aanFMRBZXYFF3EVUWXUymZvKLMA2UkjjSk4aGTPhRQrwjVqa1PePDoF2kkPsTqmsXevgvuhR6qMgsmDc77pUJxRYn
   udp: true
-- name: 🥉 🌐💻 146ms | SS (#209)
+- name: 🥉 🌐💻 146ms | SS (#299)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 3XNjxfSJbdo3YWsvrEG7E2hnZ85AP1qch9Dt8Fm4fZHeWEsFcnhKcoQgMNTdxridN2af1tzQVBt1S5oiSPCETFnhS3nmAYDa
   udp: true
-- name: 🥉 🌐💻 147ms | SS (#210)
+- name: 🥉 🌐💻 147ms | SS (#300)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: TvrwTiaD3nZnGyQkwLHexB7Kae6ZQ1naXn32651AWpTiPK23gNV9XjN42xaktTtGS5CE8r6tzjkBpr94ZXCX7cDEQi2Zk9Cp
   udp: true
-- name: 🥉 🌐💻 147ms | SS (#211)
+- name: 🥉 🌐💻 147ms | SS (#301)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: uUnmUoaLypfQE5z6FmvXzv3FU6MHk5wngdGZ7wsbj5kxwRyiYQHaqewNiEppG5uJUhTeLC87KTNfQMXADqQWtXhK7HxP4wNa
   udp: true
-- name: 🥉 🌐💻 147ms | SS (#212)
+- name: 🥉 🌐💻 147ms | SS (#302)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: NRKiRKbFdENKGAB1Dtk3asvtimbQnmDS4qVG8YQeeggj92VKDxejBu98VEcWn2DG6afNaYMBmQ36WruT9RUgqxWXx5VkwW3X
   udp: true
-- name: 🥉 🌐💻 147ms | SS (#213)
+- name: 🥉 🌐💻 147ms | SS (#303)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: iZDJs2CDckHKqJ5W7cpvCq2veqsqWn95iqs6Kr6F3YNnyMsk2uPdRrChQfShvH1v56Br1qWEW44qJna5QcMcZF7RCJmdvwuq
   udp: true
-- name: 🥉 🌐💻 147ms | SS (#214)
+- name: 🥉 🌐💻 147ms | SS (#304)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 29mQbRJ8ps1x3EnWgAGRCBGrLSP5sxhxpoka6DdCe5cfb1YAvEFZxEXPCWjxsQbSDjFPFqM8KNnDQYfW1s1fsnCuHsGbCxGr
   udp: true
-- name: 🥉 🌐💻 147ms | SS (#215)
+- name: 🥉 🌐💻 147ms | SS (#305)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2NwsvbkBts5e2QCzYZ7ety39EGXewWF6KqQ8Xnfj3H9njiLH1gvuMQFjcu9xwuFaDEE6ySLJ6h1ktzKiEatiT6uFWQ6Gir2J
   udp: true
-- name: 🥉 🌐💻 147ms | SS (#216)
+- name: 🥉 🌐💻 147ms | SS (#306)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: wnJisPLkxtvHCoRZti2JtkQVkPH3FBBQMTBJeci2r1s1R6MtVib1gprsHcov1KaLssQJm6wkJAoBeXZ6F5x1ex9Sc18TThdx
   udp: true
-- name: 🥉 🌐💻 148ms | SS (#217)
+- name: 🥉 🌐💻 148ms | SS (#307)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 48Rz3vdwJcqXTDHpQb22n7RJ72u4F6CZ7dQV1Pys7ce3bSzqjACxAnHVJDkKjYvXeyK8TLGrBJrWWVFoADUWXPrNPsHoz6xN
   udp: true
-- name: 🥉 🌐💻 148ms | SS (#218)
+- name: 🥉 🌐💻 148ms | SS (#308)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 28qiyq1L4vKsTegcgDdasTUnbCv4B66cx7uWJfHt24Ti3ry9fggm9c4Jg4izjECfWWRmcNfoGCARDy9CaCVmuZi8ovoPDLCH
   udp: true
-- name: 🥉 🌐💻 148ms | SS (#219)
+- name: 🥉 🌐💻 148ms | SS (#309)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: iZDJs2CDckHKqJ5W7cpvCq2veqsqWn95iqs6Kr6F3YNnyMsk2uPdRrChQfShvH1v56Br1qWEW44qJna5QcMcZF7RCJmdvwuq
   udp: true
-- name: 🥉 🌐💻 148ms | SS (#220)
+- name: 🥉 🌐💻 148ms | SS (#310)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: zMTdoTC7mpAWQJ2FDNy12fFMjsqBehWoY1zh6uTW1bnsGD2hf5vs8HBsysFTjBAKXGRLsjkjW7t4PeJkyELwUvM8v2qrTqfn
   udp: true
-- name: 🥉 🌐💻 148ms | SS (#221)
+- name: 🥉 🌐💻 148ms | SS (#311)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2AKn9A9XbMUbNG9i8xM7Q4EKwwfT5pSopZEQULA2eDrQiz2C5nMQT7f5s3s5TmBxJFYDB6Egp2XchtA5aSWDiS9pASNebMGv
   udp: true
-- name: 🥉 🌐💻 149ms | SS (#222)
+- name: 🥉 🌐💻 149ms | SS (#312)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: YZvzh9FMJh6ac6moh8xtkMogmwEZDL5nF99PSFDk7NffhikzuHe3CUUYzudGcaLW5vMzECV29QiH856gj62VnAcgQ2oHY5DV
   udp: true
-- name: 🥉 🌐💻 149ms | SS (#223)
+- name: 🥉 🌐💻 149ms | SS (#313)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: Uh11bg1NKvjFdgD3gvhqjqrdL2jEm2GUCVMMTKFyubyoDV3wVSQLcYVrhiC7ASHqzA4RivbdXbNKLWQsziRkbm8ndfqLYnmb
   udp: true
-- name: 🥉 🌐💻 149ms | SS (#224)
+- name: 🥉 🌐💻 149ms | SS (#314)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 24YvzBvWgTyqqTtSVNiFi9shqi6v5RTQViYJVJXbQHrnTe4CzpZMK9aHmGw8ENt5LWGegR92vyn64KJP1v1v12QKngYgDKpa
   udp: true
-- name: 🥉 🌐💻 151ms | SS (#225)
+- name: 🥉 🌐💻 151ms | SS (#315)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2Bn7QVszJGr45J6EWLA12YxYFSos8uMHbDTZMerfA5khEoCpTKkkyFECW9XHDuwMJVAeJ37gakGALiykWCWU7S7agEMrfzrD
   udp: true
-- name: 🥉 🌐💻 152ms | SS (#226)
+- name: 🥉 🌐💻 152ms | SS (#316)
   type: ss
   server: gurvpn-bot.outlinekeys.net
   port: 4443
   cipher: chacha20-ietf-poly1305
   password: phIc0b2uJfdEgdfg0Wm5AK
   udp: true
-- name: 🥉 🌐💻 152ms | SS (#227)
+- name: 🥉 🌐💻 152ms | SS (#317)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2NX7UBibQeMpRYPzBqkQnR8HCbKa8NSHY8o4nPUCyamDmMfDAr5VtkEvaM6xRXHD8wYyND7LKugheWcHCEKeccGFLTnpXZFc
   udp: true
-- name: 🥉 🌐💻 153ms | SS (#228)
+- name: 🥉 🌐💻 153ms | SS (#318)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: wyRjDzZYC9E2aQ9iamj1vuj7ZckYVGLHn9yq92jRUUCdoz1AEKtSJRpiMPxXaiXfpXBJCp3gjsNbM9i2PbqeteCsXUWwDEAc
   udp: true
-- name: 🥉 🌐💻 155ms | SS (#229)
+- name: 🥉 🌐💻 155ms | SS (#319)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 27BEHEQe68MwwhgusnZkLFvPTpqnU2Uwqsw9uSz2Wo3bQ56sfUW47SiZv1FETJzSJep4vtwJzMxQYrYxogE9FGbi31PVGcYS
   udp: true
-- name: 🥉 🇫🇮💻 164ms | SS (#230)
+- name: 🥉 🇫🇮💻 164ms | SS (#320)
   type: ss
   server: 107.181.151.147
   port: 43669
   cipher: chacha20-ietf-poly1305
   password: 23sUrwRcTBEAvxLS6VM6Aay57KQbws1upDAxr7Btf4hXu4gaUQW4BPbComjJjStM2JqJLDwVkteXL8V33k8eWkZR4UB8intz
   udp: true
-- name: 🥉 🇫🇮💻 165ms | SS (#231)
+- name: 🥉 🇫🇮💻 165ms | SS (#321)
   type: ss
   server: 185.5.38.111
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: iZDJs2CDckHKqJ5W7cpvCq2veqsqWn95iqs6Kr6F3YNnyMsk2uPdRrChQfShvH1v56Br1qWEW44qJna5QcMcZF7RCJmdvwuq
   udp: true
-- name: 🥉 🇫🇮💻 165ms | SS (#232)
+- name: 🥉 🇫🇮💻 165ms | SS (#322)
   type: ss
   server: 185.5.38.111
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: NRKiRKbFdENKGAB1Dtk3asvtimbQnmDS4qVG8YQeeggj92VKDxejBu98VEcWn2DG6afNaYMBmQ36WruT9RUgqxWXx5VkwW3X
   udp: true
-- name: 🥉 🇫🇮💻 165ms | SS (#233)
+- name: 🥉 🇫🇮💻 165ms | SS (#323)
   type: ss
   server: 185.5.38.111
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: iZDJs2CDckHKqJ5W7cpvCq2veqsqWn95iqs6Kr6F3YNnyMsk2uPdRrChQfShvH1v56Br1qWEW44qJna5QcMcZF7RCJmdvwuq
   udp: true
-- name: 🥉 🌐💻 167ms | SS (#234)
+- name: 🥉 🌐💻 167ms | SS (#324)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2GjaJvitGS73iqeWVLoyzHBPx7rz9sp1q4MoznFPUsWPavQDBn3G685RYL15ocSCRAjHKixHqPJZ5vCwVontzZdm4WGd4X4P
   udp: true
-- name: 🥉 🌐💻 168ms | SS (#235)
+- name: 🥉 🌐💻 168ms | SS (#325)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2Lj2ME3aanFMRBZXYFF3EVUWXUymZvKLMA2UkjjSk4aGTPhRQrwjVqa1PePDoF2kkPsTqmsXevgvuhR6qMgsmDc77pUJxRYn
   udp: true
-- name: 🥉 🌐💻 169ms | SS (#236)
+- name: 🥉 🌐💻 169ms | SS (#326)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: nW19Aeg1XwqiX9AWWpBQFVUrtXkVqUfxTQupGcPmXtBtaP2ta72SXLJsUJ2tSm1qhbLBExUS1e3RaPA8JT7K4GHRnwwFbGNn
   udp: true
-- name: 🥉 🌐💻 170ms | SS (#237)
+- name: 🥉 🌐💻 170ms | SS (#327)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: JXrw9ayK4zFgQ2g9s9SLamzYu4XVNKUw638tY1x47o36GA7Q4ooVeJShHxMEU65tFJNN3sewnpg4tAdC8SKnc18aBQtoYSSU
   udp: true
-- name: 🥉 🌐💻 176ms | SS (#238)
+- name: 🥉 🌐💻 176ms | SS (#328)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: JrenWpzVJYdQ8sbgiWrwcZ2P7kBNvKbFvKf8kQRKVAesn27sPqssLhq4SgYEibRJh25ApBxP35TZZsmdfuSHY3s3XRFmup7s
   udp: true
-- name: 🥉 🌐💻 177ms | SS (#239)
+- name: 🥉 🇯🇵💻 176ms | SS (#329)
+  type: ss
+  server: 103.106.228.175
+  port: 8009
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🥉 🌐💻 177ms | SS (#330)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: rU9jurtJ2zHpTf5CeJ5LCAzGoSc7KCYmzuM8qnQzAXUJA8jfreYWPJtLcHC4dJXSSAQ3mLhJdbVPE1MRop37WkganscRnYv4
   udp: true
-- name: 🥉 🌐💻 178ms | SS (#240)
+- name: 🥉 🌐💻 178ms | SS (#331)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: BpFieMT6SobpqRiKFefvYu7eXk99XfCeWfjpntzSh81FfMx9R7rJW6LTmzH78StTEhCd7w32ZMxbGJZS98gpn1ozr9jAbMoa
   udp: true
-- name: 🥉 🌐💻 178ms | SS (#241)
+- name: 🥉 🌐💻 178ms | SS (#332)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2WJbjavFHQv7vgKhyHEMg7oYTLzQ98GqTTU7LmW2ZuCHy9eZLBkojcCygB1GydiWYmDiwhGHun3Xi9Dm4s9Ho9QSnCMeHaPH
   udp: true
-- name: 🥉 🌐💻 178ms | SS (#242)
+- name: 🥉 🌐💻 178ms | SS (#333)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: MGKMyATcG5EXU9f2E9pmUZeGeB9iGd64rVr6KUEwbghsSABqGn6rL6Tx9ZXom6qaTvotqvT8KpriyCZRLz3UbwJY2Em5qVae
   udp: true
-- name: 🥉 🌐💻 179ms | SS (#243)
+- name: 🥉 🇯🇵💻 178ms | SS (#334)
+  type: ss
+  server: 103.106.228.175
+  port: 8009
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🥉 🇯🇵💻 178ms | SS (#335)
+  type: ss
+  server: 103.106.228.175
+  port: 8009
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🥉 🌐💻 179ms | SS (#336)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: Wk2BbG6g2jpdy6J9BC92NojchPYfYbvwBmfhf4Venm4nuGs4H6Rsmx1t6wEXu7muETqMbXhLLA753KuhwtruYLaigKgQv9r5
   udp: true
-- name: 🥉 🌐💻 180ms | SS (#244)
+- name: 🥉 🌐💻 180ms | SS (#337)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 7TYPgynLAQr2uHr4wUqw3KZzH9Uyb89ExvNTKvWEmimnygAzj7E6FGfh8VijxNh5scjUtV4s1wS4B4ihvPnuDLCAHjRUbjMC
   udp: true
-- name: 🥉 🌐💻 180ms | SS (#245)
+- name: 🥉 🌐💻 180ms | SS (#338)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: GaKXVig9GWGeCeTvSv3npvU3qYCgbbAMypPQUY9Wm9xJTNCQGCCGKcpg4vYeH6AxwYNY4mLqKrBWvoyNb43CGU3d1sd8tfRp
   udp: true
-- name: 🥉 🌐💻 186ms | SS (#246)
+- name: 🥉 🌐💻 186ms | SS (#339)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: cEj6eThfmuZsTFQq4829Q87x84hFSFDwSb76b81nYC5WJ47MAKWyG7q9tBTKbhRQJJtPpCmQyR5B8r1oALUYNxSuEAmVicp4
   udp: true
-- name: 🥉 🌐💻 187ms | SS (#247)
+- name: 🥉 🌐💻 187ms | SS (#340)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 3N72s3TiKcMaJH34m7i7bogM2EsQ1dQBfayVaLKbaXP9LWqePMstAkdQKJP94rg7HP13xfnHBvv68868b1w6XW1AZunxpS4H
   udp: true
-- name: 🥉 🌐💻 187ms | SS (#248)
+- name: 🥉 🌐💻 187ms | SS (#341)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: Ke2ym1P5qWBzzrFvHcSr4mCvqpMnjhXXAXbN64RqnFfaQ37uSU4HsJBFuATW8hrb5Lvk16wGoDpFiw8wPRjigzo9RpeXy6nD
   udp: true
-- name: 🥉 🌐💻 187ms | SS (#249)
+- name: 🥉 🌐💻 187ms | SS (#342)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: YZvzh9FMJh6ac6moh8xtkMogmwEZDL5nF99PSFDk7NffhikzuHe3CUUYzudGcaLW5vMzECV29QiH856gj62VnAcgQ2oHY5DV
   udp: true
-- name: 🥉 🌐💻 188ms | SS (#250)
+- name: 🥉 🌐💻 188ms | SS (#343)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2A3oczEsnmTyzsGGCPgpd1DhstsdRqNvGWGoM3ELaCy8M49MkCTzxmYG31uHECvN3uMnmYkzy1DZotU5HEULShUGrw17ESzT
   udp: true
-- name: 🥉 🌐💻 189ms | SS (#251)
+- name: 🥉 🌐💻 189ms | SS (#344)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2Wc6z8aR2kTL5hi2mALeHVNzbbMVfhSRvPJXu8yoYjYTsdooV7AZrLKL7Hxybr9qhFD3AB9K439WYprQNovYK3W7eYT2L5DF
   udp: true
-- name: 🥉 🌐💻 190ms | SS (#252)
+- name: 🥉 🌐💻 190ms | SS (#345)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 3ZR2BwKryGCdvPUL35h1YbSzAp3fgwunRLH5YAiAsMHQY8WXmfsTB2kTsV2L73vFJn8KMhGU27z6RAwabfkncrdgc1yxPFoC
   udp: true
-- name: 🥉 🌐💻 190ms | SS (#253)
+- name: 🥉 🌐💻 190ms | SS (#346)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 3ZR2BwKryGCdvPUL35h1YbSzAp3fgwunRLH5YAiAsMHQY8WXmfsTB2kTsV2L73vFJn8KMhGU27z6RAwabfkncrdgc1yxPFoC
   udp: true
-- name: 🥉 🌐💻 190ms | SS (#254)
+- name: 🥉 🌐💻 190ms | SS (#347)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 94wmMoMPkmrWhgSg3qoWTTLdyDXToQyL654pMeQq91uMpWY2hUZxg5NRQfKfiVGXvyRnt9fd8oV5RWaCfCj5Yu7VFGrhkixE
   udp: true
-- name: 🥉 🌐💻 191ms | SS (#255)
+- name: 🥉 🌐💻 191ms | SS (#348)
   type: ss
   server: media.mothyleela.cfd
   port: 40521
   cipher: chacha20-ietf-poly1305
   password: 2WkRGh6tAv8UmsHh4i3F6zosj2dzA6sCzXbwq4TdXteztMfyA5aZcLy5jY5Z7FZ3QQMcTVwM7TvibdvzYircC7iDZafp2U6z
   udp: true
-- name: 🥉 🌐💻 191ms | SS (#256)
+- name: 🥉 🌐💻 191ms | SS (#349)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: k7xW6N5SAVpgeqi1wd7s7yxD7S8PxaehUM5W8apHrQi3pSoDRXScoAPk8SVa4mKbvRjrgENU3dUgzTgp9T3rrXinaDe4CXYk
   udp: true
-- name: 🥉 🌐💻 191ms | SS (#257)
+- name: 🥉 🌐💻 191ms | SS (#350)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 4ju873evpjeaAi8Zq12YoRHWp63o5exdnZ71aUg1YEChiPTc2HkasYhUBxRz7UGi4K6cLrsGaU6b44H4Qa6f4cJn3zBp2cnX
   udp: true
-- name: 🥉 🌐💻 191ms | SS (#258)
+- name: 🥉 🌐💻 191ms | SS (#351)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: md51KaN83Sgdo1NEKaijX5MGJ2FGGFEB3EmisKZQ2ZpR78gnVZxmxS4hVkPgeg48yMXqmriLVshR2a19JUMHEgs7F18TQSKN
   udp: true
-- name: 🥉 🇰🇷💻 219ms | SS (#259)
+- name: 🥉 🇰🇷💻 201ms | SS (#352)
+  type: ss
+  server: 218.237.185.230
+  port: 4652
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  udp: true
+- name: 🥉 🇰🇷💻 205ms | SS (#353)
+  type: ss
+  server: 221.139.79.57
+  port: 13979
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  udp: true
+- name: 🥉 🇰🇷💻 219ms | SS (#354)
   type: ss
   server: 115.161.136.145
   port: 10099
   cipher: chacha20-ietf-poly1305
   password: '12242'
   udp: true
-- name: 🥉 🇰🇷💻 230ms | SS (#260)
+- name: 🥉 🇰🇷💻 230ms | SS (#355)
   type: ss
   server: 115.161.136.145
   port: 10099
   cipher: chacha20-ietf-poly1305
   password: '12242'
   udp: true
-- name: 🥉 🇯🇵💻 235ms | SS (#261)
+- name: 🥉 🇭🇰💻 234ms | TROJAN (#356)
+  type: trojan
+  server: 58.152.53.45
+  port: 443
+  password: BxceQaOe
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  network: tcp
+- name: 🥉 🇯🇵💻 235ms | SS (#357)
   type: ss
   server: 3.112.130.53
   port: 8316
   cipher: chacha20-ietf-poly1305
   password: ljqdalu13..
   udp: true
-- name: 🥉 🇯🇵💻 236ms | SS (#262)
+- name: 🥉 🇯🇵💻 236ms | SS (#358)
   type: ss
   server: 3.112.130.53
   port: 8313
   cipher: chacha20-ietf-poly1305
   password: ljqdalu13..
   udp: true
-- name: 🥉 🌐💻 249ms | SS (#263)
+- name: 🥉 🌐💻 246ms | SS (#359)
+  type: ss
+  server: p141.panda001.net
+  port: 4652
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  udp: true
+- name: 🥉 🌐💻 249ms | SS (#360)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: MGKMyATcG5EXU9f2E9pmUZeGeB9iGd64rVr6KUEwbghsSABqGn6rL6Tx9ZXom6qaTvotqvT8KpriyCZRLz3UbwJY2Em5qVae
   udp: true
-- name: 🥉 🇸🇬💻 254ms | SS (#264)
+- name: 🥉 🇻🇳💻 250ms | SS (#361)
+  type: ss
+  server: 103.186.154.18
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 250ms | SS (#362)
+  type: ss
+  server: 103.186.154.227
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 250ms | SS (#363)
+  type: ss
+  server: 103.186.154.223
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 251ms | SS (#364)
+  type: ss
+  server: 103.186.154.32
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 251ms | SS (#365)
+  type: ss
+  server: 103.186.155.206
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 251ms | SS (#366)
+  type: ss
+  server: 103.186.155.16
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 251ms | SS (#367)
+  type: ss
+  server: 103.186.154.49
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 252ms | SS (#368)
+  type: ss
+  server: 103.186.154.49
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 252ms | SS (#369)
+  type: ss
+  server: 103.186.154.40
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 253ms | SS (#370)
+  type: ss
+  server: 103.186.154.225
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 253ms | SS (#371)
+  type: ss
+  server: 103.186.155.233
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇸🇬💻 254ms | SS (#372)
   type: ss
   server: 3.1.195.148
   port: 8319
   cipher: chacha20-ietf-poly1305
   password: ljqdalu13..
   udp: true
-- name: 🥉 🌐💻 267ms | SS (#265)
+- name: 🥉 🇻🇳💻 254ms | SS (#373)
+  type: ss
+  server: 103.186.154.32
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 254ms | SS (#374)
+  type: ss
+  server: 103.186.155.206
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 254ms | SS (#375)
+  type: ss
+  server: 103.186.154.50
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 254ms | SS (#376)
+  type: ss
+  server: 103.186.154.61
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 256ms | SS (#377)
+  type: ss
+  server: 103.186.154.209
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 256ms | SS (#378)
+  type: ss
+  server: 103.186.155.75
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 256ms | SS (#379)
+  type: ss
+  server: 103.186.155.237
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 257ms | SS (#380)
+  type: ss
+  server: 103.186.154.176
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 257ms | SS (#381)
+  type: ss
+  server: 103.186.154.242
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 258ms | SS (#382)
+  type: ss
+  server: 103.186.154.236
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 258ms | SS (#383)
+  type: ss
+  server: 103.186.155.59
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 258ms | SS (#384)
+  type: ss
+  server: 103.186.154.37
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 258ms | SS (#385)
+  type: ss
+  server: 103.186.154.235
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 258ms | SS (#386)
+  type: ss
+  server: 103.186.155.221
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 259ms | SS (#387)
+  type: ss
+  server: 103.186.155.236
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 260ms | SS (#388)
+  type: ss
+  server: 103.186.154.248
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 260ms | SS (#389)
+  type: ss
+  server: 103.186.154.13
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 260ms | SS (#390)
+  type: ss
+  server: 103.186.154.206
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 260ms | SS (#391)
+  type: ss
+  server: 103.186.155.66
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 260ms | SS (#392)
+  type: ss
+  server: 103.186.154.56
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 261ms | SS (#393)
+  type: ss
+  server: 103.186.154.247
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 261ms | SS (#394)
+  type: ss
+  server: 103.186.154.56
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 262ms | SS (#395)
+  type: ss
+  server: 103.186.154.197
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 262ms | SS (#396)
+  type: ss
+  server: 103.186.154.4
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 263ms | SS (#397)
+  type: ss
+  server: 103.186.154.198
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 263ms | SS (#398)
+  type: ss
+  server: 103.186.155.222
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🇻🇳💻 264ms | SS (#399)
+  type: ss
+  server: 103.186.154.196
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🌐💻 267ms | SS (#400)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: k7xW6N5SAVpgeqi1wd7s7yxD7S8PxaehUM5W8apHrQi3pSoDRXScoAPk8SVa4mKbvRjrgENU3dUgzTgp9T3rrXinaDe4CXYk
   udp: true
-- name: 🥉 🌐💻 290ms | SS (#266)
+- name: 🥉 🇻🇳💻 268ms | SS (#401)
+  type: ss
+  server: 103.186.155.231
+  port: 38388
+  cipher: aes-256-cfb
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  udp: true
+- name: 🥉 🌐💻 290ms | SS (#402)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2KnqyL6GBRms8ALV15PGZHc5HRmBieeUezx7hx2uPS7LTF6KKirMYhfYU9aB8ngmVq2mRCYN4PuFZZdmxmcftLZurQD9zosv
   udp: true
-- name: 🥉 🌐💻 290ms | SS (#267)
+- name: 🥉 🌐💻 290ms | SS (#403)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2Lu9pb1Zi8fNWkqFSLaPpZ2bzFjCp2WbRgxWV3Ek1iJ8HuthqcXMjveoMKsiKtCBwQiB2AtzPt6NUtZtneCt64mFiVvFo63v
   udp: true
-- name: 🥉 🌐💻 291ms | SS (#268)
+- name: 🥉 🌐💻 291ms | SS (#404)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: AHXJ8XH31MeY2xpJGuxsuSSW3yYTT4anTETsWNTuQLo98oAgB6sMvBKXGLUkLLkUGzVexfmyQw9RyZq52WfzfGywUuqf8iyt
   udp: true
-- name: 🥉 🌐💻 291ms | SS (#269)
+- name: 🥉 🌐💻 291ms | SS (#405)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: MvZwz7VFNZjSX8QEuWn359dG3AreAoWrmgK9Ut8DZzLK2Rk1EyLAFj8SrRqtoQU3bEJhUT51ETmqmyYFiFbmu1RPvinLZqgL
   udp: true
-- name: 🥉 🌐💻 292ms | SS (#270)
+- name: 🥉 🌐💻 292ms | SS (#406)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: YK6GT67yU6Sq5tddkkqgz28RAqh16VcftFxck4xbkXyYNQ98SCn4YG3vthQ6y1rJEfnzxmHt9UGvuin6kDnC1cRercRMTYs1
   udp: true
-- name: 🥉 🌐💻 292ms | SS (#271)
+- name: 🥉 🌐💻 292ms | SS (#407)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: oHguU86Hoa41HAncW88o4kEspy8sos9tkbnK6uLvsgfMetuFKEChk2QY6eR3a67NXAmWe2kD8vbhZEyuw2Gx1hDPXXSgmimt
   udp: true
-- name: 🥉 🌐💻 292ms | SS (#272)
+- name: 🥉 🌐💻 292ms | SS (#408)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: NRKiRKbFdENKGAB1Dtk3asvtimbQnmDS4qVG8YQeeggj92VKDxejBu98VEcWn2DG6afNaYMBmQ36WruT9RUgqxWXx5VkwW3X
   udp: true
-- name: 🥉 🌐💻 293ms | SS (#273)
+- name: 🥉 🌐💻 293ms | SS (#409)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: UzAQkBKHb6rnYCWcJEDiWtS6vcWMUpXveg4p7cwmkAV5GRC8GejJQvHFF1KYaRmEhXMg7jHeepXc74q8WbarQH71TBrdoi5w
   udp: true
-- name: 🥉 🌐💻 293ms | SS (#274)
+- name: 🥉 🌐💻 293ms | SS (#410)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: yCpSJMYkFQepG4o4QNKyo7qotpREJzwS1bbkyHNauphrKgYUhU3BLE1nbAeTqYZh8rM9KRexnYNgEWBmtZH1rjxd2biDqXJM
   udp: true
-- name: 🥉 🌐💻 293ms | SS (#275)
+- name: 🥉 🌐💻 293ms | SS (#411)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 7jb7u4FLeToDBKdjWd18tteiuY9MRhpdmySzbDRGzhtRCH2JxshKFUjsBv6kY5sjGXPtD9wwCqJfSn4ee8JmUUrrmco3FFj2
   udp: true
-- name: 🥉 🌐💻 294ms | SS (#276)
+- name: 🥉 🌐💻 294ms | SS (#412)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: YLpDMwoLZi9Dvkr7Q6PCfkwCKJt23MkhD1LHDjnKVjS1R9Z4dD9vY5FffuYCtDVcSzHJLdicZbm4Dh6p8Nsd5d88gzAWYrQY
   udp: true
-- name: 🥉 🌐💻 294ms | SS (#277)
+- name: 🥉 🌐💻 294ms | SS (#413)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: SL9mjUpzAEVKWLbGztJxWwTEDPPsbGNmd7Vb4z1pyBMX94G7qPpLbTCca2vua9cdzJuF832dyyjkr9s6HGAbMDVmBwJwNGAs
   udp: true
-- name: 🥉 🌐💻 294ms | SS (#278)
+- name: 🥉 🌐💻 294ms | SS (#414)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: AmxHJ6RVjmwKnuVo513Wt4Lmwh3i8cdTLXmqF35NnBGL1Ko6AYF7dvNAZNWCcBifbtLJHQxNVcc3PwgtLbxKPLrMhkDRTFab
   udp: true
-- name: 🥉 🌐💻 294ms | SS (#279)
+- name: 🥉 🌐💻 294ms | SS (#415)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: zMTdoTC7mpAWQJ2FDNy12fFMjsqBehWoY1zh6uTW1bnsGD2hf5vs8HBsysFTjBAKXGRLsjkjW7t4PeJkyELwUvM8v2qrTqfn
   udp: true
-- name: 🥉 🌐💻 294ms | SS (#280)
+- name: 🥉 🌐💻 294ms | SS (#416)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: AHXJ8XH31MeY2xpJGuxsuSSW3yYTT4anTETsWNTuQLo98oAgB6sMvBKXGLUkLLkUGzVexfmyQw9RyZq52WfzfGywUuqf8iyt
   udp: true
-- name: 🥉 🌐💻 295ms | SS (#281)
+- name: 🥉 🌐💻 295ms | SS (#417)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2CYTbbAxJMWdzMxePpCMDjkub13CDxU2BqaJzb1Zt3HBYGWsfKwNgQKhzEa7uAJut74Bj4fhiwJ6CKFBu4MiQ43QEe9xD2u7
   udp: true
-- name: 🥉 🇰🇿💻 466ms | SS (#282)
+- name: 🥉 🌐💻 464ms | SS (#418)
+  type: ss
+  server: p141.panda001.net
+  port: 4652
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  udp: true
+- name: 🥉 🇰🇿💻 466ms | SS (#419)
   type: ss
   server: 94.198.220.183
   port: 64674
   cipher: chacha20-ietf-poly1305
   password: s8LbJCgUiGXeCKVc63tHJP
   udp: true
-- name: 🥉 🌐💻 1156ms | SS (#283)
+- name: 🥉 🌐💻 1156ms | SS (#420)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: Ag9Q4j87WAWH6dygoH5Jzgv9ppjCtHCaJ6eG3hJHidyHFETkDN8g7StPxRDjuPsoH6pEdSsnuXNfXURibG9vwizcLJ5Ff5zz
   udp: true
-- name: 🥉 🌐💻 1157ms | SS (#284)
+- name: 🥉 🌐💻 1157ms | SS (#421)
   type: ss
   server: media.mothyleela.cfd
   port: 40521
   cipher: chacha20-ietf-poly1305
   password: 2WkRGh6tAv8UmsHh4i3F6zosj2dzA6sCzXbwq4TdXteztMfyA5aZcLy5jY5Z7FZ3QQMcTVwM7TvibdvzYircC7iDZafp2U6z
   udp: true
-- name: 🥉 🇫🇮💻 1157ms | SS (#285)
+- name: 🥉 🇫🇮💻 1157ms | SS (#422)
   type: ss
   server: 185.5.38.111
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: AgxyePdT6DnALxzttQRzGHJP2bitAeHnbukf6aTjC9xdYkxQQ1YK71DKEmJNc3DY8CCq1z46oCy6Dc1oZi6Q4532Nv8Swcy7
   udp: true
-- name: 🥉 🇫🇮💻 1160ms | SS (#286)
+- name: 🥉 🇫🇮💻 1160ms | SS (#423)
   type: ss
   server: 185.5.38.111
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: BpFieMT6SobpqRiKFefvYu7eXk99XfCeWfjpntzSh81FfMx9R7rJW6LTmzH78StTEhCd7w32ZMxbGJZS98gpn1ozr9jAbMoa
   udp: true
-- name: 🥉 🌐💻 1161ms | SS (#287)
+- name: 🥉 🌐💻 1161ms | SS (#424)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2UYegpEi8L3c8zmUQ5VB4LAkHuQtcFGypWFmActtkve4wnzsJnK1Chfj4izLJokYY8WegBuhABtp82nVxAtzs5JFftkQCHEd
   udp: true
-- name: 🥉 🇫🇮💻 1161ms | SS (#288)
+- name: 🥉 🇫🇮💻 1161ms | SS (#425)
   type: ss
   server: 185.5.38.111
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: oHguU86Hoa41HAncW88o4kEspy8sos9tkbnK6uLvsgfMetuFKEChk2QY6eR3a67NXAmWe2kD8vbhZEyuw2Gx1hDPXXSgmimt
   udp: true
-- name: 🥉 🌐💻 1162ms | SS (#289)
+- name: 🥉 🌐💻 1162ms | SS (#426)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2976kAmfLwdNpCtfWXxo3PmijgKToEYnVNUZ7Wqq8XgbM8NBB8GcvktWdaG77ZkG1z6awQeTKFFin44Re8fK7dZXgT5ez6ZH
   udp: true
-- name: 🥉 🌐💻 1168ms | SS (#290)
+- name: 🥉 🌐💻 1168ms | SS (#427)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: bg9rGNza4dcmnDAXMiBaa4pUf9q8fc2EDePQ96UDfJrmohfvK7L27bLsJW2jikJPw97LYW76ypYK347TtUKZ6ebkw5Zf6C4s
   udp: true
-- name: 🥉 🌐💻 1197ms | SS (#291)
+- name: 🥉 🌐💻 1197ms | SS (#428)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
   cipher: chacha20-ietf-poly1305
   password: 2WCNWEUTYhuiDyg6jZhgnHx2yWHdq9EMKZRFdEkprZozZv2mvAhmGjJ838APnGFaLNsuhZyfpP5WMFUcqLkJg2CcmSMgeXTT
   udp: true
-- name: 🥉 🌐💻 1199ms | SS (#292)
+- name: 🥉 🌐💻 1199ms | SS (#429)
   type: ss
   server: mx2.drawnrisha.one
   port: 55988
@@ -2962,14 +4436,14 @@ proxy-groups:
   - 🥇 🇰🇷💻 276ms | VLESS (#32)
   - 🥇 🇹🇭💻 304ms | TROJAN (#33)
   - 🥇 🌐💻 1187ms | VLESS (#34)
-  - 🥈 🇨🇦💻 17ms | VMESS (#35)
-  - 🥈 🇨🇦💻 17ms | VMESS (#36)
+  - 🥈 🌐💻 14ms | VMESS (#35)
+  - 🥈 🌐💻 15ms | VMESS (#36)
   - 🥈 🇨🇦💻 17ms | VMESS (#37)
   - 🥈 🇨🇦💻 17ms | VMESS (#38)
   - 🥈 🇨🇦💻 17ms | VMESS (#39)
-  - 🥈 🇨🇦💻 18ms | VMESS (#40)
-  - 🥈 🇨🇦💻 18ms | VMESS (#41)
-  - 🥈 🇨🇦💻 18ms | VMESS (#42)
+  - 🥈 🇨🇦💻 17ms | VMESS (#40)
+  - 🥈 🇨🇦💻 17ms | VMESS (#41)
+  - 🥈 🇨🇦💻 17ms | VMESS (#42)
   - 🥈 🇨🇦💻 18ms | VMESS (#43)
   - 🥈 🇨🇦💻 18ms | VMESS (#44)
   - 🥈 🇨🇦💻 18ms | VMESS (#45)
@@ -2979,246 +4453,383 @@ proxy-groups:
   - 🥈 🇨🇦💻 18ms | VMESS (#49)
   - 🥈 🇨🇦💻 18ms | VMESS (#50)
   - 🥈 🇨🇦💻 18ms | VMESS (#51)
-  - 🥈 🇨🇦💻 19ms | VMESS (#52)
-  - 🥈 🇨🇦💻 19ms | VMESS (#53)
-  - 🥈 🇨🇦💻 20ms | VMESS (#54)
-  - 🥈 🇺🇸💻 78ms | VMESS (#55)
-  - 🥈 🇺🇸💻 78ms | VMESS (#56)
-  - 🥈 🇺🇸💻 78ms | VMESS (#57)
-  - 🥈 🇺🇸💻 78ms | VMESS (#58)
-  - 🥈 🇺🇸💻 78ms | VMESS (#59)
-  - 🥈 🇺🇸💻 79ms | VMESS (#60)
-  - 🥈 🇺🇸💻 79ms | VMESS (#61)
-  - 🥈 🇺🇸💻 79ms | VMESS (#62)
-  - 🥈 🇺🇸💻 79ms | VMESS (#63)
-  - 🥈 🇺🇸💻 79ms | VMESS (#64)
-  - 🥈 🇺🇸💻 79ms | VMESS (#65)
-  - 🥈 🇺🇸💻 79ms | VMESS (#66)
-  - 🥈 🇺🇸💻 79ms | VMESS (#67)
-  - 🥈 🇺🇸💻 79ms | VMESS (#68)
-  - 🥈 🇺🇸💻 79ms | VMESS (#69)
-  - 🥈 🇺🇸💻 79ms | VMESS (#70)
-  - 🥈 🇺🇸💻 79ms | VMESS (#71)
-  - 🥈 🇺🇸💻 79ms | VMESS (#72)
-  - 🥈 🇺🇸💻 79ms | VMESS (#73)
-  - 🥈 🇺🇸💻 79ms | VMESS (#74)
-  - 🥈 🇺🇸💻 79ms | VMESS (#75)
-  - 🥈 🇺🇸💻 79ms | VMESS (#76)
-  - 🥈 🇺🇸💻 80ms | VMESS (#77)
-  - 🥈 🇺🇸💻 80ms | VMESS (#78)
-  - 🥈 🇩🇪💻 93ms | VMESS (#79)
-  - 🥈 🇩🇪💻 93ms | VMESS (#80)
-  - 🥈 🇩🇪💻 93ms | VMESS (#81)
-  - 🥈 🇩🇪💻 93ms | VMESS (#82)
-  - 🥈 🇨🇦💻 160ms | VMESS (#83)
-  - 🥈 🇨🇦💻 160ms | VMESS (#84)
-  - 🥈 🇨🇦💻 160ms | VMESS (#85)
-  - 🥈 🇨🇦💻 160ms | VMESS (#86)
-  - 🥈 🇨🇦💻 160ms | VMESS (#87)
-  - 🥈 🇨🇦💻 160ms | VMESS (#88)
-  - 🥈 🇨🇦💻 160ms | VMESS (#89)
-  - 🥈 🇨🇦💻 160ms | VMESS (#90)
-  - 🥈 🇨🇦💻 160ms | VMESS (#91)
-  - 🥈 🇨🇦💻 160ms | VMESS (#92)
-  - 🥈 🇨🇦💻 160ms | VMESS (#93)
-  - 🥈 🇨🇦💻 160ms | VMESS (#94)
-  - 🥈 🇨🇦💻 160ms | VMESS (#95)
-  - 🥈 🇨🇦💻 160ms | VMESS (#96)
-  - 🥈 🇨🇦💻 160ms | VMESS (#97)
-  - 🥈 🇨🇦💻 161ms | VMESS (#98)
-  - 🥈 🇨🇦💻 161ms | VMESS (#99)
-  - 🥈 🇨🇦💻 161ms | VMESS (#100)
-  - 🥈 🇨🇦💻 161ms | VMESS (#101)
-  - 🥈 🇨🇦💻 161ms | VMESS (#102)
-  - 🥈 🇨🇦💻 161ms | VMESS (#103)
-  - 🥈 🇨🇦💻 161ms | VMESS (#104)
-  - 🥈 🇨🇦💻 161ms | VMESS (#105)
-  - 🥈 🇨🇦💻 161ms | VMESS (#106)
-  - 🥈 🇨🇦💻 161ms | VMESS (#107)
-  - 🥈 🇨🇦💻 161ms | VMESS (#108)
-  - 🥈 🇨🇦💻 161ms | VMESS (#109)
-  - 🥈 🇨🇦💻 161ms | VMESS (#110)
-  - 🥈 🇨🇦💻 161ms | VMESS (#111)
-  - 🥈 🇨🇦💻 161ms | VMESS (#112)
-  - 🥈 🇨🇦💻 161ms | VMESS (#113)
-  - 🥈 🇨🇦💻 161ms | VMESS (#114)
-  - 🥈 🇨🇦💻 161ms | VMESS (#115)
-  - 🥈 🇨🇦💻 161ms | VMESS (#116)
-  - 🥈 🇨🇦💻 161ms | VMESS (#117)
-  - 🥈 🇨🇦💻 161ms | VMESS (#118)
-  - 🥈 🇨🇦💻 161ms | VMESS (#119)
-  - 🥈 🇨🇦💻 161ms | VMESS (#120)
-  - 🥈 🇨🇦💻 161ms | VMESS (#121)
-  - 🥈 🇨🇦💻 161ms | VMESS (#122)
-  - 🥈 🇨🇦💻 161ms | VMESS (#123)
-  - 🥈 🇨🇦💻 161ms | VMESS (#124)
-  - 🥈 🇨🇦💻 161ms | VMESS (#125)
-  - 🥈 🇨🇦💻 161ms | VMESS (#126)
-  - 🥈 🇨🇦💻 161ms | VMESS (#127)
-  - 🥈 🇨🇦💻 161ms | VMESS (#128)
-  - 🥈 🇨🇦💻 161ms | VMESS (#129)
-  - 🥈 🇨🇦💻 161ms | VMESS (#130)
-  - 🥈 🇨🇦💻 161ms | VMESS (#131)
-  - 🥈 🇨🇦💻 161ms | VMESS (#132)
-  - 🥈 🇨🇦💻 161ms | VMESS (#133)
-  - 🥈 🇨🇦💻 161ms | VMESS (#134)
-  - 🥈 🇨🇦💻 161ms | VMESS (#135)
-  - 🥈 🇨🇦💻 161ms | VMESS (#136)
-  - 🥈 🇨🇦💻 161ms | VMESS (#137)
-  - 🥈 🇨🇦💻 162ms | VMESS (#138)
-  - 🥈 🇨🇦💻 162ms | VMESS (#139)
-  - 🥈 🇨🇦💻 162ms | VMESS (#140)
-  - 🥈 🇨🇦💻 162ms | VMESS (#141)
-  - 🥈 🇨🇦💻 162ms | VMESS (#142)
-  - 🥈 🇨🇦💻 162ms | VMESS (#143)
-  - 🥈 🇺🇸💻 162ms | VMESS (#144)
-  - 🥈 🇨🇦💻 162ms | VMESS (#145)
-  - 🥈 🇨🇦💻 162ms | VMESS (#146)
-  - 🥈 🇨🇦💻 162ms | VMESS (#147)
-  - 🥈 🇺🇸💻 162ms | VMESS (#148)
-  - 🥈 🇺🇸💻 162ms | VMESS (#149)
-  - 🥈 🇨🇦💻 162ms | VMESS (#150)
-  - 🥈 🇺🇸💻 162ms | VMESS (#151)
-  - 🥈 🇨🇦💻 162ms | VMESS (#152)
-  - 🥈 🇨🇦💻 162ms | VMESS (#153)
-  - 🥈 🇩🇪💻 163ms | VMESS (#154)
-  - 🥈 🌐💻 258ms | VMESS (#155)
-  - 🥈 🌐💻 267ms | VMESS (#156)
-  - 🥈 🌐💻 268ms | VMESS (#157)
-  - 🥉 🇳🇱💻 92ms | SS (#158)
-  - 🥉 🇳🇱💻 94ms | SS (#159)
-  - 🥉 🇳🇱💻 96ms | SS (#160)
-  - 🥉 🇳🇱💻 96ms | SS (#161)
-  - 🥉 🇳🇱💻 97ms | SS (#162)
-  - 🥉 🇬🇧💻 97ms | SS (#163)
-  - 🥉 🇳🇱💻 98ms | SS (#164)
-  - 🥉 🇳🇱💻 99ms | SS (#165)
-  - 🥉 🇳🇱💻 99ms | SS (#166)
-  - 🥉 🇳🇱💻 100ms | SS (#167)
-  - 🥉 🇳🇱💻 100ms | SS (#168)
-  - 🥉 🇬🇧💻 100ms | SS (#169)
-  - 🥉 🇳🇱💻 101ms | SS (#170)
-  - 🥉 🇳🇱💻 101ms | SS (#171)
-  - 🥉 🇳🇱💻 101ms | SS (#172)
-  - 🥉 🇳🇱💻 101ms | SS (#173)
-  - 🥉 🇳🇱💻 105ms | SS (#174)
-  - 🥉 🇳🇱💻 105ms | SS (#175)
-  - 🥉 🇳🇱💻 105ms | SS (#176)
-  - 🥉 🇳🇱💻 106ms | SS (#177)
-  - 🥉 🇳🇱💻 106ms | SS (#178)
-  - 🥉 🇳🇱💻 106ms | SS (#179)
-  - 🥉 🇳🇱💻 107ms | SS (#180)
-  - 🥉 🇳🇱💻 108ms | SS (#181)
-  - 🥉 🇳🇱💻 108ms | SS (#182)
-  - 🥉 🇳🇱💻 109ms | SS (#183)
-  - 🥉 🇳🇱💻 109ms | SS (#184)
-  - 🥉 🇳🇱💻 110ms | SS (#185)
-  - 🥉 🇳🇱💻 111ms | SS (#186)
-  - 🥉 🇳🇱💻 111ms | SS (#187)
-  - 🥉 🇳🇱💻 113ms | SS (#188)
-  - 🥉 🇳🇱💻 113ms | SS (#189)
-  - 🥉 🇳🇱💻 113ms | SS (#190)
-  - 🥉 🇳🇱💻 114ms | SS (#191)
-  - 🥉 🇳🇱💻 114ms | SS (#192)
-  - 🥉 🌐💻 132ms | SS (#193)
-  - 🥉 🌐💻 141ms | SS (#194)
-  - 🥉 🇫🇮💻 142ms | SS (#195)
-  - 🥉 🌐💻 143ms | SS (#196)
-  - 🥉 🌐💻 144ms | SS (#197)
-  - 🥉 🇫🇮💻 144ms | SS (#198)
-  - 🥉 🌐💻 145ms | SS (#199)
-  - 🥉 🌐💻 145ms | SS (#200)
-  - 🥉 🌐💻 145ms | SS (#201)
-  - 🥉 🌐💻 146ms | SS (#202)
-  - 🥉 🇫🇮💻 146ms | SS (#203)
-  - 🥉 🌐💻 146ms | SS (#204)
-  - 🥉 🌐💻 146ms | SS (#205)
-  - 🥉 🌐💻 146ms | SS (#206)
-  - 🥉 🌐💻 146ms | SS (#207)
-  - 🥉 🌐💻 146ms | SS (#208)
-  - 🥉 🌐💻 146ms | SS (#209)
-  - 🥉 🌐💻 147ms | SS (#210)
-  - 🥉 🌐💻 147ms | SS (#211)
-  - 🥉 🌐💻 147ms | SS (#212)
-  - 🥉 🌐💻 147ms | SS (#213)
-  - 🥉 🌐💻 147ms | SS (#214)
-  - 🥉 🌐💻 147ms | SS (#215)
-  - 🥉 🌐💻 147ms | SS (#216)
-  - 🥉 🌐💻 148ms | SS (#217)
-  - 🥉 🌐💻 148ms | SS (#218)
-  - 🥉 🌐💻 148ms | SS (#219)
-  - 🥉 🌐💻 148ms | SS (#220)
-  - 🥉 🌐💻 148ms | SS (#221)
-  - 🥉 🌐💻 149ms | SS (#222)
-  - 🥉 🌐💻 149ms | SS (#223)
-  - 🥉 🌐💻 149ms | SS (#224)
-  - 🥉 🌐💻 151ms | SS (#225)
-  - 🥉 🌐💻 152ms | SS (#226)
-  - 🥉 🌐💻 152ms | SS (#227)
-  - 🥉 🌐💻 153ms | SS (#228)
-  - 🥉 🌐💻 155ms | SS (#229)
-  - 🥉 🇫🇮💻 164ms | SS (#230)
-  - 🥉 🇫🇮💻 165ms | SS (#231)
-  - 🥉 🇫🇮💻 165ms | SS (#232)
-  - 🥉 🇫🇮💻 165ms | SS (#233)
-  - 🥉 🌐💻 167ms | SS (#234)
-  - 🥉 🌐💻 168ms | SS (#235)
-  - 🥉 🌐💻 169ms | SS (#236)
-  - 🥉 🌐💻 170ms | SS (#237)
-  - 🥉 🌐💻 176ms | SS (#238)
-  - 🥉 🌐💻 177ms | SS (#239)
-  - 🥉 🌐💻 178ms | SS (#240)
-  - 🥉 🌐💻 178ms | SS (#241)
-  - 🥉 🌐💻 178ms | SS (#242)
-  - 🥉 🌐💻 179ms | SS (#243)
-  - 🥉 🌐💻 180ms | SS (#244)
-  - 🥉 🌐💻 180ms | SS (#245)
-  - 🥉 🌐💻 186ms | SS (#246)
-  - 🥉 🌐💻 187ms | SS (#247)
-  - 🥉 🌐💻 187ms | SS (#248)
-  - 🥉 🌐💻 187ms | SS (#249)
-  - 🥉 🌐💻 188ms | SS (#250)
-  - 🥉 🌐💻 189ms | SS (#251)
-  - 🥉 🌐💻 190ms | SS (#252)
-  - 🥉 🌐💻 190ms | SS (#253)
-  - 🥉 🌐💻 190ms | SS (#254)
-  - 🥉 🌐💻 191ms | SS (#255)
-  - 🥉 🌐💻 191ms | SS (#256)
-  - 🥉 🌐💻 191ms | SS (#257)
-  - 🥉 🌐💻 191ms | SS (#258)
-  - 🥉 🇰🇷💻 219ms | SS (#259)
-  - 🥉 🇰🇷💻 230ms | SS (#260)
-  - 🥉 🇯🇵💻 235ms | SS (#261)
-  - 🥉 🇯🇵💻 236ms | SS (#262)
-  - 🥉 🌐💻 249ms | SS (#263)
-  - 🥉 🇸🇬💻 254ms | SS (#264)
-  - 🥉 🌐💻 267ms | SS (#265)
-  - 🥉 🌐💻 290ms | SS (#266)
-  - 🥉 🌐💻 290ms | SS (#267)
-  - 🥉 🌐💻 291ms | SS (#268)
-  - 🥉 🌐💻 291ms | SS (#269)
-  - 🥉 🌐💻 292ms | SS (#270)
-  - 🥉 🌐💻 292ms | SS (#271)
-  - 🥉 🌐💻 292ms | SS (#272)
-  - 🥉 🌐💻 293ms | SS (#273)
-  - 🥉 🌐💻 293ms | SS (#274)
-  - 🥉 🌐💻 293ms | SS (#275)
-  - 🥉 🌐💻 294ms | SS (#276)
-  - 🥉 🌐💻 294ms | SS (#277)
-  - 🥉 🌐💻 294ms | SS (#278)
-  - 🥉 🌐💻 294ms | SS (#279)
-  - 🥉 🌐💻 294ms | SS (#280)
-  - 🥉 🌐💻 295ms | SS (#281)
-  - 🥉 🇰🇿💻 466ms | SS (#282)
-  - 🥉 🌐💻 1156ms | SS (#283)
-  - 🥉 🌐💻 1157ms | SS (#284)
-  - 🥉 🇫🇮💻 1157ms | SS (#285)
-  - 🥉 🇫🇮💻 1160ms | SS (#286)
-  - 🥉 🌐💻 1161ms | SS (#287)
-  - 🥉 🇫🇮💻 1161ms | SS (#288)
-  - 🥉 🌐💻 1162ms | SS (#289)
-  - 🥉 🌐💻 1168ms | SS (#290)
-  - 🥉 🌐💻 1197ms | SS (#291)
-  - 🥉 🌐💻 1199ms | SS (#292)
+  - 🥈 🇨🇦💻 18ms | VMESS (#52)
+  - 🥈 🇨🇦💻 18ms | VMESS (#53)
+  - 🥈 🇨🇦💻 18ms | VMESS (#54)
+  - 🥈 🇨🇦💻 18ms | VMESS (#55)
+  - 🥈 🇨🇦💻 18ms | VMESS (#56)
+  - 🥈 🇨🇦💻 19ms | VMESS (#57)
+  - 🥈 🇨🇦💻 19ms | VMESS (#58)
+  - 🥈 🇨🇦💻 19ms | VMESS (#59)
+  - 🥈 🇨🇦💻 20ms | VMESS (#60)
+  - 🥈 🌐💻 20ms | VMESS (#61)
+  - 🥈 🇨🇦💻 20ms | VMESS (#62)
+  - 🥈 🇨🇦💻 20ms | VMESS (#63)
+  - 🥈 🇨🇦💻 20ms | VMESS (#64)
+  - 🥈 🇨🇦💻 20ms | VMESS (#65)
+  - 🥈 🇨🇦💻 21ms | VMESS (#66)
+  - 🥈 🇨🇦💻 21ms | VMESS (#67)
+  - 🥈 🇨🇦💻 21ms | VMESS (#68)
+  - 🥈 🇨🇦💻 21ms | VMESS (#69)
+  - 🥈 🇨🇦💻 22ms | VMESS (#70)
+  - 🥈 🌐💻 24ms | VMESS (#71)
+  - 🥈 🌐💻 26ms | VMESS (#72)
+  - 🥈 🌐💻 48ms | VMESS (#73)
+  - 🥈 🌐💻 48ms | VMESS (#74)
+  - 🥈 🌐💻 48ms | VMESS (#75)
+  - 🥈 🌐💻 49ms | VMESS (#76)
+  - 🥈 🌐💻 49ms | VMESS (#77)
+  - 🥈 🌐💻 49ms | VMESS (#78)
+  - 🥈 🌐💻 49ms | VMESS (#79)
+  - 🥈 🌐💻 49ms | VMESS (#80)
+  - 🥈 🌐💻 50ms | VMESS (#81)
+  - 🥈 🌐💻 50ms | VMESS (#82)
+  - 🥈 🌐💻 50ms | VMESS (#83)
+  - 🥈 🌐💻 50ms | VMESS (#84)
+  - 🥈 🌐💻 50ms | VMESS (#85)
+  - 🥈 🌐💻 50ms | VMESS (#86)
+  - 🥈 🇨🇦💻 68ms | VMESS (#87)
+  - 🥈 🇨🇦💻 69ms | VMESS (#88)
+  - 🥈 🇨🇦💻 69ms | VMESS (#89)
+  - 🥈 🇨🇦💻 70ms | VMESS (#90)
+  - 🥈 🇨🇦💻 71ms | VMESS (#91)
+  - 🥈 🇨🇦💻 72ms | VMESS (#92)
+  - 🥈 🇨🇦💻 72ms | VMESS (#93)
+  - 🥈 🇨🇦💻 72ms | VMESS (#94)
+  - 🥈 🇺🇸💻 74ms | VMESS (#95)
+  - 🥈 🇺🇸💻 74ms | VMESS (#96)
+  - 🥈 🇺🇸💻 75ms | VMESS (#97)
+  - 🥈 🇺🇸💻 78ms | VMESS (#98)
+  - 🥈 🇺🇸💻 78ms | VMESS (#99)
+  - 🥈 🇺🇸💻 78ms | VMESS (#100)
+  - 🥈 🇺🇸💻 78ms | VMESS (#101)
+  - 🥈 🇺🇸💻 78ms | VMESS (#102)
+  - 🥈 🇺🇸💻 79ms | VMESS (#103)
+  - 🥈 🇺🇸💻 79ms | VMESS (#104)
+  - 🥈 🇺🇸💻 79ms | VMESS (#105)
+  - 🥈 🇺🇸💻 79ms | VMESS (#106)
+  - 🥈 🇺🇸💻 79ms | VMESS (#107)
+  - 🥈 🇺🇸💻 79ms | VMESS (#108)
+  - 🥈 🇺🇸💻 79ms | VMESS (#109)
+  - 🥈 🇺🇸💻 79ms | VMESS (#110)
+  - 🥈 🇺🇸💻 79ms | VMESS (#111)
+  - 🥈 🇺🇸💻 79ms | VMESS (#112)
+  - 🥈 🇺🇸💻 79ms | VMESS (#113)
+  - 🥈 🇺🇸💻 79ms | VMESS (#114)
+  - 🥈 🇺🇸💻 79ms | VMESS (#115)
+  - 🥈 🇺🇸💻 79ms | VMESS (#116)
+  - 🥈 🇺🇸💻 79ms | VMESS (#117)
+  - 🥈 🇺🇸💻 79ms | VMESS (#118)
+  - 🥈 🇺🇸💻 79ms | VMESS (#119)
+  - 🥈 🇺🇸💻 80ms | VMESS (#120)
+  - 🥈 🇺🇸💻 80ms | VMESS (#121)
+  - 🥈 🇩🇪💻 93ms | VMESS (#122)
+  - 🥈 🇩🇪💻 93ms | VMESS (#123)
+  - 🥈 🇩🇪💻 93ms | VMESS (#124)
+  - 🥈 🇩🇪💻 93ms | VMESS (#125)
+  - 🥈 🇩🇪💻 95ms | VMESS (#126)
+  - 🥈 🇩🇪💻 95ms | VMESS (#127)
+  - 🥈 🇩🇪💻 95ms | VMESS (#128)
+  - 🥈 🇨🇦💻 127ms | VMESS (#129)
+  - 🥈 🇨🇦💻 127ms | VMESS (#130)
+  - 🥈 🇨🇦💻 128ms | VMESS (#131)
+  - 🥈 🇨🇦💻 128ms | VMESS (#132)
+  - 🥈 🇨🇦💻 128ms | VMESS (#133)
+  - 🥈 🇨🇦💻 128ms | VMESS (#134)
+  - 🥈 🇨🇦💻 128ms | VMESS (#135)
+  - 🥈 🇨🇦💻 130ms | VMESS (#136)
+  - 🥈 🇨🇦💻 131ms | VMESS (#137)
+  - 🥈 🇨🇦💻 131ms | VMESS (#138)
+  - 🥈 🇨🇦💻 134ms | VMESS (#139)
+  - 🥈 🇨🇦💻 160ms | VMESS (#140)
+  - 🥈 🇨🇦💻 160ms | VMESS (#141)
+  - 🥈 🇨🇦💻 160ms | VMESS (#142)
+  - 🥈 🇨🇦💻 160ms | VMESS (#143)
+  - 🥈 🇨🇦💻 160ms | VMESS (#144)
+  - 🥈 🇨🇦💻 160ms | VMESS (#145)
+  - 🥈 🇨🇦💻 160ms | VMESS (#146)
+  - 🥈 🇨🇦💻 160ms | VMESS (#147)
+  - 🥈 🇨🇦💻 160ms | VMESS (#148)
+  - 🥈 🇨🇦💻 160ms | VMESS (#149)
+  - 🥈 🇨🇦💻 160ms | VMESS (#150)
+  - 🥈 🇨🇦💻 160ms | VMESS (#151)
+  - 🥈 🇨🇦💻 160ms | VMESS (#152)
+  - 🥈 🇨🇦💻 160ms | VMESS (#153)
+  - 🥈 🇨🇦💻 160ms | VMESS (#154)
+  - 🥈 🇨🇦💻 161ms | VMESS (#155)
+  - 🥈 🇨🇦💻 161ms | VMESS (#156)
+  - 🥈 🇨🇦💻 161ms | VMESS (#157)
+  - 🥈 🇨🇦💻 161ms | VMESS (#158)
+  - 🥈 🇨🇦💻 161ms | VMESS (#159)
+  - 🥈 🇨🇦💻 161ms | VMESS (#160)
+  - 🥈 🇨🇦💻 161ms | VMESS (#161)
+  - 🥈 🇨🇦💻 161ms | VMESS (#162)
+  - 🥈 🇨🇦💻 161ms | VMESS (#163)
+  - 🥈 🇨🇦💻 161ms | VMESS (#164)
+  - 🥈 🇨🇦💻 161ms | VMESS (#165)
+  - 🥈 🇨🇦💻 161ms | VMESS (#166)
+  - 🥈 🇨🇦💻 161ms | VMESS (#167)
+  - 🥈 🇨🇦💻 161ms | VMESS (#168)
+  - 🥈 🇨🇦💻 161ms | VMESS (#169)
+  - 🥈 🇨🇦💻 161ms | VMESS (#170)
+  - 🥈 🇨🇦💻 161ms | VMESS (#171)
+  - 🥈 🇨🇦💻 161ms | VMESS (#172)
+  - 🥈 🇨🇦💻 161ms | VMESS (#173)
+  - 🥈 🇨🇦💻 161ms | VMESS (#174)
+  - 🥈 🇨🇦💻 161ms | VMESS (#175)
+  - 🥈 🇨🇦💻 161ms | VMESS (#176)
+  - 🥈 🇨🇦💻 161ms | VMESS (#177)
+  - 🥈 🇨🇦💻 161ms | VMESS (#178)
+  - 🥈 🇨🇦💻 161ms | VMESS (#179)
+  - 🥈 🇨🇦💻 161ms | VMESS (#180)
+  - 🥈 🇨🇦💻 161ms | VMESS (#181)
+  - 🥈 🇨🇦💻 161ms | VMESS (#182)
+  - 🥈 🇨🇦💻 161ms | VMESS (#183)
+  - 🥈 🇨🇦💻 161ms | VMESS (#184)
+  - 🥈 🇨🇦💻 161ms | VMESS (#185)
+  - 🥈 🇨🇦💻 161ms | VMESS (#186)
+  - 🥈 🇨🇦💻 161ms | VMESS (#187)
+  - 🥈 🇨🇦💻 161ms | VMESS (#188)
+  - 🥈 🇨🇦💻 161ms | VMESS (#189)
+  - 🥈 🇨🇦💻 161ms | VMESS (#190)
+  - 🥈 🇨🇦💻 161ms | VMESS (#191)
+  - 🥈 🇨🇦💻 161ms | VMESS (#192)
+  - 🥈 🇨🇦💻 161ms | VMESS (#193)
+  - 🥈 🇨🇦💻 161ms | VMESS (#194)
+  - 🥈 🇨🇦💻 162ms | VMESS (#195)
+  - 🥈 🇨🇦💻 162ms | VMESS (#196)
+  - 🥈 🇨🇦💻 162ms | VMESS (#197)
+  - 🥈 🇨🇦💻 162ms | VMESS (#198)
+  - 🥈 🇨🇦💻 162ms | VMESS (#199)
+  - 🥈 🇨🇦💻 162ms | VMESS (#200)
+  - 🥈 🇺🇸💻 162ms | VMESS (#201)
+  - 🥈 🇨🇦💻 162ms | VMESS (#202)
+  - 🥈 🇨🇦💻 162ms | VMESS (#203)
+  - 🥈 🇨🇦💻 162ms | VMESS (#204)
+  - 🥈 🇺🇸💻 162ms | VMESS (#205)
+  - 🥈 🇺🇸💻 162ms | VMESS (#206)
+  - 🥈 🇨🇦💻 162ms | VMESS (#207)
+  - 🥈 🇺🇸💻 162ms | VMESS (#208)
+  - 🥈 🇨🇦💻 162ms | VMESS (#209)
+  - 🥈 🇨🇦💻 162ms | VMESS (#210)
+  - 🥈 🇩🇪💻 163ms | VMESS (#211)
+  - 🥈 🇹🇼💻 195ms | VMESS (#212)
+  - 🥈 🇹🇼💻 195ms | VMESS (#213)
+  - 🥈 🇹🇼💻 196ms | VMESS (#214)
+  - 🥈 🇰🇷💻 196ms | VMESS (#215)
+  - 🥈 🇰🇷💻 198ms | VMESS (#216)
+  - 🥈 🇰🇷💻 199ms | VMESS (#217)
+  - 🥈 🇹🇼💻 201ms | VMESS (#218)
+  - 🥈 🇹🇼💻 201ms | VMESS (#219)
+  - 🥈 🇰🇷💻 201ms | VMESS (#220)
+  - 🥈 🇹🇼💻 202ms | VMESS (#221)
+  - 🥈 🇰🇷💻 202ms | VMESS (#222)
+  - 🥈 🇰🇷💻 203ms | VMESS (#223)
+  - 🥈 🇰🇷💻 210ms | VMESS (#224)
+  - 🥈 🇭🇰💻 226ms | VMESS (#225)
+  - 🥈 🌐💻 227ms | VMESS (#226)
+  - 🥈 🇭🇰💻 233ms | VMESS (#227)
+  - 🥈 🌐💻 239ms | VMESS (#228)
+  - 🥈 🌐💻 239ms | VMESS (#229)
+  - 🥈 🌐💻 248ms | VMESS (#230)
+  - 🥈 🌐💻 249ms | VMESS (#231)
+  - 🥈 🌐💻 249ms | VMESS (#232)
+  - 🥈 🌐💻 249ms | VMESS (#233)
+  - 🥈 🌐💻 253ms | VMESS (#234)
+  - 🥈 🌐💻 253ms | VMESS (#235)
+  - 🥈 🌐💻 254ms | VMESS (#236)
+  - 🥈 🌐💻 256ms | VMESS (#237)
+  - 🥈 🌐💻 256ms | VMESS (#238)
+  - 🥈 🌐💻 258ms | VMESS (#239)
+  - 🥈 🌐💻 258ms | VMESS (#240)
+  - 🥈 🌐💻 260ms | VMESS (#241)
+  - 🥈 🌐💻 267ms | VMESS (#242)
+  - 🥈 🌐💻 268ms | VMESS (#243)
+  - 🥈 🌐💻 315ms | VMESS (#244)
+  - 🥈 🌐💻 1569ms | VMESS (#245)
+  - 🥉 🇳🇱💻 92ms | SS (#246)
+  - 🥉 🇳🇱💻 94ms | SS (#247)
+  - 🥉 🇳🇱💻 96ms | SS (#248)
+  - 🥉 🇳🇱💻 96ms | SS (#249)
+  - 🥉 🇳🇱💻 97ms | SS (#250)
+  - 🥉 🇬🇧💻 97ms | SS (#251)
+  - 🥉 🇳🇱💻 98ms | SS (#252)
+  - 🥉 🇳🇱💻 99ms | SS (#253)
+  - 🥉 🇳🇱💻 99ms | SS (#254)
+  - 🥉 🇩🇪💻 99ms | VLESS (#255)
+  - 🥉 🇳🇱💻 100ms | SS (#256)
+  - 🥉 🇳🇱💻 100ms | SS (#257)
+  - 🥉 🇬🇧💻 100ms | SS (#258)
+  - 🥉 🇳🇱💻 101ms | SS (#259)
+  - 🥉 🇳🇱💻 101ms | SS (#260)
+  - 🥉 🇳🇱💻 101ms | SS (#261)
+  - 🥉 🇳🇱💻 101ms | SS (#262)
+  - 🥉 🇳🇱💻 105ms | SS (#263)
+  - 🥉 🇳🇱💻 105ms | SS (#264)
+  - 🥉 🇳🇱💻 105ms | SS (#265)
+  - 🥉 🇳🇱💻 106ms | SS (#266)
+  - 🥉 🇳🇱💻 106ms | SS (#267)
+  - 🥉 🇳🇱💻 106ms | SS (#268)
+  - 🥉 🇳🇱💻 107ms | SS (#269)
+  - 🥉 🇳🇱💻 108ms | SS (#270)
+  - 🥉 🇳🇱💻 108ms | SS (#271)
+  - 🥉 🇳🇱💻 109ms | SS (#272)
+  - 🥉 🇳🇱💻 109ms | SS (#273)
+  - 🥉 🇳🇱💻 110ms | SS (#274)
+  - 🥉 🇳🇱💻 111ms | SS (#275)
+  - 🥉 🇳🇱💻 111ms | SS (#276)
+  - 🥉 🇳🇱💻 113ms | SS (#277)
+  - 🥉 🇳🇱💻 113ms | SS (#278)
+  - 🥉 🇳🇱💻 113ms | SS (#279)
+  - 🥉 🇳🇱💻 114ms | SS (#280)
+  - 🥉 🇳🇱💻 114ms | SS (#281)
+  - 🥉 🇮🇸💻 122ms | TROJAN (#282)
+  - 🥉 🌐💻 132ms | SS (#283)
+  - 🥉 🌐💻 141ms | SS (#284)
+  - 🥉 🇫🇮💻 142ms | SS (#285)
+  - 🥉 🌐💻 143ms | SS (#286)
+  - 🥉 🌐💻 144ms | SS (#287)
+  - 🥉 🇫🇮💻 144ms | SS (#288)
+  - 🥉 🌐💻 145ms | SS (#289)
+  - 🥉 🌐💻 145ms | SS (#290)
+  - 🥉 🌐💻 145ms | SS (#291)
+  - 🥉 🌐💻 146ms | SS (#292)
+  - 🥉 🇫🇮💻 146ms | SS (#293)
+  - 🥉 🌐💻 146ms | SS (#294)
+  - 🥉 🌐💻 146ms | SS (#295)
+  - 🥉 🌐💻 146ms | SS (#296)
+  - 🥉 🌐💻 146ms | SS (#297)
+  - 🥉 🌐💻 146ms | SS (#298)
+  - 🥉 🌐💻 146ms | SS (#299)
+  - 🥉 🌐💻 147ms | SS (#300)
+  - 🥉 🌐💻 147ms | SS (#301)
+  - 🥉 🌐💻 147ms | SS (#302)
+  - 🥉 🌐💻 147ms | SS (#303)
+  - 🥉 🌐💻 147ms | SS (#304)
+  - 🥉 🌐💻 147ms | SS (#305)
+  - 🥉 🌐💻 147ms | SS (#306)
+  - 🥉 🌐💻 148ms | SS (#307)
+  - 🥉 🌐💻 148ms | SS (#308)
+  - 🥉 🌐💻 148ms | SS (#309)
+  - 🥉 🌐💻 148ms | SS (#310)
+  - 🥉 🌐💻 148ms | SS (#311)
+  - 🥉 🌐💻 149ms | SS (#312)
+  - 🥉 🌐💻 149ms | SS (#313)
+  - 🥉 🌐💻 149ms | SS (#314)
+  - 🥉 🌐💻 151ms | SS (#315)
+  - 🥉 🌐💻 152ms | SS (#316)
+  - 🥉 🌐💻 152ms | SS (#317)
+  - 🥉 🌐💻 153ms | SS (#318)
+  - 🥉 🌐💻 155ms | SS (#319)
+  - 🥉 🇫🇮💻 164ms | SS (#320)
+  - 🥉 🇫🇮💻 165ms | SS (#321)
+  - 🥉 🇫🇮💻 165ms | SS (#322)
+  - 🥉 🇫🇮💻 165ms | SS (#323)
+  - 🥉 🌐💻 167ms | SS (#324)
+  - 🥉 🌐💻 168ms | SS (#325)
+  - 🥉 🌐💻 169ms | SS (#326)
+  - 🥉 🌐💻 170ms | SS (#327)
+  - 🥉 🌐💻 176ms | SS (#328)
+  - 🥉 🇯🇵💻 176ms | SS (#329)
+  - 🥉 🌐💻 177ms | SS (#330)
+  - 🥉 🌐💻 178ms | SS (#331)
+  - 🥉 🌐💻 178ms | SS (#332)
+  - 🥉 🌐💻 178ms | SS (#333)
+  - 🥉 🇯🇵💻 178ms | SS (#334)
+  - 🥉 🇯🇵💻 178ms | SS (#335)
+  - 🥉 🌐💻 179ms | SS (#336)
+  - 🥉 🌐💻 180ms | SS (#337)
+  - 🥉 🌐💻 180ms | SS (#338)
+  - 🥉 🌐💻 186ms | SS (#339)
+  - 🥉 🌐💻 187ms | SS (#340)
+  - 🥉 🌐💻 187ms | SS (#341)
+  - 🥉 🌐💻 187ms | SS (#342)
+  - 🥉 🌐💻 188ms | SS (#343)
+  - 🥉 🌐💻 189ms | SS (#344)
+  - 🥉 🌐💻 190ms | SS (#345)
+  - 🥉 🌐💻 190ms | SS (#346)
+  - 🥉 🌐💻 190ms | SS (#347)
+  - 🥉 🌐💻 191ms | SS (#348)
+  - 🥉 🌐💻 191ms | SS (#349)
+  - 🥉 🌐💻 191ms | SS (#350)
+  - 🥉 🌐💻 191ms | SS (#351)
+  - 🥉 🇰🇷💻 201ms | SS (#352)
+  - 🥉 🇰🇷💻 205ms | SS (#353)
+  - 🥉 🇰🇷💻 219ms | SS (#354)
+  - 🥉 🇰🇷💻 230ms | SS (#355)
+  - 🥉 🇭🇰💻 234ms | TROJAN (#356)
+  - 🥉 🇯🇵💻 235ms | SS (#357)
+  - 🥉 🇯🇵💻 236ms | SS (#358)
+  - 🥉 🌐💻 246ms | SS (#359)
+  - 🥉 🌐💻 249ms | SS (#360)
+  - 🥉 🇻🇳💻 250ms | SS (#361)
+  - 🥉 🇻🇳💻 250ms | SS (#362)
+  - 🥉 🇻🇳💻 250ms | SS (#363)
+  - 🥉 🇻🇳💻 251ms | SS (#364)
+  - 🥉 🇻🇳💻 251ms | SS (#365)
+  - 🥉 🇻🇳💻 251ms | SS (#366)
+  - 🥉 🇻🇳💻 251ms | SS (#367)
+  - 🥉 🇻🇳💻 252ms | SS (#368)
+  - 🥉 🇻🇳💻 252ms | SS (#369)
+  - 🥉 🇻🇳💻 253ms | SS (#370)
+  - 🥉 🇻🇳💻 253ms | SS (#371)
+  - 🥉 🇸🇬💻 254ms | SS (#372)
+  - 🥉 🇻🇳💻 254ms | SS (#373)
+  - 🥉 🇻🇳💻 254ms | SS (#374)
+  - 🥉 🇻🇳💻 254ms | SS (#375)
+  - 🥉 🇻🇳💻 254ms | SS (#376)
+  - 🥉 🇻🇳💻 256ms | SS (#377)
+  - 🥉 🇻🇳💻 256ms | SS (#378)
+  - 🥉 🇻🇳💻 256ms | SS (#379)
+  - 🥉 🇻🇳💻 257ms | SS (#380)
+  - 🥉 🇻🇳💻 257ms | SS (#381)
+  - 🥉 🇻🇳💻 258ms | SS (#382)
+  - 🥉 🇻🇳💻 258ms | SS (#383)
+  - 🥉 🇻🇳💻 258ms | SS (#384)
+  - 🥉 🇻🇳💻 258ms | SS (#385)
+  - 🥉 🇻🇳💻 258ms | SS (#386)
+  - 🥉 🇻🇳💻 259ms | SS (#387)
+  - 🥉 🇻🇳💻 260ms | SS (#388)
+  - 🥉 🇻🇳💻 260ms | SS (#389)
+  - 🥉 🇻🇳💻 260ms | SS (#390)
+  - 🥉 🇻🇳💻 260ms | SS (#391)
+  - 🥉 🇻🇳💻 260ms | SS (#392)
+  - 🥉 🇻🇳💻 261ms | SS (#393)
+  - 🥉 🇻🇳💻 261ms | SS (#394)
+  - 🥉 🇻🇳💻 262ms | SS (#395)
+  - 🥉 🇻🇳💻 262ms | SS (#396)
+  - 🥉 🇻🇳💻 263ms | SS (#397)
+  - 🥉 🇻🇳💻 263ms | SS (#398)
+  - 🥉 🇻🇳💻 264ms | SS (#399)
+  - 🥉 🌐💻 267ms | SS (#400)
+  - 🥉 🇻🇳💻 268ms | SS (#401)
+  - 🥉 🌐💻 290ms | SS (#402)
+  - 🥉 🌐💻 290ms | SS (#403)
+  - 🥉 🌐💻 291ms | SS (#404)
+  - 🥉 🌐💻 291ms | SS (#405)
+  - 🥉 🌐💻 292ms | SS (#406)
+  - 🥉 🌐💻 292ms | SS (#407)
+  - 🥉 🌐💻 292ms | SS (#408)
+  - 🥉 🌐💻 293ms | SS (#409)
+  - 🥉 🌐💻 293ms | SS (#410)
+  - 🥉 🌐💻 293ms | SS (#411)
+  - 🥉 🌐💻 294ms | SS (#412)
+  - 🥉 🌐💻 294ms | SS (#413)
+  - 🥉 🌐💻 294ms | SS (#414)
+  - 🥉 🌐💻 294ms | SS (#415)
+  - 🥉 🌐💻 294ms | SS (#416)
+  - 🥉 🌐💻 295ms | SS (#417)
+  - 🥉 🌐💻 464ms | SS (#418)
+  - 🥉 🇰🇿💻 466ms | SS (#419)
+  - 🥉 🌐💻 1156ms | SS (#420)
+  - 🥉 🌐💻 1157ms | SS (#421)
+  - 🥉 🇫🇮💻 1157ms | SS (#422)
+  - 🥉 🇫🇮💻 1160ms | SS (#423)
+  - 🥉 🌐💻 1161ms | SS (#424)
+  - 🥉 🇫🇮💻 1161ms | SS (#425)
+  - 🥉 🌐💻 1162ms | SS (#426)
+  - 🥉 🌐💻 1168ms | SS (#427)
+  - 🥉 🌐💻 1197ms | SS (#428)
+  - 🥉 🌐💻 1199ms | SS (#429)
 rules:
 - MATCH,🚀 Auto Select

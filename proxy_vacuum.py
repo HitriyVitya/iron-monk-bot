@@ -7,7 +7,7 @@ import database_vpn as db
 # --- НАСТРОЙКИ ---
 TG_CHANNELS = [
     "shadowsockskeys", "oneclickvpnkeys", "VlessConfig", "PrivateVPNs", 
-    "nV_v2ray", "gurvpn_keys", "vmessh", "VMESS7", "outline_marzban", "outline_k"
+    "nV_v2ray", "gurvpn_keys", "vmessh", "VMESS7", "outline_marzban", "outline_k","NotorVPN","V2rayVPN_WireGaurd"
 ]
 
 EXTERNAL_SUBS = [
@@ -16,7 +16,16 @@ EXTERNAL_SUBS = [
     "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Sub1.txt",
     "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
     "https://raw.githubusercontent.com/LonUp/NodeList/main/NodeList.txt",
-    "https://raw.githubusercontent.com/officialputuid/V2Ray-Config/main/Splitted-v2ray-config/all"
+    "https://raw.githubusercontent.com/officialputuid/V2Ray-Config/main/Splitted-v2ray-config/all",
+    "https://raw.githubusercontent.com/Ai123999/2Tues/refs/heads/main/2Tues_Notorgamers",
+    "https://raw.githubusercontent.com/Ai123999/6Satu/refs/heads/main/6Satu_Notorgamers",
+    "https://raw.githubusercontent.com/Ai123999/1Mond/refs/heads/main/1Mond_Notorgamers",
+    "https://raw.githubusercontent.com/Ai123999/3Wend/refs/heads/main/3Wend_Notorgamers",
+    "https://raw.githubusercontent.com/Ai123999/7Sand/refs/heads/main/7Sand_Notorgamers",
+    "https://raw.githubusercontent.com/Ai123999/5Frid/refs/heads/main/5Frid_Notorgamers",
+    "https://raw.githubusercontent.com/Ai123999/WhiteeListSub/refs/heads/main/whitelistkeys",
+    "https://raw.githubusercontent.com/Ai123999/4Thur/refs/heads/main/4Thur_Notorgamers",
+    "https://raw.githubusercontent.com/Ai123999/WhiteKeys/refs/heads/main/WhiteKeys"
 ]
 
 GH_TOKEN = os.getenv("GH_TOKEN")

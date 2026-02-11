@@ -20,14 +20,12 @@ def link_to_clash_dict(url, latency, tier, country, source, idx):
         tier_icon = "🥇" if tier == 1 else "🥈" if tier == 2 else "🥉"
         pc_mark = "💻" if source == 'pc' else ""
         proto = url.split("://")[0].upper()
-        
-        # ГАРАНТИРУЕМ УНИКАЛЬНОСТЬ ЧЕРЕЗ ИНДЕКС
+        # Гарантируем уникальность имени
         name = f"{tier_icon} {flag}{pc_mark} {latency}ms | {proto} (#{idx})"
 
         if url.startswith("vmess://"):
             d = json.loads(safe_decode(url[8:]))
             return {'name': name, 'type': 'vmess', 'server': d.get('add'), 'port': int(d.get('port')), 'uuid': d.get('id'), 'alterId': 0, 'cipher': 'auto', 'udp': True, 'tls': d.get('tls') == 'tls', 'skip-cert-verify': True, 'network': d.get('net', 'tcp'), 'ws-opts': {'path': d.get('path', '/')} if d.get('net') == 'ws' else None}
-        
         if url.startswith(("vless://", "trojan://")):
             p = urlparse(url); q = parse_qs(p.query); tp = 'vless' if url.startswith('vless') else 'trojan'
             obj = {'name': name, 'type': tp, 'server': p.hostname, 'port': p.port, 'uuid': p.username or p.password, 'password': p.username or p.password, 'udp': True, 'skip-cert-verify': True, 'tls': q.get('security', [''])[0] in ['tls', 'reality'], 'network': q.get('type', ['tcp'])[0]}
@@ -36,7 +34,6 @@ def link_to_clash_dict(url, latency, tier, country, source, idx):
                 obj['servername'] = q.get('sni', [''])[0]; obj['reality-opts'] = {'public-key': q.get('pbk', [''])[0], 'short-id': q.get('sid', [''])[0]}; obj['client-fingerprint'] = 'chrome'
             if obj['network'] == 'ws': obj['ws-opts'] = {'path': q.get('path', ['/'])[0], 'headers': {'Host': q.get('host', [''])[0]}}
             return obj
-            
         if url.startswith("ss://"):
             main = url.split("#")[0].replace("ss://", ""); u, s = main.split("@", 1)
             try: d = safe_decode(u); m, pw = d.split(":", 1)

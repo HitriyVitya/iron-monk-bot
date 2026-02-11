@@ -19,57 +19,52 @@ def init_proxy_db():
     conn.commit(); conn.close()
 
 def save_proxy_batch(proxies_list, source='auto', tier_dict=None):
-    """
-    proxies_list: список URL
-    tier_dict: {url: tier} если данные с компа
-    """
     conn = get_connection(); c = conn.cursor()
     for url in proxies_list:
         try:
             proto = url.split("://")[0]
-            if source == 'pc':
+            if source == 'pc' and tier_dict:
                 t = tier_dict.get(url, 3)
-                # Если с компа - сбрасываем фейлы и ставим статус элиты
                 c.execute("""INSERT INTO vpn_proxies (url, type, tier, source, fails) 
                              VALUES (?, ?, ?, 'pc', 0)
                              ON CONFLICT(url) DO UPDATE SET source='pc', tier=?, fails=0""", 
                              (url, proto, t, t))
             else:
-                # Если пылесос - добавляем только новых
                 c.execute("INSERT OR IGNORE INTO vpn_proxies (url, type, source) VALUES (?, ?, 'auto')", (url, proto))
         except: pass
     conn.commit(); conn.close()
 
-def get_proxies_to_check(limit=150):
+def get_proxies_to_check(limit=200):
     conn = get_connection(); c = conn.cursor()
-    # Проверяем тех, кто давно не чекался. Элиту чекаем чаще.
     c.execute("SELECT url FROM vpn_proxies WHERE fails < 20 ORDER BY last_check ASC LIMIT ?", (limit,))
     rows = [r[0] for r in c.fetchall()]
     conn.close(); return rows
 
-def update_proxy_status(url, latency, country):
+def update_proxy_status(url, latency, tier, country):
+    """ФИКС: Теперь принимает 4 аргумента строго!"""
     conn = get_connection(); c = conn.cursor()
     if latency is not None:
-        c.execute("UPDATE vpn_proxies SET latency=?, country=?, fails=0, last_check=CURRENT_TIMESTAMP WHERE url=?", (latency, country, url))
+        c.execute("UPDATE vpn_proxies SET latency=?, tier=?, country=?, fails=0, last_check=CURRENT_TIMESTAMP WHERE url=?", (latency, tier, country, url))
     else:
+        # Если упал - тир не меняем, просто пишем фейл
         c.execute("UPDATE vpn_proxies SET fails = fails + 1, last_check=CURRENT_TIMESTAMP WHERE url=?", (url,))
     conn.commit(); conn.close()
 
-def get_best_proxies_for_sub(total_limit=1000):
-    """Самая умная выборка с квотами"""
+def get_classic_sub():
     conn = get_connection(); c = conn.cursor()
-    
-    # Сначала берем всё живое (fails < 3) и быстрое
-    # Приоритет: 1. Tier (1-2-3) 2. Source (pc выше auto) 3. Latency
-    c.execute("""
-        SELECT url, latency, tier, country, source FROM vpn_proxies 
-        WHERE fails < 3 AND latency < 3500
-        ORDER BY tier ASC, 
-                 CASE WHEN source = 'pc' THEN 0 ELSE 1 END ASC, 
-                 latency ASC 
-        LIMIT ?
-    """, (total_limit,))
-    
-    rows = c.fetchall()
+    c.execute("SELECT url, latency, tier, country, source FROM vpn_proxies WHERE fails < 3 AND latency < 3500 ORDER BY latency ASC LIMIT 1000")
+    rows = c.fetchall(); conn.close(); return rows
+
+def get_vip_sub():
+    conn = get_connection(); c = conn.cursor()
+    # Элита с ПК
+    c.execute("SELECT url, latency, tier, country, source FROM vpn_proxies WHERE source='pc' AND fails < 5 AND latency < 3500 ORDER BY tier ASC, latency ASC")
+    pc_nodes = c.fetchall()
+    # Добивка из авто
+    needed = 1500 - len(pc_nodes)
+    auto_nodes = []
+    if needed > 0:
+        c.execute("SELECT url, latency, tier, country, source FROM vpn_proxies WHERE source='auto' AND fails < 3 AND latency < 2000 ORDER BY latency ASC LIMIT ?", (needed,))
+        auto_nodes = c.fetchall()
     conn.close()
-    return rows
+    return pc_nodes + auto_nodes
